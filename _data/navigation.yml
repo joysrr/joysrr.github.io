@@ -1,7 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Life-生活"
+    url: /life/
+  - title: "Code-程式"
+    url: /code/
+  - title: "Language-語言"
+    url: /lang/
+  - title: "Tool-工具"
+    url: /tool/
+  - title: "Stock-股票"
+    url: /stock/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
