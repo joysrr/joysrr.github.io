@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Code-程式
 permalink: /code/
 sitemap: false
