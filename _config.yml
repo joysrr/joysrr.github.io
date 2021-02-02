@@ -24,7 +24,7 @@ description              : "目前此網站仍在建置(其實還在構想...)�
 url                      : "https://joysrr.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "joysrr/joysrr.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -94,14 +94,14 @@ analytics:
 # Site Author
 author:
   name             : "joysrr"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "enjoy life."
   location         : "Taiwan"
-  email            :
+  email            : "swdax545@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "swdax545@gmail.com"
+      url: "mailto:swdax545@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://joysrr.github.io/"
