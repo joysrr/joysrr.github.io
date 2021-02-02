@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Language-語言
 permalink: /lang/
 sitemap: false
