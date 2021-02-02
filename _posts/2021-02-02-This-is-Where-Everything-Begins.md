@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "This is Where Everything Begins!-這，就是起點"
 categories:
   - life
