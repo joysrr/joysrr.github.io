@@ -6,5 +6,5 @@ author_profile: true
 taxonomy: lang
 ---
 
->This is joysrr talks, 
+>This is joysrr speaking, 
 >This is how I spoken
