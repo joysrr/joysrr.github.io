@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Stock-股票
+title: "Stock-股票"
+layout: category
 permalink: /stock/
-sitemap: false
+author_profile: true
+taxonomy: stock
 ---
 
 #This is Financial
