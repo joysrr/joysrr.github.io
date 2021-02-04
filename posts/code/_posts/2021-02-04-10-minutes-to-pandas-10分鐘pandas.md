@@ -29,7 +29,7 @@
 	dtype: float64
 
 再來產生一個[DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame)
-給他一個NumPy的陣列
+給他一個**NumPy**的陣列
 
 	In [5]: dates = pd.date_range("20130101", periods=6)
 
@@ -53,11 +53,32 @@
 	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
 	2013-01-06 -0.673690  0.113648 -1.478427  0.524988
 
-或者可以直接用#dict
+或者可以直接用**dict**直接建立
 
+	In [9]: df2 = pd.DataFrame(
+	 ...:    {
+	 ...:        "A": 1.0,
+	 ...:        "B": pd.Timestamp("20130102"),
+	 ...:        "C": pd.Series(1, index=list(range(4)), dtype="float32"),
+	 ...:        "D": np.array([3] * 4, dtype="int32"),
+	 ...:        "E": pd.Categorical(["test", "train", "test", "train"]),
+	 ...:        "F": "foo",
+	 ...:    }
+	 ...: )
+	 ...: 
+
+	In [10]: df2
+	Out[10]: 
+	 A          B    C  D      E    F
+	0  1.0 2013-01-02  1.0  3   test  foo
+	1  1.0 2013-01-02  1.0  3  train  foo
+	2  1.0 2013-01-02  1.0  3   test  foo
+	3  1.0 2013-01-02  1.0  3  train  foo
+
+欄位的型別可以
 
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgzNjMwMTYsMTYxODU2NzE4MCw3MD
-A1NTg0OCwtMzIxMzY5NTExLDIxMjA0NzI0MTBdfQ==
+eyJoaXN0b3J5IjpbLTgzMjk1MzkwNywxNjE4NTY3MTgwLDcwMD
+U1ODQ4LC0zMjEzNjk1MTEsMjEyMDQ3MjQxMF19
 -->
