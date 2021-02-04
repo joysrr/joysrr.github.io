@@ -15,10 +15,13 @@
 首先讓我們先來產生一個[Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series)
 給他一個陣列，他會自行建立對應的數值索引
 
+	s = pd.Series([1, 3, 5, np.nan, 6, 8])
+	
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDMwNTUwMDYsNzAwNTU4NDgsLTMyMT
-M2OTUxMSwyMTIwNDcyNDEwXX0=
+eyJoaXN0b3J5IjpbMTYxODU2NzE4MCw3MDA1NTg0OCwtMzIxMz
+Y5NTExLDIxMjA0NzI0MTBdfQ==
 -->
