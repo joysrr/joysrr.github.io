@@ -4,9 +4,13 @@
 ***
 此文章為新手面向的pandas套件簡短介紹，更詳細的說明可以查看此[文件](https://pandas.pydata.org/docs/user_guide/cookbook.html#cookbook)
 > 詳細說明的文件不可能翻譯的 ><
-一般來說起手式會是
+
+一般來說起手式為
+
+		import numpy as np
+		import pandas as pd
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzNjIwMTE0LC0zMjEzNjk1MTEsMjEyMD
+eyJoaXN0b3J5IjpbNDQ5OTM0MzE4LC0zMjEzNjk1MTEsMjEyMD
 Q3MjQxMF19
 -->
