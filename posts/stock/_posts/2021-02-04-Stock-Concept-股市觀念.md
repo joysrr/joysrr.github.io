@@ -6,7 +6,8 @@
 	1. [PTT-Stock](https://term.ptt.cc/)
 	2. [鉅亨](https://www.cnyes.com/)
 	3. [財經新聞](https://fund.megabank.com.tw/ETFWeb/HTML/ETNEWS.DJHTM#TYPE=1&DATE=&PAGE=1)
-	4. 
+	4. [Yahoo股市](https://tw.finance.yahoo.com/)
+	5. [PChome股市](https://pchome.megatime.com.tw/)
 ---
 * 基本面
 ---
@@ -15,5 +16,5 @@
 	2. 均線
 	3. KD指標
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5NjM1ODM5LC0zMDExODY1M119
+eyJoaXN0b3J5IjpbLTY2MzMwNzQwMywtMzAxMTg2NTNdfQ==
 -->
