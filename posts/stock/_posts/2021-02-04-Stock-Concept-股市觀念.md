@@ -17,13 +17,14 @@
 	7. [工商時報](https://ctee.com.tw/phone)
 ---
 * 基本面
-	1. 財務狀況
-	2. 市場狀況
+	1. 財務
+	2. 市場
+	3. 營運
 ---
 * 技術面
 	1. MACD
 	2. 均線
 	3. KD指標
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTUyMDU4LC0zMDExODY1M119
+eyJoaXN0b3J5IjpbMTczMzAzNDMzNSwtMzAxMTg2NTNdfQ==
 -->
