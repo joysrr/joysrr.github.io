@@ -4,6 +4,11 @@
 
 ## 常用Function
 
+1. format
+2. get
+3. shift
+4. compare
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5NTY3ODY1XX0=
+eyJoaXN0b3J5IjpbMTQyNDI4NTgyMV19
 -->
