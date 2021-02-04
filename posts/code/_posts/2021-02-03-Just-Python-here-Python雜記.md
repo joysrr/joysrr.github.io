@@ -1,22 +1,17 @@
 # Python雜記
-
 # 套件
-  1. Pandas
+1. Pandas
       > 資料儲存、處理
-  2. Arrow
+2. Arrow
       > 日期元件
-  3. pymongo
+3. pymongo
       > MongoDB in python
-4. 
-
 ***
 # 實際運用
   1. 網頁爬蟲
   2. 資料處理
   3. 資料儲存
- 
-***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk2NDA0MDMsLTE2OTQ2NDg1MzddfQ
+eyJoaXN0b3J5IjpbLTE0OTM4MDM4NzMsLTE2OTQ2NDg1MzddfQ
 ==
 -->
