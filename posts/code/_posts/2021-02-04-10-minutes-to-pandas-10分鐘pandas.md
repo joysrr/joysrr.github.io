@@ -10,8 +10,9 @@
 	import numpy as np
 	import pandas as pd
 ## 物件的建立
-[詳細介紹]
+詳細請查看[資料結構介紹](https://pandas.pydata.org/docs/user_guide/dsintro.html#dsintro)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNTU4NDgsLTMyMTM2OTUxMSwyMTIwND
-cyNDEwXX0=
+eyJoaXN0b3J5IjpbNjU0MTgwMTEyLDcwMDU1ODQ4LC0zMjEzNj
+k1MTEsMjEyMDQ3MjQxMF19
 -->
