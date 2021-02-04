@@ -1,10 +1,11 @@
 # Pandas
-
 ### [官方文件](https://pandas.pydata.org/docs/)
 
-1. 類型
-1. 資料處理
+## 常用Function
+1. read
+2. index
+3. column
+4. loc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM0MjIyNjAsLTExMjIzMDQ0MTNdfQ
-==
+eyJoaXN0b3J5IjpbLTEzODAxMDAxNiwtMTEyMjMwNDQxM119
 -->
