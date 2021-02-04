@@ -1,8 +1,3 @@
----
-created: 2021-02-03T21:25:36+08:00
-modified: 2021-02-03T21:34:04+08:00
----
-
 # Python雜記
 
 # 套件
@@ -12,6 +7,7 @@ modified: 2021-02-03T21:34:04+08:00
       > 日期元件
   3. pymongo
       > MongoDB in python
+4. 
 
 ***
 # 實際運用
@@ -21,5 +17,6 @@ modified: 2021-02-03T21:34:04+08:00
  
 ***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ2NDg1MzddfQ==
+eyJoaXN0b3J5IjpbLTEyOTk2NDA0MDMsLTE2OTQ2NDg1MzddfQ
+==
 -->
