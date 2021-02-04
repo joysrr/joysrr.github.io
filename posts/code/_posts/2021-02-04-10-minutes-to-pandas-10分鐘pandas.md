@@ -28,8 +28,7 @@
 	5    8.0
 	dtype: float64
 
-再來產生一個[DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame)
-給他一個**NumPy**的陣列
+再來產生一個[DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame)，給他一個`NumPy`的陣列
 
 	In [5]: dates = pd.date_range("20130101", periods=6)
 
@@ -53,7 +52,7 @@
 	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
 	2013-01-06 -0.673690  0.113648 -1.478427  0.524988
 
-或者可以直接用**dict**直接建立
+或者可以直接用`dict`直接建立
 
 	In [9]: df2 = pd.DataFrame(
 	 ...:    {
@@ -75,10 +74,38 @@
 	2  1.0 2013-01-02  1.0  3   test  foo
 	3  1.0 2013-01-02  1.0  3  train  foo
 
-欄位的型別可以
+欄位的型別可以不同
+
+	In [11]: df2.dtypes
+	Out[11]: 
+	A           float64
+	B    datetime64[ns]
+	C           float32
+	D             int32
+	E          category
+	F            object
+	dtype: object
+
+If you’re using IPython, tab completion for column names (as well as public attributes) is automatically enabled. Here’s a subset of the attributes that will be completed:
+
+	In [12]: df2.<TAB>  # noqa: E225, E999
+	df2.A                  df2.bool
+	df2.abs                df2.boxplot
+	df2.add                df2.C
+	df2.add_prefix         df2.clip
+	df2.add_suffix         df2.columns
+	df2.align              df2.copy
+	df2.all                df2.count
+	df2.any                df2.combine
+	df2.append             df2.D
+	df2.apply              df2.describe
+	df2.applymap           df2.diff
+	df2.B                  df2.duplicated
+
+As you can see, the columns  `A`,  `B`,  `C`, and  `D`  are automatically tab completed.  `E`  and  `F`  are there as well; the rest of the attributes have been truncated for brevity.
 
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjk1MzkwNywxNjE4NTY3MTgwLDcwMD
-U1ODQ4LC0zMjEzNjk1MTEsMjEyMDQ3MjQxMF19
+eyJoaXN0b3J5IjpbLTE5MjYwMDYwNjAsMTYxODU2NzE4MCw3MD
+A1NTg0OCwtMzIxMzY5NTExLDIxMjA0NzI0MTBdfQ==
 -->
