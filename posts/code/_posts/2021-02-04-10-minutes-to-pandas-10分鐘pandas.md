@@ -31,7 +31,19 @@
 再來產生一個[DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame)
 給他一個NumPy的陣列
 
+	In [5]: dates = pd.date_range("20130101", periods=6)
+
+	In [6]: dates
+	Out[6]: 
+	DatetimeIndex(['2013-01-01', '2013-01-02', '2013-01-03', '2013-01-04',
+	 '2013-01-05', '2013-01-06'],
+	 dtype='datetime64[ns]', freq='D')
+
+再來指定他的索引為日期並且替欄位命名
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4MDA5OTQyLDE2MTg1NjcxODAsNzAwNT
-U4NDgsLTMyMTM2OTUxMSwyMTIwNDcyNDEwXX0=
+eyJoaXN0b3J5IjpbLTE5Mjc4NDIwOTAsMTYxODU2NzE4MCw3MD
+A1NTg0OCwtMzIxMzY5NTExLDIxMjA0NzI0MTBdfQ==
 -->
