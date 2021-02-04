@@ -1,4 +1,3 @@
-# Pandas
 ### [官方文件](https://pandas.pydata.org/docs/)
 
 ## 常用Function
@@ -7,5 +6,5 @@
 3. column
 4. loc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODAxMDAxNl19
+eyJoaXN0b3J5IjpbMTYyMDc5MTQzMiwtMTM4MDEwMDE2XX0=
 -->
