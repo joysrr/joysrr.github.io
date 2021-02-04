@@ -28,10 +28,10 @@
 	5    8.0
 	dtype: float64
 
-
-
+再來產生一個[DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame)
+給他一個NumPy的陣列
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5NzcwNjI4LDE2MTg1NjcxODAsNzAwNT
+eyJoaXN0b3J5IjpbOTk4MDA5OTQyLDE2MTg1NjcxODAsNzAwNT
 U4NDgsLTMyMTM2OTUxMSwyMTIwNDcyNDEwXX0=
 -->
