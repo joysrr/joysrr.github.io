@@ -7,21 +7,31 @@
 
 一般來說起手式為
 
-	import numpy as np
-	import pandas as pd
+	In [1]: import numpy as np
+
+	In [2]: import pandas as pd
 	
 ## 物件的建立
 詳細請查看[資料結構介紹(官方原文)](https://pandas.pydata.org/docs/user_guide/dsintro.html#dsintro)
 首先讓我們先來產生一個[Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series)
 給他一個陣列，他會自行建立對應的數值索引
 
-	s = pd.Series([1, 3, 5, np.nan, 6, 8])
+	In [3]: s = pd.Series([1, 3, 5, np.nan, 6, 8])
 	
+	In [4]: s
+	Out[4]: 
+	0    1.0
+	1    3.0
+	2    5.0
+	3    NaN
+	4    6.0
+	5    8.0
+	dtype: float64
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODU2NzE4MCw3MDA1NTg0OCwtMzIxMz
-Y5NTExLDIxMjA0NzI0MTBdfQ==
+eyJoaXN0b3J5IjpbMzE5NzcwNjI4LDE2MTg1NjcxODAsNzAwNT
+U4NDgsLTMyMTM2OTUxMSwyMTIwNDcyNDEwXX0=
 -->
