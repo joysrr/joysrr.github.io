@@ -39,11 +39,21 @@
 	 '2013-01-05', '2013-01-06'],
 	 dtype='datetime64[ns]', freq='D')
 
-再來指定他的索引為日期並且替欄位命名
+再來指定他的索引為日期並且替欄位命名，就完成囉~
 
+	In [7]: df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list("ABCD"))
 
+	In [8]: df
+	Out[8]: 
+	 A         B         C         D
+	2013-01-01  0.469112 -0.282863 -1.509059 -1.135632
+	2013-01-02  1.212112 -0.173215  0.119209 -1.044236
+	2013-01-03 -0.861849 -2.104569 -0.494929  1.071804
+	2013-01-04  0.721555 -0.706771 -1.039575  0.271860
+	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
+	2013-01-06 -0.673690  0.113648 -1.478427  0.524988
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc4NDIwOTAsMTYxODU2NzE4MCw3MD
-A1NTg0OCwtMzIxMzY5NTExLDIxMjA0NzI0MTBdfQ==
+eyJoaXN0b3J5IjpbMTQzNTYwOTk1MiwxNjE4NTY3MTgwLDcwMD
+U1ODQ4LC0zMjEzNjk1MTEsMjEyMDQ3MjQxMF19
 -->
