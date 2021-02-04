@@ -101,10 +101,10 @@
 	df2.applymap           df2.diff
 	df2.B                  df2.duplicated
 
-As you can see, the columns  `A`,  `B`,  `C`, and  `D`  are automatically tab completed.  `E`  and  `F`  are there as well; the rest of the attributes have been truncated for brevity.
+依照上方結果顯示，欄位 `A`,  `B`,  `C`, `D`  已被設定到Tab自動完成的屬性中，而  `E`  and  `F`  同樣也是，但為了版面整潔，我們還是省略了吧!
 
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzE4ODcxMDUsMTYxODU2NzE4MCw3MD
-A1NTg0OCwtMzIxMzY5NTExLDIxMjA0NzI0MTBdfQ==
+eyJoaXN0b3J5IjpbNzMzOTIwODM1LDE2MTg1NjcxODAsNzAwNT
+U4NDgsLTMyMTM2OTUxMSwyMTIwNDcyNDEwXX0=
 -->
