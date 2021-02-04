@@ -1,4 +1,4 @@
-## 官方文件翻譯版(English -> Traditional Chinese)
+# 官方文件翻譯版
 ## 還有一些自己的註解
 ##### 因為懶得看文件，只好藉由練習英文的藉口來試著翻譯看看並好好讀一下文件 ; )
 ***
@@ -7,10 +7,11 @@
 
 一般來說起手式為
 
-		import numpy as np
-		import pandas as pd
-
+	import numpy as np
+	import pandas as pd
+## 物件的建立
+[詳細介紹]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5OTM0MzE4LC0zMjEzNjk1MTEsMjEyMD
-Q3MjQxMF19
+eyJoaXN0b3J5IjpbNzAwNTU4NDgsLTMyMTM2OTUxMSwyMTIwND
+cyNDEwXX0=
 -->
