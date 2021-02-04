@@ -85,6 +85,7 @@
 	F            object
 	dtype: object
 
+如果你使用的是`IPython`
 If you’re using IPython, tab completion for column names (as well as public attributes) is automatically enabled. Here’s a subset of the attributes that will be completed:
 
 	In [12]: df2.<TAB>  # noqa: E225, E999
@@ -105,6 +106,6 @@ As you can see, the columns  `A`,  `B`,  `C`, and  `D`  are automatically tab co
 
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMDAzMTMyLDE2MTg1NjcxODAsNzAwNT
-U4NDgsLTMyMTM2OTUxMSwyMTIwNDcyNDEwXX0=
+eyJoaXN0b3J5IjpbLTQxODgxMjY4OSwxNjE4NTY3MTgwLDcwMD
+U1ODQ4LC0zMjEzNjk1MTEsMjEyMDQ3MjQxMF19
 -->
