@@ -12,10 +12,12 @@
 	
 ## 物件的建立
 詳細請查看[資料結構介紹(官方原文)](https://pandas.pydata.org/docs/user_guide/dsintro.html#dsintro)
+建立一個
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODA2NDg4Niw3MDA1NTg0OCwtMzIxMz
+eyJoaXN0b3J5IjpbLTcyMDY1NDg1OCw3MDA1NTg0OCwtMzIxMz
 Y5NTExLDIxMjA0NzI0MTBdfQ==
 -->
