@@ -13,8 +13,7 @@
 	
 ## 物件的建立
 詳細請查看[資料結構介紹(官方原文)](https://pandas.pydata.org/docs/user_guide/dsintro.html#dsintro)
-首先讓我們先來產生一個[Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series)
-給他一個陣列，他會自行建立對應的數值索引
+首先讓我們先來產生一個[Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series)，給他一個陣列，他會自行建立對應的數值索引
 
 	In [3]: s = pd.Series([1, 3, 5, np.nan, 6, 8])
 	
@@ -106,6 +105,6 @@ As you can see, the columns  `A`,  `B`,  `C`, and  `D`  are automatically tab co
 
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYwMDYwNjAsMTYxODU2NzE4MCw3MD
-A1NTg0OCwtMzIxMzY5NTExLDIxMjA0NzI0MTBdfQ==
+eyJoaXN0b3J5IjpbNTgwMDAzMTMyLDE2MTg1NjcxODAsNzAwNT
+U4NDgsLTMyMTM2OTUxMSwyMTIwNDcyNDEwXX0=
 -->
