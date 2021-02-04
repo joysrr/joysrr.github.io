@@ -1,6 +1,5 @@
 ---
 title: This is Where Everything Begins!-這，就是起點
-categories: [life]
 modified: 2021-02-03T21:22:47+08:00
 ---
 
@@ -26,5 +25,5 @@ modified: 2021-02-03T21:22:47+08:00
 
 ## 希望日後的自己會越來越好，保持單純，保持樂觀
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjgwMDc3MV19
+eyJoaXN0b3J5IjpbMzI1MDUwNzQ5XX0=
 -->
