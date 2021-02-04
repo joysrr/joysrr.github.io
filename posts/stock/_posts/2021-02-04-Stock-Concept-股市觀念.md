@@ -1,6 +1,11 @@
 ## 紀錄一些股市概念，日後再做詳細介紹
 ---
 * 籌碼面
+	1. 大戶
+	2. 外資
+	3. 劵商
+	4. 主力
+	5. 散戶
 ---
 * 消息面
 	1. [PTT-Stock](https://term.ptt.cc/)
@@ -13,12 +18,12 @@
 ---
 * 基本面
 	1. 財務狀況
-	2. 是ㄔㄤ
+	2. 市場狀況
 ---
 * 技術面
 	1. MACD
 	2. 均線
 	3. KD指標
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzMzkwNjUzLC0zMDExODY1M119
+eyJoaXN0b3J5IjpbLTM5NTUyMDU4LC0zMDExODY1M119
 -->
