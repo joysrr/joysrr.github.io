@@ -2,7 +2,7 @@
 ---
 1. [Repl.it](https://repl.it/)
 2. [StackEdit](Stackedit.io)
-	> Markdown線上編輯(支援GitHub直接同步
+	> Markdown線上編輯(支援GitHub直接同步)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzgyNzM1MjldfQ==
+eyJoaXN0b3J5IjpbLTEwODA1NjYzNjRdfQ==
 -->
