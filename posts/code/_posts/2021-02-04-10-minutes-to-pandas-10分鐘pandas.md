@@ -1,5 +1,5 @@
 # 官方文件翻譯版 [原文](https://pandas.pydata.org/docs/user_guide/10min.html)
-## 還有一些自己的註解
+#### 還有一些自己的註解
 ##### 因為懶得看文件，只好藉由練習英文的藉口來試著翻譯看看並好好讀一下文件 ; )
 ***
 此文章為新手面向的pandas套件簡短介紹，更詳細的說明可以查看此[文件(官方原文)](https://pandas.pydata.org/docs/user_guide/cookbook.html#cookbook)
@@ -105,6 +105,7 @@
 
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzOTIwODM1LDE2MTg1NjcxODAsNzAwNT
-U4NDgsLTMyMTM2OTUxMSwyMTIwNDcyNDEwXX0=
+eyJoaXN0b3J5IjpbMzI5MzUyMzU1LDczMzkyMDgzNSwxNjE4NT
+Y3MTgwLDcwMDU1ODQ4LC0zMjEzNjk1MTEsMjEyMDQ3MjQxMF19
+
 -->
