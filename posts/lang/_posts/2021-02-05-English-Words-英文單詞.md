@@ -4,6 +4,8 @@
 	> 基礎的
 2. representation
 	> 代表的
+3. fundamental 
+	> 基礎的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODg5MTQ0NV19
+eyJoaXN0b3J5IjpbODIzNDAyOTc1XX0=
 -->
