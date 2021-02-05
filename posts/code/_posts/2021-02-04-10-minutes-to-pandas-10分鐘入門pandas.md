@@ -1,3 +1,11 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+---
+
+
 ### 官方文件翻譯版 [原文](https://pandas.pydata.org/docs/user_guide/10min.html)
 
 > 還有一些自己的註解
