@@ -139,11 +139,12 @@
 	In [16]: df.columns
 	Out[16]: Index(['A', 'B', 'C', 'D'], dtype='object')
 
-[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") gives a NumPy representation of the underlying data. Note that this can be an expensive operation when your [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame") has columns with different data types, which comes down to a fundamental difference between pandas and NumPy: **NumPy arrays have one dtype for the entire array, while pandas DataFrames have one dtype per column**. When you call [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy"), pandas will find the NumPy dtype that can hold _all_ of the dtypes in the DataFrame. This may end up being `object`, which requires casting every value to a Python object.
+[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 可以轉換成`NumPy`格式的基本資料. 
+但要注意的是，如果你的欄位類型是多要的Note that this can be an expensive operation when your [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame") has columns with different data types, which comes down to a fundamental difference between pandas and NumPy: **NumPy arrays have one dtype for the entire array, while pandas DataFrames have one dtype per column**. When you call [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy"), pandas will find the NumPy dtype that can hold _all_ of the dtypes in the DataFrame. This may end up being `object`, which requires casting every value to a Python object.
 
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjEzMzI2OCwtMjA4NzA3ODI2NiwzMj
-kzNTIzNTUsNzMzOTIwODM1LDE2MTg1NjcxODAsNzAwNTU4NDgs
-LTMyMTM2OTUxMSwyMTIwNDcyNDEwXX0=
+eyJoaXN0b3J5IjpbNDk5MDg2MTI5LC01MDIxMzMyNjgsLTIwOD
+cwNzgyNjYsMzI5MzUyMzU1LDczMzkyMDgzNSwxNjE4NTY3MTgw
+LDcwMDU1ODQ4LC0zMjEzNjk1MTEsMjEyMDQ3MjQxMF19
 -->
