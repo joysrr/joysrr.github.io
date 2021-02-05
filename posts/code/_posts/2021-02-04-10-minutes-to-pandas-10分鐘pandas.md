@@ -2,18 +2,18 @@
 #### 還有一些自己的註解
 ##### 因為懶得看文件，只好藉由練習英文的藉口來試著翻譯看看並好好讀一下文件 ; )
 ***
-此文章為新手面向的pandas套件簡短介紹，更詳細的說明可以查看此[文件(官方原文)](https://pandas.pydata.org/docs/user_guide/cookbook.html#cookbook)
+此文章為新手面向的pandas套件簡短介紹，更詳細的說明可以查看此[文件(官方原文)](https://pandas.pydata.org/docs/user_guide/cookbook.html#cookbook)。
 > 詳細說明的文件不可能翻譯的 ><
 
-一般來說起手式為
+一般來說起手式為：
 
 	In [1]: import numpy as np
 
 	In [2]: import pandas as pd
 	
 ## 物件的建立
-詳細請查看[資料結構介紹(官方原文)](https://pandas.pydata.org/docs/user_guide/dsintro.html#dsintro)
-首先讓我們先來產生一個[`Series`](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series)，給他一個陣列，他會自行建立對應的數值索引
+詳細請查看[資料結構介紹(官方原文)](https://pandas.pydata.org/docs/user_guide/dsintro.html#dsintro)。
+首先讓我們先來產生一個[`Series`](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series)，給他一個陣列，他會自行建立對應的數值索引：
 
 	In [3]: s = pd.Series([1, 3, 5, np.nan, 6, 8])
 	
@@ -27,7 +27,7 @@
 	5    8.0
 	dtype: float64
 
-再來產生一個[`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame)，給他一個`NumPy`的陣列
+再來產生一個[`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame)，給他一個`NumPy`的陣列：
 
 	In [5]: dates = pd.date_range("20130101", periods=6)
 
@@ -37,7 +37,7 @@
 	 '2013-01-05', '2013-01-06'],
 	 dtype='datetime64[ns]', freq='D')
 
-再來指定他的索引為日期並且替欄位命名
+再來指定他的索引為日期並且替欄位命名：
 
 	In [7]: df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list("ABCD"))
 
@@ -51,7 +51,7 @@
 	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
 	2013-01-06 -0.673690  0.113648 -1.478427  0.524988
 
-或者可以直接用`dict`直接建立
+或者可以直接用`dict`直接建立：
 
 	In [9]: df2 = pd.DataFrame(
 	 ...:    {
@@ -73,7 +73,7 @@
 	2  1.0 2013-01-02  1.0  3   test  foo
 	3  1.0 2013-01-02  1.0  3  train  foo
 
-欄位的型別可以不同
+欄位的型別可以不同：
 
 	In [11]: df2.dtypes
 	Out[11]: 
@@ -85,7 +85,7 @@
 	F            object
 	dtype: object
 
-如果你使用的是`IPython`，會把欄位自動加入Tab自動完成的屬性中，如下:
+如果你使用的是`IPython`，會把欄位自動加入Tab自動完成的屬性中，如下：
 
 	In [12]: df2.<TAB>  # noqa: E225, E999
 	df2.A                  df2.bool
@@ -104,11 +104,11 @@
 依照上方結果顯示，欄位 `A`,  `B`,  `C`, `D`  已被設定到Tab自動完成的屬性中，而  `E`  and  `F`  同樣也是，但為了版面整潔，我們還是省略了吧!
 
 ## 資料呈現
-詳細資料請查看[基礎介紹](https://pandas.pydata.org/docs/user_guide/basics.html#basics)
+詳細資料請查看[基礎介紹](https://pandas.pydata.org/docs/user_guide/basics.html#basics)。
 
-以下示範如何顯示頭尾資料
+以下示範如何顯示頭尾資料，
 
-前五列資料:
+前五列資料：
 
 	In [13]: df.head()
 	Out[13]: 
@@ -119,7 +119,7 @@
 	2013-01-04  0.721555 -0.706771 -1.039575  0.271860
 	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
 
-最後五列資料:
+最後五列資料：
 
 	In [14]: df.tail(3)
 	Out[14]: 
@@ -128,7 +128,7 @@
 	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
 	2013-01-06 -0.673690  0.113648 -1.478427  0.524988
 
-顯示索引及欄位
+顯示索引及欄位：
 
 	In [15]: df.index
 	Out[15]: 
@@ -142,13 +142,12 @@
 [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 可以轉換成`NumPy`格式的基本資料。
 但要注意的是，如果你 [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame") 的欄位有多種型別，對於效能會有很大的影響，主要是因為`NumPy`和`pandas`有根本上的不同 ，而且 **NumPy 整個陣列只有一個型別, pandas的DataFrames則是每個欄位可以有一個型別**。
 所以當你呼叫 [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")，pandas 會找一個可以容下所有DataFrame中欄位型別的 NumPy dtype。
-最終可能會導致型別
-This may end up being `object`, which requires casting every value to a Python object.
+最終可能會導致型別會指向Python物件中的`object`型別。
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTczMzAxLDY1ODQ2MzQ0NSw0OTkwOD
-YxMjksLTUwMjEzMzI2OCwtMjA4NzA3ODI2NiwzMjkzNTIzNTUs
-NzMzOTIwODM1LDE2MTg1NjcxODAsNzAwNTU4NDgsLTMyMTM2OT
-UxMSwyMTIwNDcyNDEwXX0=
+eyJoaXN0b3J5IjpbLTExMTAzMTg0OTEsNjU4NDYzNDQ1LDQ5OT
+A4NjEyOSwtNTAyMTMzMjY4LC0yMDg3MDc4MjY2LDMyOTM1MjM1
+NSw3MzM5MjA4MzUsMTYxODU2NzE4MCw3MDA1NTg0OCwtMzIxMz
+Y5NTExLDIxMjA0NzI0MTBdfQ==
 -->
