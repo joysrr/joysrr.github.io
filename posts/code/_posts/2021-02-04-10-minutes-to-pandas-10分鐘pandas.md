@@ -103,9 +103,13 @@
 
 依照上方結果顯示，欄位 `A`,  `B`,  `C`, `D`  已被設定到Tab自動完成的屬性中，而  `E`  and  `F`  同樣也是，但為了版面整潔，我們還是省略了吧!
 
+## 資料呈現
+詳細資料請查看[基礎介紹](https://pandas.pydata.org/docs/user_guide/basics.html#basics)
+
+
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5MzUyMzU1LDczMzkyMDgzNSwxNjE4NT
-Y3MTgwLDcwMDU1ODQ4LC0zMjEzNjk1MTEsMjEyMDQ3MjQxMF19
-
+eyJoaXN0b3J5IjpbLTEzMTk5NTUzMzMsMzI5MzUyMzU1LDczMz
+kyMDgzNSwxNjE4NTY3MTgwLDcwMDU1ODQ4LC0zMjEzNjk1MTEs
+MjEyMDQ3MjQxMF19
 -->
