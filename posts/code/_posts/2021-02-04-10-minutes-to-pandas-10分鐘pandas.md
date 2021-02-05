@@ -106,10 +106,42 @@
 ## 資料呈現
 詳細資料請查看[基礎介紹](https://pandas.pydata.org/docs/user_guide/basics.html#basics)
 
+以下示範如何顯示頭尾資料
+
+前五列資料:
+
+	In [13]: df.head()
+	Out[13]: 
+	 A         B         C         D
+	2013-01-01  0.469112 -0.282863 -1.509059 -1.135632
+	2013-01-02  1.212112 -0.173215  0.119209 -1.044236
+	2013-01-03 -0.861849 -2.104569 -0.494929  1.071804
+	2013-01-04  0.721555 -0.706771 -1.039575  0.271860
+	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
+
+最後五列資料:
+
+	In [14]: df.tail(3)
+	Out[14]: 
+	 A         B         C         D
+	2013-01-04  0.721555 -0.706771 -1.039575  0.271860
+	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
+	2013-01-06 -0.673690  0.113648 -1.478427  0.524988
+
+顯示索引及欄位
+
+In [15]: df.index
+Out[15]: 
+DatetimeIndex(['2013-01-01', '2013-01-02', '2013-01-03', '2013-01-04',
+ '2013-01-05', '2013-01-06'],
+ dtype='datetime64[ns]', freq='D')
+
+In [16]: df.columns
+Out[16]: Index(['A', 'B', 'C', 'D'], dtype='object')
 
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk5NTUzMzMsMzI5MzUyMzU1LDczMz
+eyJoaXN0b3J5IjpbLTEzMTg4Nzc4MzMsMzI5MzUyMzU1LDczMz
 kyMDgzNSwxNjE4NTY3MTgwLDcwMDU1ODQ4LC0zMjEzNjk1MTEs
 MjEyMDQ3MjQxMF19
 -->
