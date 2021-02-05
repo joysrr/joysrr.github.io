@@ -4,7 +4,7 @@
 
 >因為懶得看文件，只好藉由練習英文的藉口來試著翻譯看看並好好讀一下文件 ; )
 ***
-此文章為`新手`面向的pandas套件簡短介紹，更詳細的說明可以查看此[文件(官方原文)](https://pandas.pydata.org/docs/user_guide/cookbook.html#cookbook)。
+此文章為**新手**面向的pandas簡短介紹，更詳細的說明可以查看此[文件(官方原文)](https://pandas.pydata.org/docs/user_guide/cookbook.html#cookbook)。
 > 詳細說明的文件不可能翻譯的 ><
 
 一般來說起手式為：
@@ -148,5 +148,5 @@
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUzNzkxNDJdfQ==
+eyJoaXN0b3J5IjpbLTQxNDE4MTM5M119
 -->
