@@ -140,12 +140,14 @@
 	Out[16]: Index(['A', 'B', 'C', 'D'], dtype='object')
 
 [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 可以轉換成`NumPy`格式的基本資料. 
-但要注意的是，如果你的欄位有多種類型，對於效能會有很大的影響，Note that this can be an expensive operation when your [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame") has columns with different data types, which comes down to a fundamental difference between pandas and NumPy: **NumPy arrays have one dtype for the entire array, while pandas DataFrames have one dtype per column**. When you call [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy"), pandas will find the NumPy dtype that can hold _all_ of the dtypes in the DataFrame. This may end up being `object`, which requires casting every value to a Python object.
+但要注意的是，如果你 [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame") 的欄位有多種類型，對於效能會有很大的影響，主要是因為
+
+ which comes down to a fundamental difference between pandas and NumPy: **NumPy arrays have one dtype for the entire array, while pandas DataFrames have one dtype per column**. When you call [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy"), pandas will find the NumPy dtype that can hold _all_ of the dtypes in the DataFrame. This may end up being `object`, which requires casting every value to a Python object.
 
 ## 未完待續......
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIwMDM0NjEsNDk5MDg2MTI5LC01MD
-IxMzMyNjgsLTIwODcwNzgyNjYsMzI5MzUyMzU1LDczMzkyMDgz
-NSwxNjE4NTY3MTgwLDcwMDU1ODQ4LC0zMjEzNjk1MTEsMjEyMD
-Q3MjQxMF19
+eyJoaXN0b3J5IjpbMTc0Mjk4MzY4NSw0OTkwODYxMjksLTUwMj
+EzMzI2OCwtMjA4NzA3ODI2NiwzMjkzNTIzNTUsNzMzOTIwODM1
+LDE2MTg1NjcxODAsNzAwNTU4NDgsLTMyMTM2OTUxMSwyMTIwND
+cyNDEwXX0=
 -->
