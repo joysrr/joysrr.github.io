@@ -139,13 +139,14 @@
 	In [16]: df.columns
 	Out[16]: Index(['A', 'B', 'C', 'D'], dtype='object')
 
-[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 可以轉換成`NumPy`格式的基本資料. 
-但要注意的是，如果你 [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame") 的欄位有多種類型，對於效能會有很大的影響，主要是因為`NumPy`和`pandas`有根本上的不同 ，而且 **NumPy 整個陣列只有一個型別, pandas的DataFrames則是每個欄位可以有一個型別**. When you call [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy"), pandas will find the NumPy dtype that can hold _all_ of the dtypes in the DataFrame. This may end up being `object`, which requires casting every value to a Python object.
+[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 可以轉換成`NumPy`格式的基本資料。
+但要注意的是，如果你 [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame") 的欄位有多種型別，對於效能會有很大的影響，主要是因為`NumPy`和`pandas`有根本上的不同 ，而且 **NumPy 整個陣列只有一個型別, pandas的DataFrames則是每個欄位可以有一個型別**。
+所以當你呼叫 [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")，pandas will find the NumPy dtype that can hold _all_ of the dtypes in the DataFrame. This may end up being `object`, which requires casting every value to a Python object.
 
-## 未完待續......
+## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzUyNTA2NDcsNDk5MDg2MTI5LC01MD
-IxMzMyNjgsLTIwODcwNzgyNjYsMzI5MzUyMzU1LDczMzkyMDgz
-NSwxNjE4NTY3MTgwLDcwMDU1ODQ4LC0zMjEzNjk1MTEsMjEyMD
-Q3MjQxMF19
+eyJoaXN0b3J5IjpbNjU4NDYzNDQ1LDQ5OTA4NjEyOSwtNTAyMT
+MzMjY4LC0yMDg3MDc4MjY2LDMyOTM1MjM1NSw3MzM5MjA4MzUs
+MTYxODU2NzE4MCw3MDA1NTg0OCwtMzIxMzY5NTExLDIxMjA0Nz
+I0MTBdfQ==
 -->
