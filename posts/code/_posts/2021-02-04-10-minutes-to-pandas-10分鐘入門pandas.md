@@ -154,7 +154,7 @@ output:
 所以當你呼叫 [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")，pandas 會找一個可以容下所有DataFrame中欄位型別的 NumPy dtype。
 最終可能會導致型別會指向Python物件中的`object`型別。
 
-而欄位的型別全部為浮點數時，[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 執行速度會很快而且也不需要透過資料複製產生。
+當欄位的型別全部為浮點數時，[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 執行速度會很快而且也不需要透過資料複製產生：
 
 	In [17]: df.to_numpy()
 	Out[17]: 
@@ -165,7 +165,7 @@ output:
 	 [-0.425 ,  0.567 ,  0.2762, -1.0874],
 	 [-0.6737,  0.1136, -1.4784,  0.525 ]])
 
-For  `df2`, the  [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame")  with multiple dtypes,  [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")  is relatively expensive.
+而欄位包含多型別時， 相對來說[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 會較ㄒㄧㄠ
 
 In [18]: df2.to_numpy()
 Out[18]: 
@@ -177,6 +177,6 @@ array([[1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'test', 'foo'],
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYzNzEwNzQsNzQ3NjYzNjIyLC00MT
+eyJoaXN0b3J5IjpbLTE2MzgxNjA4MTcsNzQ3NjYzNjIyLC00MT
 QxODEzOTNdfQ==
 -->
