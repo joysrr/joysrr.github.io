@@ -175,8 +175,12 @@ output:
 	 [1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'train', 'foo']],
 	 dtype=object)
 
+
+>Note
+[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")  does  _not_  include the index or column labels in the output.
+
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYwODQzMDYsNzQ3NjYzNjIyLC00MT
-QxODEzOTNdfQ==
+eyJoaXN0b3J5IjpbNjUyMjMwNDAsLTE2NjYwODQzMDYsNzQ3Nj
+YzNjIyLC00MTQxODEzOTNdfQ==
 -->
