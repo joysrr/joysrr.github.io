@@ -154,17 +154,16 @@ output:
 所以當你呼叫 [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")，pandas 會找一個可以容下所有DataFrame中欄位型別的 NumPy dtype。
 最終可能會導致型別會指向Python物件中的`object`型別。
 
-當資料型別全部為ㄈㄨ
-For  `df`, our  [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame")  of all floating-point values,  [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")  is fast and doesn’t require copying data.
+而欄位的型別全部為浮點數時，[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 執行速度會很快而且也不需要透過資料複製產生。
 
-In [17]: df.to_numpy()
-Out[17]: 
-array([[ 0.4691, -0.2829, -1.5091, -1.1356],
- [ 1.2121, -0.1732,  0.1192, -1.0442],
- [-0.8618, -2.1046, -0.4949,  1.0718],
- [ 0.7216, -0.7068, -1.0396,  0.2719],
- [-0.425 ,  0.567 ,  0.2762, -1.0874],
- [-0.6737,  0.1136, -1.4784,  0.525 ]])
+	In [17]: df.to_numpy()
+	Out[17]: 
+	array([[ 0.4691, -0.2829, -1.5091, -1.1356],
+	 [ 1.2121, -0.1732,  0.1192, -1.0442],
+	 [-0.8618, -2.1046, -0.4949,  1.0718],
+	 [ 0.7216, -0.7068, -1.0396,  0.2719],
+	 [-0.425 ,  0.567 ,  0.2762, -1.0874],
+	 [-0.6737,  0.1136, -1.4784,  0.525 ]])
 
 For  `df2`, the  [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame")  with multiple dtypes,  [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")  is relatively expensive.
 
@@ -178,6 +177,6 @@ array([[1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'test', 'foo'],
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODI4Nzc2MCw3NDc2NjM2MjIsLTQxND
-E4MTM5M119
+eyJoaXN0b3J5IjpbLTEzNDYzNzEwNzQsNzQ3NjYzNjIyLC00MT
+QxODEzOTNdfQ==
 -->
