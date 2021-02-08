@@ -154,7 +154,9 @@ output:
 所以當你呼叫 [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")，pandas 會找一個可以容下所有DataFrame中欄位型別的 NumPy dtype。
 最終可能會導致型別會指向Python物件中的`object`型別。
 
+
+
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDE4MTM5M119
+eyJoaXN0b3J5IjpbNzcyMzE4MDc5LC00MTQxODEzOTNdfQ==
 -->
