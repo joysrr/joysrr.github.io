@@ -154,6 +154,7 @@ output:
 所以當你呼叫 [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")，pandas 會找一個可以容下所有DataFrame中欄位型別的 NumPy dtype。
 最終可能會導致型別會指向Python物件中的`object`型別。
 
+當資料型別全部為ㄈㄨ
 For  `df`, our  [`DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame")  of all floating-point values,  [`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")  is fast and doesn’t require copying data.
 
 In [17]: df.to_numpy()
@@ -177,5 +178,6 @@ array([[1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'test', 'foo'],
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NjYzNjIyLC00MTQxODEzOTNdfQ==
+eyJoaXN0b3J5IjpbMTM5ODI4Nzc2MCw3NDc2NjM2MjIsLTQxND
+E4MTM5M119
 -->
