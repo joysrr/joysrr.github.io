@@ -176,10 +176,11 @@ output:
 	 dtype=object)
 
 
->[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")  _不包含_
+>[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy")  輸出中 **不包含** 索引以及欄位的標籤
+
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTM2NzA1MSwtMTY2NjA4NDMwNiw3ND
+eyJoaXN0b3J5IjpbLTU3MjQ3NTExMiwtMTY2NjA4NDMwNiw3ND
 c2NjM2MjIsLTQxNDE4MTM5M119
 -->
