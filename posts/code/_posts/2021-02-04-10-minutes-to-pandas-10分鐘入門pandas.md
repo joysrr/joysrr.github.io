@@ -165,18 +165,18 @@ output:
 	 [-0.425 ,  0.567 ,  0.2762, -1.0874],
 	 [-0.6737,  0.1136, -1.4784,  0.525 ]])
 
-而欄位包含多型別時， 相對來說[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 會較ㄒㄧㄠ
+而欄位包含多型別時， 相對來說[`DataFrame.to_numpy()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy "pandas.DataFrame.to_numpy") 會較消耗資源：
 
-In [18]: df2.to_numpy()
-Out[18]: 
-array([[1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'test', 'foo'],
- [1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'train', 'foo'],
- [1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'test', 'foo'],
- [1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'train', 'foo']],
- dtype=object)
+	In [18]: df2.to_numpy()
+	Out[18]: 
+	array([[1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'test', 'foo'],
+	 [1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'train', 'foo'],
+	 [1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'test', 'foo'],
+	 [1.0, Timestamp('2013-01-02 00:00:00'), 1.0, 3, 'train', 'foo']],
+	 dtype=object)
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzgxNjA4MTcsNzQ3NjYzNjIyLC00MT
+eyJoaXN0b3J5IjpbLTE2NjYwODQzMDYsNzQ3NjYzNjIyLC00MT
 QxODEzOTNdfQ==
 -->
