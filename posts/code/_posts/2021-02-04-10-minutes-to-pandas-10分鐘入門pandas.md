@@ -192,7 +192,7 @@ output:
 	75%    0.658444  0.041933 -0.034326  0.461706
 	max    1.212112  0.567020  0.276232  1.071804
 
-Transposing your data:
+`T` 將資料轉置：
 
 	In [20]: df.T
 	Out[20]: 
@@ -202,6 +202,7 @@ Transposing your data:
 	C   -1.509059    0.119209   -0.494929   -1.039575    0.276232   -1.478427
 	D   -1.135632   -1.044236    1.071804    0.271860   -1.087401    0.524988
 
+`sort_index` 依照座標
 Sorting by an axis:
 
 	In [21]: df.sort_index(axis=1, ascending=False)
@@ -228,6 +229,6 @@ Sorting by values:
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzQyMTQ4NiwtNTcyNDc1MTEyLC0xNj
+eyJoaXN0b3J5IjpbLTczODI4Mzk1MiwtNTcyNDc1MTEyLC0xNj
 Y2MDg0MzA2LDc0NzY2MzYyMiwtNDE0MTgxMzkzXX0=
 -->
