@@ -202,8 +202,7 @@ output:
 	C   -1.509059    0.119209   -0.494929   -1.039575    0.276232   -1.478427
 	D   -1.135632   -1.044236    1.071804    0.271860   -1.087401    0.524988
 
-`sort_index` 依照座標
-Sorting by an axis:
+`sort_index` 依照坐標軸進行排序：
 
 	In [21]: df.sort_index(axis=1, ascending=False)
 	Out[21]: 
@@ -215,7 +214,7 @@ Sorting by an axis:
 	2013-01-05 -1.087401  0.276232  0.567020 -0.424972
 	2013-01-06  0.524988 -1.478427  0.113648 -0.673690
 
-Sorting by values:
+`sort_values` 依照欄位的值進行排序：
 
 	In [22]: df.sort_values(by="B")
 	Out[22]: 
@@ -227,8 +226,9 @@ Sorting by values:
 	2013-01-06 -0.673690  0.113648 -1.478427  0.524988
 	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
 
+
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODI4Mzk1MiwtNTcyNDc1MTEyLC0xNj
-Y2MDg0MzA2LDc0NzY2MzYyMiwtNDE0MTgxMzkzXX0=
+eyJoaXN0b3J5IjpbMzc0MTIyOTg3LC01NzI0NzUxMTIsLTE2Nj
+YwODQzMDYsNzQ3NjYzNjIyLC00MTQxODEzOTNdfQ==
 -->
