@@ -20,11 +20,11 @@
   
 2. [盤整打底](https://ctee.com.tw/news/stock/121151.html)  
   
-3. 葛蘭碧八大法則  
-[https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
+3. [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
   
-  
-@科斯托蘭尼雞蛋
+4. [科斯托蘭尼雞蛋](https://xji6mp6cl4.pixnet.net/blog/post/351611360-%E7%A7%91%E6%96%AF%E6%89%98%E8%98%AD%E5%B0%BC%E7%9A%84%E5%8D%81%E5%BE%8B%E5%8D%81%E8%AA%A1%E8%88%87%E9%9B%9E%E8%9B%8B%E7%90%86%E8%AB%96)
+
+5. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODMxNDI2NThdfQ==
+eyJoaXN0b3J5IjpbOTI3MDk3OTYxXX0=
 -->
