@@ -6,6 +6,7 @@
 	3. 劵商
 	4. 主力
 	5. 散戶
+	
 ---
 * 消息面
 	1. [PTT-Stock](https://term.ptt.cc/)
@@ -25,6 +26,7 @@
 	1. MACD
 	2. 均線
 	3. KD指標
+	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzAzNDMzNSwtMzAxMTg2NTNdfQ==
+eyJoaXN0b3J5IjpbMTY2OTUxNDMyOSwtMzAxMTg2NTNdfQ==
 -->
