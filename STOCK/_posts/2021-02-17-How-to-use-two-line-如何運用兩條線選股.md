@@ -15,16 +15,16 @@
 * 賣出點：短線跌破長線
 	  
 ## 概念
-1. [長線保護短線原則](/stock/2021-02-17-Long-Protect-Short-長線保護短線)  
+1. [長線保護短線原則](/stock/Long-Protect-Short-長線保護短線)  
   
-2. [盤整打底](/stock/2021-02-17-Consolidation-盤整打底)  
+2. [盤整打底](/stock/Consolidation-盤整打底)  
   
-3. [葛蘭碧八大法則](/stock/2021-02-17-The-Eight-Principles-of-Grampy-葛蘭碧八大法則) 
+3. [葛蘭碧八大法則](/stock/The-Eight-Principles-of-Grampy-葛蘭碧八大法則) 
   
-4. [科斯托蘭尼雞蛋](/stock/2021-02-17-Kostolani-Eggs-科斯托蘭尼雞蛋)
+4. [科斯托蘭尼雞蛋](/stock/Kostolani-Eggs-科斯托蘭尼雞蛋)
 
-5. [型態學](/stock/2021-02-17-Typology-型態學)
+5. [型態學](/stock/Typology-型態學)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyMjA2NjExLC0xNDg2MDU3NTg5LC00Nj
-U2ODMyNTRdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjAyNTc5MSwtMTQ4NjA1NzU4OSwtND
+Y1NjgzMjU0XX0=
 -->
