@@ -19,12 +19,12 @@
   
 2. [盤整打底](/stock/2021-02-17-Consolidation-盤整打底)  
   
-3. [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
+3. [葛蘭碧八大法則](/stock/2021-02-17-The-Eight-Principles-of-Grampy-葛蘭碧八大法則) 
   
 4. [科斯托蘭尼雞蛋](https://xji6mp6cl4.pixnet.net/blog/post/351611360-%E7%A7%91%E6%96%AF%E6%89%98%E8%98%AD%E5%B0%BC%E7%9A%84%E5%8D%81%E5%BE%8B%E5%8D%81%E8%AA%A1%E8%88%87%E9%9B%9E%E8%9B%8B%E7%90%86%E8%AB%96)
 
 5. [型態學](https://www.stockfeel.com.tw/%E6%AD%B7%E5%8F%B2%E4%B8%8D%E6%96%B7%E9%87%8D%E6%BC%94%E2%94%80%E5%9E%8B%E6%85%8B%E5%AD%B8/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzcxNDY2NiwtMTQ4NjA1NzU4OSwtND
-Y1NjgzMjU0XX0=
+eyJoaXN0b3J5IjpbLTIxMDU5NjUyMTQsLTE0ODYwNTc1ODksLT
+Q2NTY4MzI1NF19
 -->
