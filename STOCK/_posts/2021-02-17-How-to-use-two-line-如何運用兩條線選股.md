@@ -13,7 +13,6 @@
 
 * 買進點：短線突破長線&成交量大
 * 賣出點：短線跌破長線
-	 > 當跌破十一定要遵守
 	  
 ## 概念
 1. [長線保護短線原則](http://m.udn.com/xhtml/HistoryArt?articleid=4414391)  
@@ -26,5 +25,5 @@
 
 5. [型態學](https://www.stockfeel.com.tw/%E6%AD%B7%E5%8F%B2%E4%B8%8D%E6%96%B7%E9%87%8D%E6%BC%94%E2%94%80%E5%9E%8B%E6%85%8B%E5%AD%B8/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTY4MzI1NF19
+eyJoaXN0b3J5IjpbLTE0ODYwNTc1ODksLTQ2NTY4MzI1NF19
 -->
