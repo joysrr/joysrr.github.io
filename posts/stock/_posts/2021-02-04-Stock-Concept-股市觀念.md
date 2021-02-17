@@ -1,7 +1,5 @@
 ## 紀錄一些股市概念，日後再做詳細介紹
-### 心態
->  
-
+>  先設定停損(風險)、接受大賺小賠、耐心等待、嚴格遵守進場原則
 ---
 * 籌碼面
 	1. 大戶
@@ -31,5 +29,5 @@
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzIyODEzMjQsLTMwMTE4NjUzXX0=
+eyJoaXN0b3J5IjpbMjAxNTI4MDYwOSwtMzAxMTg2NTNdfQ==
 -->
