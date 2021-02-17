@@ -1,4 +1,7 @@
 ## 紀錄一些股市概念，日後再做詳細介紹
+### 心態
+>  
+
 ---
 * 籌碼面
 	1. 大戶
@@ -28,5 +31,5 @@
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTUxNDMyOSwtMzAxMTg2NTNdfQ==
+eyJoaXN0b3J5IjpbLTIxMzIyODEzMjQsLTMwMTE4NjUzXX0=
 -->
