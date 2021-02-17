@@ -1,7 +1,7 @@
 ## 原則
 
 「站上均線、底部盤整、突破趨勢、漲勢確定」  
-*   [林恩如-超簡單投資法]([https://enrumoney.net/新手必學-超簡單投資法](https://enrumoney.net/%E6%96%B0%E6%89%8B%E5%BF%85%E5%AD%B8-%E8%B6%85%E7%B0%A1%E5%96%AE%E6%8A%95%E8%B3%87%E6%B3%95)：5-選股必備的四大法寶/)
+*   [林恩如-超簡單投資法](https://enrumoney.net/%e6%96%b0%e6%89%8b%e5%bf%85%e5%ad%b8-%e8%b6%85%e7%b0%a1%e5%96%ae%e6%8a%95%e8%b3%87%e6%b3%95%ef%bc%9a1%e3%80%81%e5%bb%ba%e7%ab%8b%e9%80%b2%e5%a0%b4%e5%89%8d%e7%9a%84%e8%a7%80%e5%bf%b5%ef%bc%81/)
 
 
 1. 20ma  (短線) (周、日皆可)
@@ -26,5 +26,5 @@
 
 5. [型態學](https://www.stockfeel.com.tw/%E6%AD%B7%E5%8F%B2%E4%B8%8D%E6%96%B7%E9%87%8D%E6%BC%94%E2%94%80%E5%9E%8B%E6%85%8B%E5%AD%B8/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4NzIxNjI0XX0=
+eyJoaXN0b3J5IjpbLTQ2NTY4MzI1NCw4Mjg3MjE2MjRdfQ==
 -->
