@@ -2,8 +2,7 @@
 title: "Stock-股票"
 layout: collection
 permalink: /stock/
-author_profile: true
-collection: portfolio
+collection: stock
 entries_layout: grid
 classes: wide
 ---
