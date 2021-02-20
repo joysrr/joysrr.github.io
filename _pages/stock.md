@@ -2,7 +2,7 @@
 title: "Stock-股票"
 layout: category
 permalink: /stock/
-author_profile: falstrue
+author_profile: false
 taxonomy: STOCK
 sidebar:
   title: "Stock-股票"
