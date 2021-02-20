@@ -10,11 +10,15 @@ main:
     url: /tool/
   - title: "Stock-股票"
     url: /stock/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+stock:
+  - title:"Fundamental Analysis-基本面"
+    url:/stock/fundamental-analysis/
+  - title:"Technical Analysis-技術面"
+    url:/stock/technical-analysis/
+  - title:"Chip Analysis 籌碼面"
+    url:/stock/chip-analysis/
+  - title:"Tip Analysis-消息面"
+    url:/stock/tip-analysis/
+  - title:"Practical Analysis-實戰分析"
+    url:/stock/practical-analysis/
