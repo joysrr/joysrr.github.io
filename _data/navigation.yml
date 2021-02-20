@@ -12,6 +12,8 @@ main:
     url: /stock/
 
 stock:
+  - title: "Overview 總覽"
+    url: /stock/
   - title: "Fundamental Analysis-基本面"
     url: /stock/fundamental-analysis/
   - title: "Chip Analysis 籌碼面"
