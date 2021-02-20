@@ -1,10 +1,9 @@
 ---
 title: "Stock-股票"
-layout: collection
+layout: category
 permalink: /stock/
-collection: stock
-entries_layout: grid
-classes: wide
+author_profile: true
+taxonomy: STOCK
 ---
 
 >This is Financial, 
