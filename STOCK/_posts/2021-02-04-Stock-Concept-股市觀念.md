@@ -1,6 +1,8 @@
 ## 大原則
 >  先設定停損(風險)、接受大賺小賠、耐心等待、嚴格遵守進場原則
+
 ---
+
 * 籌碼面
 	1. 大戶
 	2. 外資
@@ -9,6 +11,7 @@
 	5. 散戶
 	
 ---
+
 * 消息面
 	1. [PTT-Stock](https://term.ptt.cc/)
 	2. [鉅亨](https://www.cnyes.com/)
@@ -17,17 +20,22 @@
 	5. [PChome股市](https://pchome.megatime.com.tw/)
 	6. [經濟日報](https://money.udn.com/money/index)
 	7. [工商時報](https://ctee.com.tw/phone)
+
 ---
+
 * 基本面
 	1. 財務
 	2. 市場
 	3. 營運
+
 ---
+
 * 技術面
 	1. MACD
 	2. 均線
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk1NDk3NTBdfQ==
+eyJoaXN0b3J5IjpbLTIwMDIzMzc3MDAsLTIxMjk1NDk3NTBdfQ
+==
 -->
