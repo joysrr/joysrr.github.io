@@ -2,7 +2,7 @@
 title: "Stock-股票"
 layout: category
 permalink: /stock/
-author_profile: false
+author_profile: falstrue
 taxonomy: STOCK
 sidebar:
   title: "Stock-股票"
@@ -12,5 +12,6 @@ sidebar:
 >This is Financial, 
 >This is how I earn money
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTU3MjY1MywtMTgxNzg1MzUzMF19
+eyJoaXN0b3J5IjpbNzQzNzU2MTc2LC01ODE1NzI2NTMsLTE4MT
+c4NTM1MzBdfQ==
 -->
