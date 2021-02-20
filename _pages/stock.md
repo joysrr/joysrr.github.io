@@ -2,7 +2,8 @@
 title: "Stock-股票"
 layout: category
 permalink: /stock/
-
+author_profile: true
+taxonomy: STOCK
 ---
 
 >This is Financial, 
