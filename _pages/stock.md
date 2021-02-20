@@ -4,6 +4,9 @@ layout: category
 permalink: /stock/
 author_profile: true
 taxonomy: STOCK
+sidebar:
+  title:"Stock-股票"
+  nav:stock
 ---
 
 >This is Financial, 
