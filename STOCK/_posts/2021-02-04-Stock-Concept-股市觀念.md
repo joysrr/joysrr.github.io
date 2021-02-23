@@ -1,6 +1,6 @@
 ---
 title: "Stock concept-股市觀念"
-tagline: "股市技術面的其中一種方式，透過趨勢及指標辨識形態，以預測未來走向。"
+tagline: "股市面面向，統整股市判斷的各種面向。"
 header:
   overlay_image: /assets/images/headerIMG01.jpg
   overlay_filter: 0.5
@@ -8,12 +8,12 @@ header:
 classes: wide
 categories:
   - STOCK
-excerpt: ""
+excerpt: "工欲善其身，必先利其器、知己知彼，百戰不殆"
 classes: wide
 tags:
   - stock
   - concept
-  - 股市念
+  - 股市
   - 觀念
 ---
 
@@ -55,6 +55,6 @@ tags:
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDc3ODE4NywtMjAwMjMzNzcwMCwtMj
-EyOTU0OTc1MF19
+eyJoaXN0b3J5IjpbMzQ5NjA0MTEwLC0yMDAyMzM3NzAwLC0yMT
+I5NTQ5NzUwXX0=
 -->
