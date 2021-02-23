@@ -1,10 +1,24 @@
-## 這邊收集一些常用工具，日後再做詳細介紹~
 ---
+title: "Tools Collections-工具收集"
+tagline: "個人常用工具。"
+header:
+  overlay_image: /assets/images/headerIMG01.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+classes: wide
+categories:
+  - 工具
+excerpt: "收集一些常用工具，日後再做詳細介紹。"
+classes: wide
+tags:
+  - Tools
+---
+
 1. [Repl.it](https://repl.it/)
 	>Python線上編輯(支援GitHub)可以不用建置環境就能使用，真的是很方便能
 3. [StackEdit](Stackedit.io)
 	> Markdown線上編輯(支援GitHub)
 	此Blog就是利用此工具進行編輯的喔
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTgzNTUyOV19
+eyJoaXN0b3J5IjpbMTUzMDk0MjQ3OSwtNTk1ODM1NTI5XX0=
 -->
