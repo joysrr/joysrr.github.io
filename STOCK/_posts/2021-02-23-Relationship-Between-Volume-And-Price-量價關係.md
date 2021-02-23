@@ -18,7 +18,11 @@ tags:
   - volume
 ---
 
-# ㄑ
+# 前言
+
+新手看價，老手看量，這句話是我剛進入股市的時候聽到的，但是該如何看量?量與價的關係又是如何?怎麼幫助我們找出市場趨勢也是此篇要研究的方向。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM1NzY0OF19
+eyJoaXN0b3J5IjpbMjAxMTc5MTU4MF19
 -->
