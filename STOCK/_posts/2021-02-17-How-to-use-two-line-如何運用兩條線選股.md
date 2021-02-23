@@ -16,7 +16,6 @@ tags:
   - 林恩如
   - 兩條線
   - 均線
-  - 
 ---
 
 ## 原則
@@ -46,5 +45,5 @@ tags:
 
 5. [型態學](/stock/Typology-型態學)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTYyOTExMTFdfQ==
+eyJoaXN0b3J5IjpbLTYxNTI0MTk0XX0=
 -->
