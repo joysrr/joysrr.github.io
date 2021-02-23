@@ -1,5 +1,5 @@
 ---
-title: "分類一覽Posts by Category"
+title: "分類一覽-Posts by Category"
 layout: categories
 permalink: /categories/
 author_profile: true
