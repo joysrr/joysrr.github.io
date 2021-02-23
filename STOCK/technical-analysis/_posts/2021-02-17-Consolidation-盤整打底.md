@@ -12,11 +12,11 @@ categories:
 excerpt: "盤整雖然不高不低，但是卻是一個機會。"
 classes: wide
 tags:
-  - Consolidation
+  - consolidation
   - 盤整打底
 ---
 
 [盤整打底](https://ctee.com.tw/news/stock/121151.html)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxNzI2NjFdfQ==
+eyJoaXN0b3J5IjpbMTk3MDIzNjI0NV19
 -->
