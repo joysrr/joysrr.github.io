@@ -1,3 +1,21 @@
+---
+title: "Arrow(Python-Package)"
+tagline: "Arrow套件"
+header:
+  overlay_image: /assets/images/headerIMG01.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+classes: wide
+categories:
+  - 程式
+excerpt: "Arrow套件使用紀錄"
+classes: wide
+tags:
+  - code
+  - python
+  - arrow
+---
+
 ### [官方文件](https://arrow.readthedocs.io/en/stable/)
 
 ## 常用Function
@@ -8,5 +26,5 @@
 4. compare
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDQxMzQxN119
+eyJoaXN0b3J5IjpbNzA0ODIyNDE4XX0=
 -->
