@@ -11,7 +11,8 @@ categories:
 excerpt: "紀錄一些Python開發的心得"
 classes: wide
 tags:
-  - lang
+  - code
+  - python
 ---
 
 # 套件
@@ -27,5 +28,5 @@ tags:
   2. 資料處理
   3. 資料儲存
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk4MjkxNTBdfQ==
+eyJoaXN0b3J5IjpbLTExMzM2OTU2Nl19
 -->
