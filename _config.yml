@@ -27,10 +27,10 @@ repository               : "joysrr/joysrr.github.io"
 teaser                   : "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
-breadcrumbs_home_label   : # "Home"
-breadcrumb_separator     : # "/"
-words_per_minute         : 200
+breadcrumbs              : true #, false (default)
+breadcrumbs_home_label   : "Home"
+breadcrumb_separator     : "/"
+words_per_minute         : 80
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -264,7 +264,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       share: false
       related: true
   # _pages
