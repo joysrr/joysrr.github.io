@@ -1,4 +1,19 @@
-# Python雜記
+---
+title: "Just-Python-here-Python雜記"
+tagline: "紀錄一些Python開發的心得"
+header:
+  overlay_image: /assets/images/headerIMG01.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+classes: wide
+categories:
+  - 程式
+excerpt: "紀錄一些Python開發的心得"
+classes: wide
+tags:
+  - lang
+---
+
 # 套件
 1. Pandas
       > 資料儲存、處理
@@ -12,5 +27,5 @@
   2. 資料處理
   3. 資料儲存
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM4MDM4NzNdfQ==
+eyJoaXN0b3J5IjpbLTE5Mzk4MjkxNTBdfQ==
 -->
