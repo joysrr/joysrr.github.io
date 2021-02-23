@@ -7,8 +7,8 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 categories:
-  - STOCK
-  - technical-analysis
+  - 股票
+  - 技術面
 excerpt: ""
 classes: wide
 tags:
@@ -20,5 +20,5 @@ tags:
 
 [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5MTYzMzc3XX0=
+eyJoaXN0b3J5IjpbOTkxODE2MjQ1XX0=
 -->
