@@ -1,21 +1,17 @@
 ---
-title: 
-modified: 2021-02-03T21:22:47+08:00
-
----
-title: "Tools Collections-工具收集"
-tagline: "個人常用工具。"
+title: "This is Where Everything Begins!-這，就是起點"
+tagline: "一切的開始"
 header:
   overlay_image: /assets/images/headerIMG01.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 categories:
-  - 工具
-excerpt: "收集一些常用工具，日後再做詳細介紹。"
+  - 生活
+excerpt: ""
 classes: wide
 tags:
-  - Tools
+  - life
 ---
 
 # 歡迎來到我的Blog
@@ -40,5 +36,5 @@ tags:
 
 ## 希望日後的自己會越來越好，保持單純，保持樂觀
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzQzNDY5Ml19
+eyJoaXN0b3J5IjpbLTE2MTAwMDQ1NTNdfQ==
 -->
