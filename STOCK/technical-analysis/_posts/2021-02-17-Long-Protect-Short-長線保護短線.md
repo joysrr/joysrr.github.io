@@ -12,7 +12,7 @@ categories:
 excerpt: ""
 classes: wide
 tags:
-  - Long 
+  - long 
   - protect
   - short
   - 長線
@@ -20,5 +20,5 @@ tags:
 ---
 [長線保護短線原則](http://m.udn.com/xhtml/HistoryArt?articleid=4414391)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzI1NDI5NF19
+eyJoaXN0b3J5IjpbLTU3NjQ3MTU4XX0=
 -->
