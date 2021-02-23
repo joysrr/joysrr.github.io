@@ -47,10 +47,16 @@ tags:
 
 **一般上市櫃公司財報公布時間**
 
+|類型|時間|
+
 ●月營收：每月10日以前公布
 
 ●去年度整年財報：3/31前
 
+
+|Q1|Q2|Q3|Q4|
+|--|--|--|--|
+|5/15|8/14|11/14|3/31|
 ●第一季(Q1)財報：5/15前
 
 ●第二季(Q2)財報：8/14前
@@ -126,6 +132,6 @@ tags:
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQyNjY1NTQsLTU5Mzk3OTkzNywtMj
-AwMjMzNzcwMCwtMjEyOTU0OTc1MF19
+eyJoaXN0b3J5IjpbMjA4MDg3Nzg4NCwtNTkzOTc5OTM3LC0yMD
+AyMzM3NzAwLC0yMTI5NTQ5NzUwXX0=
 -->
