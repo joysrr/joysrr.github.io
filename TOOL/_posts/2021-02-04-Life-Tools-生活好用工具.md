@@ -1,5 +1,5 @@
 ---
-title: "Tools Collections-工具收集"
+title: "Tools-生活好用工具"
 tagline: "個人常用工具。"
 header:
   overlay_image: /assets/images/headerIMG01.jpg
@@ -11,7 +11,7 @@ categories:
 excerpt: "收集一些常用工具，日後再做詳細介紹。"
 classes: wide
 tags:
-  - Tools
+  - tools
 ---
 
 1. [Repl.it](https://repl.it/)
@@ -20,5 +20,5 @@ tags:
 	> Markdown線上編輯(支援GitHub)
 	此Blog就是利用此工具進行編輯的喔
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDk0MjQ3OSwtNTk1ODM1NTI5XX0=
+eyJoaXN0b3J5IjpbLTU1NjY1OTAwNSwtNTk1ODM1NTI5XX0=
 -->
