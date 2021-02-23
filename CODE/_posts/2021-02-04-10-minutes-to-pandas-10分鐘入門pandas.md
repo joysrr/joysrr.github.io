@@ -1,8 +1,19 @@
 ---
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
+title: "10-minutes-to-pandas-10分鐘入門pandas"
+tagline: "Pandas官方文件ㄈㄢ"
+header:
+  overlay_image: /assets/images/headerIMG01.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+classes: wide
+categories:
+  - 程式
+excerpt: "Pandas套件使用紀錄"
+classes: wide
+tags:
+  - code
+  - python
+  - pandas
 ---
 
 
@@ -229,5 +240,5 @@ output:
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MTIyOTg3XX0=
+eyJoaXN0b3J5IjpbLTgzOTU2Njg4M119
 -->
