@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 categories:
-  - STOCK
+  - 股票
 excerpt: "知己知彼，百戰不殆，不知彼而知己，一勝一負，不知彼不知己，每戰必殆。"
 classes: wide
 tags:
@@ -55,5 +55,5 @@ tags:
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Mzk3OTkzN119
+eyJoaXN0b3J5IjpbMTE4MjYwNzEyNF19
 -->
