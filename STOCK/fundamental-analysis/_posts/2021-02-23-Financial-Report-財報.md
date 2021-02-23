@@ -12,7 +12,7 @@ categories:
 excerpt: "公司營運狀況是中長期投資很重要的指標，即時取得財報資訊，在對的時間做適當分析。"
 classes: wide
 tags:
-  - Financial report
+  - financial report
   - 財報
 
 ---
@@ -108,5 +108,5 @@ tags:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjc3MDkyOV19
+eyJoaXN0b3J5IjpbMTg2NzkxMDMxOV19
 -->
