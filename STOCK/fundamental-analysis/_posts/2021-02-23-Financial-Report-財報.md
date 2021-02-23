@@ -7,8 +7,8 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 categories:
-  - STOCK
-  - fundamental-analysis
+  - 股票
+  - 基本面
 excerpt: "公司營運狀況是中長期投資很重要的指標，即時取得財報資訊，在對的時間做適當分析。"
 classes: wide
 tags:
@@ -108,5 +108,5 @@ tags:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTIyNTgwXX0=
+eyJoaXN0b3J5IjpbLTUxMjc3MDkyOV19
 -->
