@@ -1,6 +1,6 @@
 ---
-title: "Financial report-財報"
-tagline: "了解公司基本體質。"
+title: "Financial report calendar-財報行事曆"
+tagline: "財報公布時間。"
 header:
   overlay_image: /assets/images/headerIMG01.jpg
   overlay_filter: 0.5
@@ -9,7 +9,7 @@ classes: wide
 categories:
   - STOCK
   - fundamental-analysis
-excerpt: "公司營運狀況是中長期投資很重要的指標。"
+excerpt: "公司營運狀況是中長期投資很重要的指標，即時取得這些資訊，在對的時間做分析。"
 classes: wide
 tags:
   - Financial report
@@ -107,5 +107,5 @@ tags:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxNzI1OTg4XX0=
+eyJoaXN0b3J5IjpbMTQwOTk2NTA2Myw2MjE3MjU5ODhdfQ==
 -->
