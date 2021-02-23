@@ -49,21 +49,16 @@ tags:
 
 |類型|時間|
 
-●月營收：每月10日以前公布
+- 月營收-每月10號
 
-●去年度整年財報：3/31前
+- 季財報
 
+	|Q1|Q2|Q3|Q4|
+	|--|--|--|--|
+	|5/15|8/14|11/14|隔年3/31|
 
-|Q1|Q2|Q3|Q4|
-|--|--|--|--|
-|5/15|8/14|11/14|3/31|
-●第一季(Q1)財報：5/15前
+- 年報-隔年3/31
 
-●第二季(Q2)財報：8/14前
-
-●第三季(Q3)財報：11/14前
-
-●第四季(Q4)財報及年報：隔年3/31前
 
 **台股投資人行事曆**
 
@@ -132,6 +127,6 @@ tags:
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDg3Nzg4NCwtNTkzOTc5OTM3LC0yMD
-AyMzM3NzAwLC0yMTI5NTQ5NzUwXX0=
+eyJoaXN0b3J5IjpbNzg3NjA4NDUsLTU5Mzk3OTkzNywtMjAwMj
+MzNzcwMCwtMjEyOTU0OTc1MF19
 -->
