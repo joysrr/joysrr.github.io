@@ -8,7 +8,7 @@ header:
 classes: wide
 categories:
   - STOCK
-excerpt: "工欲善其身，必先利其器、知己知彼，百戰不殆"
+excerpt: "知己知彼，百戰不殆，不知彼而知己，一勝一負，不知彼不知己，每戰必殆。"
 classes: wide
 tags:
   - stock
@@ -55,6 +55,6 @@ tags:
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5NjA0MTEwLC0yMDAyMzM3NzAwLC0yMT
-I5NTQ5NzUwXX0=
+eyJoaXN0b3J5IjpbLTU5Mzk3OTkzNywtMjAwMjMzNzcwMCwtMj
+EyOTU0OTc1MF19
 -->
