@@ -7,8 +7,8 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 categories:
-  - STOCK
-  - technical-analysis
+  - 股票
+  - 技術面
 excerpt: "股市裡充斥著各式各樣的騙子，只有『成交量』是唯一的例外。"
 classes: wide
 tags:
@@ -26,5 +26,5 @@ tags:
 > 參考資料
 >  [摸清9種量價關係 判別未來趨勢是漲、是跌！](https://www.wealth.com.tw/home/articles/20494)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU0MTUyNzFdfQ==
+eyJoaXN0b3J5IjpbLTE4NzE0MjIxNzldfQ==
 -->
