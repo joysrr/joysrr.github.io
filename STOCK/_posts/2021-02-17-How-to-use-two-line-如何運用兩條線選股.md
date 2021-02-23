@@ -1,3 +1,24 @@
+---
+title: "How to use two line-如何運用兩條線選股"
+tagline: "股市技術面的其中一種方式，透過趨勢及指標辨識形態，以預測未來走向。"
+header:
+  overlay_image: /assets/images/headerIMG01.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+classes: wide
+categories:
+  - STOCK
+  - technical-analysis
+excerpt: "此方式參考林恩如的超簡單投資法，學習其中理論轉換成自己的投資方式"
+classes: wide
+tags:
+  - 超簡單投資法
+  - 林恩如
+  - 兩條線
+  - 均線
+  - 
+---
+
 ## 原則
 
 「站上均線、底部盤整、突破趨勢、漲勢確定」  
@@ -25,5 +46,5 @@
 
 5. [型態學](/stock/Typology-型態學)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjAyNTc5MV19
+eyJoaXN0b3J5IjpbLTE5NTYyOTExMTFdfQ==
 -->
