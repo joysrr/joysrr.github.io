@@ -1,6 +1,6 @@
 ---
 title: "Relationship between Volume and Price-量價關係"
-tagline: "股市技術面的其中一種方式，透過趨勢及指標辨識形態，以預測未來走向。"
+tagline: "股市技術面的其中一種方式，知悉價與量，掌握市場趨勢。"
 header:
   overlay_image: /assets/images/headerIMG01.jpg
   overlay_filter: 0.5
@@ -26,5 +26,5 @@ tags:
 > 參考資料
 >  [摸清9種量價關係 判別未來趨勢是漲、是跌！](https://www.wealth.com.tw/home/articles/20494)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0Mjk0Nzc3XX0=
+eyJoaXN0b3J5IjpbLTEwNDU0MTUyNzEsODg0Mjk0Nzc3XX0=
 -->
