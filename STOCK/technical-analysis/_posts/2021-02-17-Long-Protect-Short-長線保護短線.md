@@ -7,8 +7,8 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 categories:
-  - STOCK
-  - technical-analysis
+  - 股票
+  - 技術面
 excerpt: ""
 classes: wide
 tags:
@@ -20,5 +20,5 @@ tags:
 ---
 [長線保護短線原則](http://m.udn.com/xhtml/HistoryArt?articleid=4414391)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDc0NjU5OF19
+eyJoaXN0b3J5IjpbLTI0MzI1NDI5NF19
 -->
