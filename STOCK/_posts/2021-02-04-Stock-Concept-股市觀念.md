@@ -1,3 +1,22 @@
+---
+title: "Stock concept-股市觀念"
+tagline: "股市技術面的其中一種方式，透過趨勢及指標辨識形態，以預測未來走向。"
+header:
+  overlay_image: /assets/images/headerIMG01.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+classes: wide
+categories:
+  - STOCK
+excerpt: ""
+classes: wide
+tags:
+  - stock
+  - concept
+  - 股市念
+  - 觀念
+---
+
 ## 大原則
 >  先設定停損(風險)、接受大賺小賠、耐心等待、嚴格遵守進場原則
 
@@ -36,6 +55,6 @@
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDIzMzc3MDAsLTIxMjk1NDk3NTBdfQ
-==
+eyJoaXN0b3J5IjpbLTQxMDc3ODE4NywtMjAwMjMzNzcwMCwtMj
+EyOTU0OTc1MF19
 -->
