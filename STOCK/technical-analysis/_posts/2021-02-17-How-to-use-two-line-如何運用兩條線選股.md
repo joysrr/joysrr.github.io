@@ -7,8 +7,8 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 categories:
-  - STOCK
-  - technical-analysis
+  - 股票
+  - 技術面
 excerpt: "此方式參考林恩如的超簡單投資法，學習其中理論轉換成自己的投資方式"
 classes: wide
 tags:
@@ -45,5 +45,5 @@ tags:
 
 5. [型態學](/stock/Typology-型態學)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzE3ODM4M119
+eyJoaXN0b3J5IjpbODY1NDYxMTAxXX0=
 -->
