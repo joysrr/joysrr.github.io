@@ -62,6 +62,11 @@ tags:
 
 **台股投資人行事曆**
 
+|1月|2月|3月|4月|5月|6月|
+|--|--|--|--|--|--|
+|去年度營收狀況|--|--|
+
+
 **●每年1/10：**  
 公布前一年的12月整月營收，這時就可以知道去年整年度公司營收狀況
 
@@ -127,6 +132,6 @@ tags:
 	3. KD指標
 	4. 型態學
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3NjA4NDUsLTU5Mzk3OTkzNywtMjAwMj
-MzNzcwMCwtMjEyOTU0OTc1MF19
+eyJoaXN0b3J5IjpbNjAwMjE4NzMxLC01OTM5Nzk5MzcsLTIwMD
+IzMzc3MDAsLTIxMjk1NDk3NTBdfQ==
 -->
