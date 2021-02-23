@@ -4,7 +4,6 @@ layout: category
 permalink: /stock/chip-analysis/
 author_profile: false
 taxonomy: 籌碼面
-chip-analysis
 sidebar:
   title: "Stock-股票"
   nav: stock
@@ -17,5 +16,5 @@ header:
 
 > 籌碼面相關文章
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjM2MTgxM119
+eyJoaXN0b3J5IjpbLTIxMDM0MzMyMTBdfQ==
 -->
