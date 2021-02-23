@@ -9,11 +9,12 @@ classes: wide
 categories:
   - STOCK
   - fundamental-analysis
-excerpt: "公司營運狀況是中長期投資很重要的指標，即時取得這些資訊，在對的時間做分析。"
+excerpt: "公司營運狀況是中長期投資很重要的指標，即時取得財報資訊，在對的時間做適當分析。"
 classes: wide
 tags:
   - Financial report
   - 財報
+
 ---
 
 ## 一般上市櫃公司財報公布時間
@@ -107,5 +108,5 @@ tags:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTk2NTA2Myw2MjE3MjU5ODhdfQ==
+eyJoaXN0b3J5IjpbMTYxMTIyNTgwLDYyMTcyNTk4OF19
 -->
