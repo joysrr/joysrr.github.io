@@ -8,7 +8,7 @@ header:
 classes: wide
 categories:
   - STOCK
-  - technical-analysis
+  - fundamental-analysis
 excerpt: "公司營運狀況是中長期投資很重要的指標。"
 classes: wide
 tags:
@@ -107,5 +107,5 @@ tags:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDM1MDc4MF19
+eyJoaXN0b3J5IjpbNjIxNzI1OTg4XX0=
 -->
