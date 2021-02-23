@@ -9,14 +9,16 @@ classes: wide
 categories:
   - STOCK
   - technical-analysis
-excerpt: "透過學習技術面中的「型態學」，了解市場交易走向..."
+excerpt: ""
 classes: wide
 tags:
-  - cup and handle
-  - 杯型
+  - eight principles
+  - grampy
+  - 葛蘭碧
+  - 八大法則
 ---
 
 [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTU0NTcwXX0=
+eyJoaXN0b3J5IjpbLTQ1MTU0NjgzM119
 -->
