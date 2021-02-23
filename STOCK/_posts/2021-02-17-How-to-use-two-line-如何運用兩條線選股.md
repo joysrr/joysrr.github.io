@@ -1,6 +1,6 @@
 ---
 title: "How to use two line-如何運用兩條線選股"
-tagline: "股市技術面的其中一種方式，透過趨勢及指標辨識形態，以預測未來走向。"
+tagline: "選股方式，簡單、明瞭。"
 header:
   overlay_image: /assets/images/headerIMG01.jpg
   overlay_filter: 0.5
@@ -45,5 +45,5 @@ tags:
 
 5. [型態學](/stock/Typology-型態學)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTI0MTk0XX0=
+eyJoaXN0b3J5IjpbLTIyMzE3ODM4M119
 -->
