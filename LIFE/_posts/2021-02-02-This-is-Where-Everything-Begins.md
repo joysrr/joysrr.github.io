@@ -6,8 +6,6 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
-categories:
-  - 生活
 excerpt: ""
 classes: wide
 tags:
@@ -36,5 +34,5 @@ tags:
 
 ## 希望日後的自己會越來越好，保持單純，保持樂觀
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTAwMDQ1NTNdfQ==
+eyJoaXN0b3J5IjpbLTEyOTQ0NTU1MTZdfQ==
 -->
