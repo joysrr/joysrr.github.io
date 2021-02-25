@@ -3,11 +3,11 @@ title: "Tool-工具"
 layout: category
 permalink: /tool/
 author_profile: true
-taxonomy: Tool-工具
+taxonomy: Tool
 ---
 
 >This is my tools, 
 >This is What I used
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTYyMjQ1OF19
+eyJoaXN0b3J5IjpbMTI2MjIyMDAzXX0=
 -->
