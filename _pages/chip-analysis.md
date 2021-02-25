@@ -1,7 +1,7 @@
 ---
 title: "Chip Analysis 籌碼面"
 layout: category
-permalink: /stock/chip-analysis/
+permalink: /chip-analysis/
 author_profile: false
 taxonomy: Chip analysis
 sidebar:
