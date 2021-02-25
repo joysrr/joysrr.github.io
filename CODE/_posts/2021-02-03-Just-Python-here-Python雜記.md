@@ -6,8 +6,6 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
-categories:
-  - Code-程式
 excerpt: "紀錄一些Python開發的心得"
 classes: wide
 tags:
@@ -28,5 +26,5 @@ tags:
   2. 資料處理
   3. 資料儲存
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjIyOTI5NiwtMTEzMzY5NTY2XX0=
+eyJoaXN0b3J5IjpbLTkwMzc4ODc3LC0xMTMzNjk1NjZdfQ==
 -->
