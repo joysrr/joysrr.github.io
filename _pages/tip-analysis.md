@@ -1,7 +1,7 @@
 ---
 title: "Tip Analysis-消息面"
 layout: category
-permalink: /stock/tip-analysis/
+permalink: /tip-analysis/
 author_profile: false
 taxonomy: Tip analysis
 sidebar:
