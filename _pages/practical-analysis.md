@@ -1,7 +1,7 @@
 ---
 title: "Practical Analysis-實戰分析"
 layout: category
-permalink: /stock/practical-analysis/
+permalink: /practical-analysis/
 author_profile: false
 taxonomy: Practical analysis
 sidebar:
