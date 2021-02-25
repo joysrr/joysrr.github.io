@@ -3,11 +3,11 @@ title: "Language-語言"
 layout: category
 permalink: /lang/
 author_profile: true
-taxonomy: 語言
+taxonomy: Lang 語言
 ---
 
 >This is joysrr speaking, 
 >This is how I spoken
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU0NTU5MTRdfQ==
+eyJoaXN0b3J5IjpbLTE5NDQzODg2NDZdfQ==
 -->
