@@ -3,7 +3,7 @@ title: "Tip Analysis-消息面"
 layout: category
 permalink: /stock/tip-analysis/
 author_profile: false
-taxonomy: Tip analysis 消息面
+taxonomy: Tip analysis-消息面
 sidebar:
   title: "Stock-股票"
   nav: stock
@@ -15,5 +15,6 @@ header:
 
 > 消息面相關文章
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTEzODc1LDcwMDc3NzUyNF19
+eyJoaXN0b3J5IjpbLTkxNzczNjc5NCwxMjU5MTM4NzUsNzAwNz
+c3NTI0XX0=
 -->
