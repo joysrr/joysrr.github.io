@@ -6,8 +6,6 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
-categories:
-  - Lang-語言
 excerpt: ""
 classes: wide
 tags:
@@ -23,5 +21,5 @@ tags:
 3. fundamental 
 	> 基礎的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1ODU2ODM4XX0=
+eyJoaXN0b3J5IjpbMTA1NTU2MzQyXX0=
 -->
