@@ -3,7 +3,7 @@ title: "Fundamental Analysis-基本面"
 layout: category
 permalink: /stock/fundamental-analysis/
 author_profile: false
-taxonomy: 基本面
+taxonomy: Fundamental analysis 基本面
 sidebar:
   title: "Stock-股票"
   nav: stock
@@ -15,5 +15,5 @@ header:
 
 > 基本面相關文章
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTkzMjQ5M119
+eyJoaXN0b3J5IjpbLTE2MTM5ODEzNjZdfQ==
 -->
