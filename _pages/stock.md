@@ -3,7 +3,7 @@ title: "Stock-股票"
 layout: category
 permalink: /stock/
 author_profile: false
-taxonomy: Stock 股票
+taxonomy: Stock-股票
 sidebar:
   title: "Stock-股票"
   nav: stock
@@ -16,6 +16,6 @@ header:
 >This is Financial, 
 >This is how I earn money
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0NjA1MjM5LDc0Mzc1NjE3NiwtNTgxNT
-cyNjUzLC0xODE3ODUzNTMwXX0=
+eyJoaXN0b3J5IjpbLTEwNjU1MTYxNTYsNzQzNzU2MTc2LC01OD
+E1NzI2NTMsLTE4MTc4NTM1MzBdfQ==
 -->
