@@ -6,8 +6,6 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
-categories:
-  - Code-程式
 excerpt: "因為懶得看文件，只好藉由練習英文的藉口來試著翻譯看看並好好讀一下文件 ; )"
 classes: wide
 tags:
@@ -238,5 +236,5 @@ tags:
 
 ## 未完待續...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5Njg5NTc0NF19
+eyJoaXN0b3J5IjpbMjA3NDE5ODMyM119
 -->
