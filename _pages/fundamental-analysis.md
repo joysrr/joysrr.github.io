@@ -1,7 +1,7 @@
 ---
 title: "Fundamental Analysis-基本面"
 layout: category
-permalink: /stock/fundamental-analysis/
+permalink: /fundamental-analysis/
 author_profile: false
 taxonomy: Fundamental analysis
 sidebar:
