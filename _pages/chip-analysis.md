@@ -1,9 +1,9 @@
 ---
 title: "Chip Analysis 籌碼面"
 layout: category
-permalink: /stock/chip-analysis/
+permalink: /stock/chip-analysis-籌碼面/
 author_profile: false
-taxonomy: 籌碼面
+taxonomy: Chip-analysis-籌碼面
 sidebar:
   title: "Stock-股票"
   nav: stock
@@ -16,5 +16,5 @@ header:
 
 > 籌碼面相關文章
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM0MzMyMTBdfQ==
+eyJoaXN0b3J5IjpbMTgyMTA3MDg2NSwtMjEwMzQzMzIxMF19
 -->
