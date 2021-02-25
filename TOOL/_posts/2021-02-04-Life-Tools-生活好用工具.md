@@ -6,8 +6,6 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
-categories:
-  - 工具
 excerpt: "收集一些常用工具，日後再做詳細介紹。"
 classes: wide
 tags:
@@ -20,5 +18,5 @@ tags:
 	> Markdown線上編輯(支援GitHub)
 	此Blog就是利用此工具進行編輯的喔
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjY1OTAwNSwtNTk1ODM1NTI5XX0=
+eyJoaXN0b3J5IjpbLTk3MjYwNDE3MiwtNTk1ODM1NTI5XX0=
 -->
