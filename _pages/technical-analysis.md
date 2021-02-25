@@ -3,7 +3,7 @@ title: "Technical Analysis-技術面"
 layout: category
 permalink: /stock/technical-analysis/
 author_profile: false
-taxonomy: Technical analysis 技術面
+taxonomy: Technical analysis-技術面
 sidebar:
   title: "Stock-股票"
   nav: stock
@@ -15,5 +15,5 @@ header:
 
 > 技術面相關文章
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM4NzExMzVdfQ==
+eyJoaXN0b3J5IjpbMTQ2NzQ0NTQ5MiwtMTc4Mzg3MTEzNV19
 -->
