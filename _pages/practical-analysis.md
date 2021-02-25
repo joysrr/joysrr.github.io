@@ -3,7 +3,7 @@ title: "Practical Analysis-實戰分析"
 layout: category
 permalink: /stock/practical-analysis/
 author_profile: false
-taxonomy: Practical analysis-實戰分析
+taxonomy: Practical analysis
 sidebar:
   title: "Stock-股票"
   nav: stock
@@ -15,5 +15,5 @@ header:
 
 > 實戰分析相關文章
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMTk1MjY3XX0=
+eyJoaXN0b3J5IjpbMTYxMTAyMTYwMiw0NDAxOTUyNjddfQ==
 -->
