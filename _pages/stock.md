@@ -3,7 +3,7 @@ title: "Stock-股票"
 layout: category
 permalink: /stock/
 author_profile: false
-taxonomy: Stock-股票
+taxonomy: Stock股票
 sidebar:
   title: "Stock-股票"
   nav: stock
