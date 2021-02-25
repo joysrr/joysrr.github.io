@@ -15,12 +15,12 @@ stock:
   - title: "Overview 總覽"
     url: /stock/
   - title: "Fundamental Analysis-基本面"
-    url: /stock/fundamental-analysis/
+    url: /fundamental-analysis/
   - title: "Chip Analysis 籌碼面"
-    url: /stock/chip-analysis/
+    url: /chip-analysis/
   - title: "Technical Analysis-技術面"
-    url: /stock/technical-analysis/
+    url: /technical-analysis/
   - title: "Tip Analysis-消息面"
-    url: /stock/tip-analysis/
+    url: /tip-analysis/
   - title: "Practical Analysis-實戰分析"
-    url: /stock/practical-analysis/
+    url: /practical-analysis/
