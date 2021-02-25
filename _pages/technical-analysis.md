@@ -1,7 +1,7 @@
 ---
 title: "Technical Analysis-技術面"
 layout: category
-permalink: /stock/technical-analysis/
+permalink: /technical-analysis/
 author_profile: false
 taxonomy: Technical analysis
 sidebar:
