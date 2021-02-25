@@ -6,9 +6,6 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
-categories:
-  - 股票
-  - 基本面
 excerpt: "公司營運狀況是中長期投資很重要的指標，即時取得財報資訊，在對的時間做適當分析。"
 classes: wide
 tags:
@@ -108,5 +105,5 @@ tags:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzkxMDMxOV19
+eyJoaXN0b3J5IjpbMTU5MzAwOTYyXX0=
 -->
