@@ -6,8 +6,6 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
-categories:
-  - Code-程式
 excerpt: "Arrow套件使用紀錄"
 classes: wide
 tags:
@@ -26,5 +24,5 @@ tags:
 4. compare
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5Mzc5MjEyXX0=
+eyJoaXN0b3J5IjpbNDkzODgzODk3XX0=
 -->
