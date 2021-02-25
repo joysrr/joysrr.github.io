@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 categories:
-  - 語言
+  - Lang-語言
 excerpt: ""
 classes: wide
 tags:
@@ -23,5 +23,5 @@ tags:
 3. fundamental 
 	> 基礎的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczMzkyNzAzXX0=
+eyJoaXN0b3J5IjpbNDE1ODU2ODM4XX0=
 -->
