@@ -17,10 +17,10 @@ tags:
 last_modified_at: 2021-02-26
 ---
 ## 前言
-技術指標百百種，
+技術指標百百種，但其實大同小異都是要看趨勢，其中也有一些觀念需要有，那就是長線保護短線的概念，
 
 
 [長線保護短線原則](http://m.udn.com/xhtml/HistoryArt?articleid=4414391)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDI2NjQ3NF19
+eyJoaXN0b3J5IjpbNzU0MzI1MTQxXX0=
 -->
