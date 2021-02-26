@@ -16,7 +16,8 @@ tags:
 last_modified_at: 2021-02-26
 ---
 ## 前言
-最近我在分析[超簡單投資法](/stock/technical analysis/How-to-use-two-line-# 如何運用兩條線選股/)葛蘭碧八大法則是運用價格與移動平均線的
+最近我在分析[超簡單投資法](/stock/technical analysis/How-to-use-two-line-如何運用兩條線選股/)的相關原理，其中一個就是葛蘭碧八大法，這個方法是運用**價格**與**移動平均線**的關係，作為判斷市場進出的依據。
+大致上
 
 
 
@@ -25,5 +26,5 @@ last_modified_at: 2021-02-26
 > 參考資料
 > [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTU4OTQ5MF19
+eyJoaXN0b3J5IjpbLTQ5MzMxNjE2XX0=
 -->
