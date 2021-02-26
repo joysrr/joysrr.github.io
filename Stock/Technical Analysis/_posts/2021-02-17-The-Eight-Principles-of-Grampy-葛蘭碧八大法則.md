@@ -20,11 +20,11 @@ last_modified_at: 2021-02-26
 
 > 突破符號：**>>**
 
-|類型|價位與移動平均|移動平均趨勢|
-|--|--|--|
-|突破|價位>>移動平均|平緩、上升|
-|支撐|價位>||
-|假跌破|||
+|類型|價位與移動平均|價位趨勢|移動平均趨勢|
+|--|--|--|--|
+|突破|價位>>移動平均|上升|平緩、上升|
+|支撐|價位>移動平均|下降->上升||
+|假跌破||下降|上升|
 |反彈|||
 |跌破|||
 |阻力|||
@@ -54,6 +54,6 @@ last_modified_at: 2021-02-26
 > 參考資料
 > [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAwNDczNTUsLTE2ODIyMDEyMjAsMT
-A1NzE3MDEyMF19
+eyJoaXN0b3J5IjpbLTkxMjU1MTM3MSwtMTY4MjIwMTIyMCwxMD
+U3MTcwMTIwXX0=
 -->
