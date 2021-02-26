@@ -22,10 +22,12 @@ last_modified_at: 2021-02-26
 |--|--|--|
 |突破|||
 |支撐|||
-|突破|||
-|突破|||
-|突破|||
-|突破|||
+|假跌破|||
+|反彈|||
+|跌破|||
+|阻力|||
+|假突破|||
+|反轉|||
 
 1. 突破：當移動平均線從下降趨勢逐漸轉變為水平盤整或呈現上昇跡象時，若價位線從下方穿破移動平均線往上昇時，即為買進的訊號。
 
@@ -50,5 +52,5 @@ last_modified_at: 2021-02-26
 > 參考資料
 > [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjAwODE1NjQsMTA1NzE3MDEyMF19
+eyJoaXN0b3J5IjpbMTQ0MDU3Njk2OCwxMDU3MTcwMTIwXX0=
 -->
