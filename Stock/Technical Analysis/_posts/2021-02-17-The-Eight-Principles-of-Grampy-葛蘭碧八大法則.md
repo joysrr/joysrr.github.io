@@ -31,6 +31,8 @@ last_modified_at: 2021-02-26
 |假突破|價位>>移動平均->價位<<移動平均|上升->下降|下跌|賣出|
 |反轉|價位>>移動平均|急遽上升->下降||賣出|
 
+![葛蘭碧八大法則示意圖](https://i.imgur.com/zQBJNiS.jpg)
+
 1. 突破：當移動平均線從下降趨勢逐漸轉變為水平盤整或呈現上昇跡象時，若價位線從下方穿破移動平均線往上昇時，即為買進的訊號。
 
 2. 支撐：當價位線的趨勢走在移動平均線之上，價位線下跌但卻未跌破移動平均線便再度反彈上昇，亦可視為買進訊號。
@@ -54,6 +56,6 @@ last_modified_at: 2021-02-26
 > 參考資料
 > [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDI0MzAzMywtMTY4MjIwMTIyMCwxMD
-U3MTcwMTIwXX0=
+eyJoaXN0b3J5IjpbMTYxMjMzMDkzMSwtNTE0MjQzMDMzLC0xNj
+gyMjAxMjIwLDEwNTcxNzAxMjBdfQ==
 -->
