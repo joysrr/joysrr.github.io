@@ -23,10 +23,8 @@ last_modified_at: 2021-02-26
 
 ### 趨勢線方面，兩點成一線，在上漲格局中，底部會愈墊愈高，這時可以選擇兩個相對底部畫出一條上升趨勢線，只要守穩上升趨勢線，就表示上漲格局不變，持續偏多布局，一旦跌破上升趨勢線，行情則有反轉向下的疑慮
 
-
-
-
-[長線保護短線原則](http://m.udn.com/xhtml/HistoryArt?articleid=4414391)  
+> 參考資料
+> [長線保護短線原則](http://m.udn.com/xhtml/HistoryArt?articleid=4414391)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkzMzQ2NjZdfQ==
+eyJoaXN0b3J5IjpbNTAxMDI4MDcyXX0=
 -->
