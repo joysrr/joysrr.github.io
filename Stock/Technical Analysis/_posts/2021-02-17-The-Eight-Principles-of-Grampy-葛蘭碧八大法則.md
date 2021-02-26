@@ -33,10 +33,9 @@ last_modified_at: 2021-02-26
 
 ![葛蘭碧八大法則示意圖](https://i.imgur.com/zQBJNiS.jpg)
 
-
 > 參考資料
 > [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ3Mjc4ODYsLTUxNDI0MzAzMywtMT
-Y4MjIwMTIyMCwxMDU3MTcwMTIwXX0=
+eyJoaXN0b3J5IjpbMTcxNTQ0MTk1MiwtNTE0MjQzMDMzLC0xNj
+gyMjAxMjIwLDEwNTcxNzAxMjBdfQ==
 -->
