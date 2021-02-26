@@ -25,8 +25,8 @@ last_modified_at: 2021-02-26
 |突破|價位>>移動平均|上升|平緩、上升|
 |支撐|價位>移動平均|下降->上升||
 |假跌破|價位<<移動平均->價位>>移動平均|下降->上升|上升|
-|反彈|價位<<移動平均|急遽下降|
-|跌破|||
+|反彈|價位<<移動平均->價位<移動平均|急遽下降->上升||
+|跌破|價位<<移動平均|下降|平緩、下降|
 |阻力|||
 |假突破|||
 |反轉|||
@@ -54,6 +54,6 @@ last_modified_at: 2021-02-26
 > 參考資料
 > [葛蘭碧八大法則](https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=e9ec72de-5998-431b-bdaa-03f1447f95b0)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTI1MDE5OCwtMTY4MjIwMTIyMCwxMD
-U3MTcwMTIwXX0=
+eyJoaXN0b3J5IjpbODM2Mzk1Nzc0LC0xNjgyMjAxMjIwLDEwNT
+cxNzAxMjBdfQ==
 -->
