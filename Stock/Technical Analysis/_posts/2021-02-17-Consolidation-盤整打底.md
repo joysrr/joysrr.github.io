@@ -11,6 +11,7 @@ classes: wide
 tags:
   - consolidation
   - 盤整打底
+last_modified_at: 2021-02-27
 ---
 
 ## 前言
@@ -34,5 +35,5 @@ tags:
 > 參考資料
 > [熟記十三字口訣 抓底部起漲點、抱足大波段](https://ctee.com.tw/news/stock/121151.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjE2MTAzMCwtNDY3MDY4OTg5XX0=
+eyJoaXN0b3J5IjpbLTQ2ODY0ODc5OCwtNDY3MDY4OTg5XX0=
 -->
