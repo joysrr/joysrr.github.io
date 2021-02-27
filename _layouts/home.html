@@ -15,8 +15,10 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
-    <p>{% post.date %}</p>
-    <p>{% post.last_modified_at %}</p>
+    <div class="testArea">
+      <p>{% post.date %}</p>
+      <p>{% post.last_modified_at %}</p>
+    </div>
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
