@@ -24,10 +24,14 @@ tags:
 
 ![科斯托蘭尼雞蛋](https://i.imgur.com/VtEvqEi.jpg)
 
-|類別|成交量|騰落指標|
-|--|--|--|
-|熊一|高點->下降|1~0.75|
-
+|類別|價位|成交量|騰落指標|
+|--|--|--|--|
+|熊一||高點->下降|1~0.75|
+|熊二|上升|0.5~0.7|
+|熊三|低|0.7~0.8|
+|牛一|高點->下降|1~0.75|
+|牛二|高點->下降|1~0.75|
+|牛三|高點->下降|1~0.75|
 
 
 
@@ -35,6 +39,6 @@ tags:
 > [科斯托蘭尼雞蛋](https://xji6mp6cl4.pixnet.net/blog/post/351611360-%E7%A7%91%E6%96%AF%E6%89%98%E8%98%AD%E5%B0%BC%E7%9A%84%E5%8D%81%E5%BE%8B%E5%8D%81%E8%AA%A1%E8%88%87%E9%9B%9E%E8%9B%8B%E7%90%86%E8%AB%96)
 > [看懂多空大勢 股票投資已贏一半](https://www.businesstoday.com.tw/article-content-80402-110555)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzAxMDk2NCwxNTgxNDgyMTQ5LDEzND
-QwODI3NTEsMTQwNjcyMTYxMl19
+eyJoaXN0b3J5IjpbNzkxMDc2NTAzLDE1ODE0ODIxNDksMTM0ND
+A4Mjc1MSwxNDA2NzIxNjEyXX0=
 -->
