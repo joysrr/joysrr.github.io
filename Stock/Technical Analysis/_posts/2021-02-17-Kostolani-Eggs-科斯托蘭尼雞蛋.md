@@ -20,7 +20,7 @@ tags:
 安德烈．科斯托蘭尼（AndréKostolany）曾說：「在牛市中，即使是最差的投資人也能賺到一些錢；在熊市中，即使挑到好股票，也賺不到錢。因此，投資者應最看重的是趨勢，其次，才是選股。」
 
 市場巨大的波動趨勢，有如海邊潮汐，強湧強溯。一個成功的投資人，應當密切注意市場的巨大趨勢，順勢而動。
-
+![Imgur](https://i.imgur.com/CESklBs.png)
 
 ![科斯托蘭尼雞蛋](https://i.imgur.com/VtEvqEi.jpg)
 
@@ -39,10 +39,10 @@ tags:
 
 ### 十律
 
-1. 要有主見，三思後再決定；是否應該買進，如果是，在哪裡，什麼行業，哪個國家？  
-2. 要有足夠的資金，以免遭受壓力。  
-3. 要有耐心，因為任何事情都不可預測，發展方向都和大家想的不同。  
-4. **要**相信自己的判斷，並堅定不移。  
+1. **要**有主見，三思後再決定；是否應該買進，如果是，在哪裡，什麼行業，哪個國家？  
+2. **要**有足夠的資金，以免遭受壓力。  
+3. **要**有耐心，因為任何事情都不可預測，發展方向都和大家想的不同。  
+4. **要**相信自己的判斷並堅定不移。  
 5. **要**靈活，並時刻考慮到想法中可能有錯誤。  
 6. **要**看到出現新的局面，應該賣出。  
 7. **要**不時察看購買股票的清單，並檢查現在還可買進哪些股票。  
@@ -67,7 +67,7 @@ tags:
 > [科斯托蘭尼雞蛋](https://xji6mp6cl4.pixnet.net/blog/post/351611360-%E7%A7%91%E6%96%AF%E6%89%98%E8%98%AD%E5%B0%BC%E7%9A%84%E5%8D%81%E5%BE%8B%E5%8D%81%E8%AA%A1%E8%88%87%E9%9B%9E%E8%9B%8B%E7%90%86%E8%AB%96)
 > [看懂多空大勢 股票投資已贏一半](https://www.businesstoday.com.tw/article-content-80402-110555)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY3NzU5NTgsMTc0Mzk1Njg3NSwtMT
-YxMTIyMTY1OSwxNTgxNDgyMTQ5LDEzNDQwODI3NTEsMTQwNjcy
-MTYxMl19
+eyJoaXN0b3J5IjpbMTQ5NzI5NzA3NiwxNzQzOTU2ODc1LC0xNj
+ExMjIxNjU5LDE1ODE0ODIxNDksMTM0NDA4Mjc1MSwxNDA2NzIx
+NjEyXX0=
 -->
