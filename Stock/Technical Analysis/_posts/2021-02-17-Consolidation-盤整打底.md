@@ -29,10 +29,10 @@ tags:
 
 步驟四：將兩波的低點相連成上升趨勢線，當股價再度拉回，就可設定這條上升趨勢線的價位為買點，並以月線與跌破這條趨勢線為停損。
 
-
+![朱家泓關鍵一招心法](https://i.imgur.com/CVgliuH.jpg)
 
 > 參考資料
 > [熟記十三字口訣 抓底部起漲點、抱足大波段](https://ctee.com.tw/news/stock/121151.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzQ1NjA5NywtNDY3MDY4OTg5XX0=
+eyJoaXN0b3J5IjpbLTg0MjE2MTAzMCwtNDY3MDY4OTg5XX0=
 -->
