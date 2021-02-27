@@ -13,7 +13,12 @@ tags:
   - 盤整打底
 ---
 
-[盤整打底](https://ctee.com.tw/news/stock/121151.html)  
+## 前言
+
+
+
+> 參考資料
+> [熟記十三字口訣 抓底部起漲點、抱足大波段](https://ctee.com.tw/news/stock/121151.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzA2ODk4OV19
+eyJoaXN0b3J5IjpbLTc1MTg4ODk4NCwtNDY3MDY4OTg5XX0=
 -->
