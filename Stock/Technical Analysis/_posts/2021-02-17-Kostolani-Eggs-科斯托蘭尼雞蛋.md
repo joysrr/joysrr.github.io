@@ -68,11 +68,25 @@ last_modified_at: 2021-02-27
 9. **不要**在情緒上受政治好惡的影響。  
 10. 獲利時，**不要**過份自負。
 
+--
+Peter Navarro的十大原則抄一遍：  
+  
+一、 迅速認賠  
+二、 設定聰明停損點  
+三、 放手讓利潤越滾越大  
+四、 絕對不讓大贏家股變成輸家股  
+五、 絕對不要逢低攤平賠錢股  
+六、 克服過度操作的衝動—別炒弄你自己的投資組合  
+七、 在有趨勢的市場中利用市價單捕捉價格的波動  
+八、 在橫向盤整市場中利用限價單捕捉價差  
+九、 千萬別買首次上市新股  
+十、 選對經紀商—並仔細閱讀條款上的細字說明
+
 > 參考資料
 > [科斯托蘭尼雞蛋](https://xji6mp6cl4.pixnet.net/blog/post/351611360-%E7%A7%91%E6%96%AF%E6%89%98%E8%98%AD%E5%B0%BC%E7%9A%84%E5%8D%81%E5%BE%8B%E5%8D%81%E8%AA%A1%E8%88%87%E9%9B%9E%E8%9B%8B%E7%90%86%E8%AB%96)
 > [看懂多空大勢 股票投資已贏一半](https://www.businesstoday.com.tw/article-content-80402-110555)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzY0ODEzNDUsMTc0Mzk1Njg3NSwtMT
-YxMTIyMTY1OSwxNTgxNDgyMTQ5LDEzNDQwODI3NTEsMTQwNjcy
-MTYxMl19
+eyJoaXN0b3J5IjpbLTQxMDc2NTAyOCwxNzQzOTU2ODc1LC0xNj
+ExMjIxNjU5LDE1ODE0ODIxNDksMTM0NDA4Mjc1MSwxNDA2NzIx
+NjEyXX0=
 -->
