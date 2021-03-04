@@ -7,7 +7,6 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 excerpt: "收集一些常用工具，日後再做詳細介紹。"
-classes: wide
 tags:
   - tools
 ---
@@ -18,5 +17,5 @@ tags:
 	> Markdown線上編輯(支援GitHub)
 	此Blog就是利用此工具進行編輯的喔
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjYwNDE3Ml19
+eyJoaXN0b3J5IjpbLTI5MTg5MjUzNV19
 -->
