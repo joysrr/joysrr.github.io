@@ -18,7 +18,8 @@ tags:
 
 ## Tesseract是什麼?
 
-Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985年 至 1994年 間進行維護，在1996年為了與Windows對接進行改版，並且於1998年使用C++改寫. In 2005 Tesseract was open sourced by HP. Since 2006 it is developed by Google.
+Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985年 至 1994年 間進行維護，在1996年為了與Windows對接進行改版，並且於1998年使用C++改寫。
+In 2005 Tesseract was open sourced by HP. Since 2006 it is developed by Google.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxMTI2NjM1XX0=
+eyJoaXN0b3J5IjpbMjA2NTQ5NTIyM119
 -->
