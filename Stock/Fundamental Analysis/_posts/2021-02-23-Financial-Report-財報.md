@@ -7,7 +7,6 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 excerpt: "公司營運狀況是中長期投資很重要的指標，即時取得財報資訊，在對的時間做適當分析。"
-classes: wide
 tags:
   - financial report
   - 財報
@@ -105,5 +104,5 @@ tags:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzAwOTYyXX0=
+eyJoaXN0b3J5IjpbLTkxMjA5OTcwN119
 -->
