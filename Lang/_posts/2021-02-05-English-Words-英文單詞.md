@@ -7,7 +7,6 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 excerpt: ""
-classes: wide
 tags:
   - lang
 ---
@@ -21,5 +20,5 @@ tags:
 3. fundamental 
 	> 基礎的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTU2MzQyXX0=
+eyJoaXN0b3J5IjpbMTk3NTIyNTM0MV19
 -->
