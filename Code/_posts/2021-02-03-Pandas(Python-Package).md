@@ -7,7 +7,6 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 excerpt: "Pandas套件使用紀錄"
-classes: wide
 tags:
   - code
   - python
@@ -22,5 +21,5 @@ tags:
 3. column
 4. loc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDM2NDMxNl19
+eyJoaXN0b3J5IjpbOTcxNzAzNTU3XX0=
 -->
