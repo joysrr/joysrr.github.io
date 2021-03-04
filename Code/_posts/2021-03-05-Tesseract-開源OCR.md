@@ -21,8 +21,14 @@ tags:
 Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985年 至 1994年 間進行維護，在1996年為了與Windows對接進行改版，並且於1998年使用C++改寫。
 在2005年時，HP將Tesseract開源，現在由Google在2006年維護至今，目前版本已進入測試版(5.0)正式版(4.1.1)，並持續進行開發維護中。
 
+[開源網址](https://github.com/tesseract-ocr/tesseract)
+
 > 直接下結論了，由Google爸爸主導維護開發，相信一定有品質保證，可以放心使用了
-> 希望不會落得跟Inbox還有
+> 希望不會落得跟Inbox以及其他上百個項目一樣的下場[Killed By Google](https://killedbygoogle.com/)
+
+## 我的環境
+
+網路上目前使用的環境是
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDU2NTg4N119
+eyJoaXN0b3J5IjpbLTkyNTA3NTEwNiwxOTA0NTY1ODg3XX0=
 -->
