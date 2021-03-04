@@ -32,11 +32,15 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 此文章目標是希望透過WebServices把圖片的Stream傳送到Server，然後Server再將結果回傳，環境為Window+WebForm。
 
-> 幾十年的老架構了不要說為什麼不換新的，我沒有權決定啊......
+> 幾十年的老架構了，好像換新的啊......
+
+## 建置
+
+在GitHub上
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0MzI2Njc0LDE5MDQ1NjU4ODddfQ==
+eyJoaXN0b3J5IjpbMTExODQwMjE0LDE5MDQ1NjU4ODddfQ==
 -->
