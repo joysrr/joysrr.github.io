@@ -7,7 +7,6 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 excerpt: "技術指標中的觀念"
-classes: wide
 tags:
   - long 
   - protect
@@ -26,5 +25,5 @@ last_modified_at: 2021-02-26
 > 參考資料
 > [長線保護短線原則](http://m.udn.com/xhtml/HistoryArt?articleid=4414391)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMDI4MDcyXX0=
+eyJoaXN0b3J5IjpbMTExODU0NzAyMyw1MDEwMjgwNzJdfQ==
 -->
