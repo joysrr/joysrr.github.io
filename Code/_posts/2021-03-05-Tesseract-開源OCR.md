@@ -36,7 +36,7 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 ## 建置
 
-因為GitHub上的內容要經過建置才能使用，這不符合我快速達成目標的方式，所以此篇就不先討論了，如果你想用Console進行使用，可以透過安裝檔將其安裝至windows的環境中，可以參考[Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)，此GitHub有提供編譯好的安裝檔，只要設定好環境變數後就可以使用，而我這邊則是選擇Nuget直接將dll檔導入到我的專案中，單純的我以為這樣就可以了，但是因為我的Visual Studio專案是以網頁方式編譯，所以這個方法是不行的啊，我這邊手動把dll以及需要的內容移至Bin檔中，才終於可以，以下附上檔案，直接放在Bin就可以囉~
+因為GitHub上的內容要經過建置才能使用，這不符合我快速達成目標的方式，所以此篇就不先討論了，如果你想用Console進行使用，可以透過安裝檔將其安裝至windows的環境中，可以參考[Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)，此GitHub有提供編譯好的安裝檔，只要設定好環境變數後就可以使用，而我這邊則是選擇Nuget直接將dll檔導入到我的專案中，單純的我以為這樣就可以了，但是因為我的Visual Studio專案是以網頁方式編譯，所以這個方法是不行的啊，我這邊手動把dll以及需要的內容移至Bin檔中，才終於可以，以下附上檔案(版本4.1.1)，直接放在Bin就可以囉~
 [Tesseract-for-webform](https://github.com/joysrr/Tesseract-for-webform)
 包含Tesseract.dll、資料夾x86、x64、tessdata。
 
@@ -44,9 +44,11 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 放上去後我們的起手式就完成了，接下來最重要的是OCR的訓練檔案，也就是上方有提到的tessdata資料夾的內容，這邊我就直接使用他們提供的檔案，你也可以自己訓練，這部分就沒有在此篇介紹，說不定哪天會補坑吧~
 他們有提供BEST以及FAST的訓練資料可以下載，
+
 1. [tessdata_best](https://github.com/tesseract-ocr/tessdata_best)
 2. [tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)
 
+接下來依照要辨識的語言下載資料，英文是eng.traineddata，繁體中文是
 
 
 
@@ -59,6 +61,6 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTEwMDk0LC0yNjkzMDg0OTYsLTE2Mz
-A1NDA5OTEsMTExODQwMjE0LDE5MDQ1NjU4ODddfQ==
+eyJoaXN0b3J5IjpbLTEzNTAxODExODAsLTI2OTMwODQ5NiwtMT
+YzMDU0MDk5MSwxMTE4NDAyMTQsMTkwNDU2NTg4N119
 -->
