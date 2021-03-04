@@ -36,12 +36,15 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 ## 建置
 
-因為GitHub上的內容要經過建置才能使用，這不符合我快速達成目標的方式，所以此篇就不先討論了，如果你想用Console進行使用，可以透過安裝檔將其安裝至windows的環境中，可以參考[# Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)
+因為GitHub上的內容要經過建置才能使用，這不符合我快速達成目標的方式，所以此篇就不先討論了，如果你想用Console進行使用，可以透過安裝檔將其安裝至windows的環境中，可以參考[Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)，此GitHub有提供編譯好的安裝檔，只要設定好環境變數後就可以使用，而我這邊則是選擇Nuget直接將dll檔導入到我的專案中。
+
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5MzYzNDQ2LDExMTg0MDIxNCwxOTA0NT
-Y1ODg3XX0=
+eyJoaXN0b3J5IjpbLTE2MzA1NDA5OTEsMTExODQwMjE0LDE5MD
+Q1NjU4ODddfQ==
 -->
