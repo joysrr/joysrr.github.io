@@ -36,7 +36,8 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 ## 建置
 
-因為GitHub上的內容要經過建置才能使用，這不符合我快速達成目標的方式，所以此篇就不先討論了，如果你想用Console進行使用，可以透過安裝檔將其安裝至windows的環境中，可以參考[Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)，此GitHub有提供編譯好的安裝檔，只要設定好環境變數後就可以使用，而我這邊則是選擇Nuget直接將dll檔導入到我的專案中，單純的我以為這樣就可以了，但是因為我的Visual Studio專案是以網頁方式編譯，所以這個方法是不行的啊，我這邊手動把dll以及需要的內容移至Bin檔中，才終於可以，以下附上。
+因為GitHub上的內容要經過建置才能使用，這不符合我快速達成目標的方式，所以此篇就不先討論了，如果你想用Console進行使用，可以透過安裝檔將其安裝至windows的環境中，可以參考[Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)，此GitHub有提供編譯好的安裝檔，只要設定好環境變數後就可以使用，而我這邊則是選擇Nuget直接將dll檔導入到我的專案中，單純的我以為這樣就可以了，但是因為我的Visual Studio專案是以網頁方式編譯，所以這個方法是不行的啊，我這邊手動把dll以及需要的內容移至Bin檔中，才終於可以，以下附上檔案，直接放在Bin就可以囉~
+[]()
 
 > 哭啊 這個問題我測了半天才發現......
 
@@ -49,6 +50,6 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzMzMjI3NywtMTYzMDU0MDk5MSwxMT
+eyJoaXN0b3J5IjpbLTI2OTMwODQ5NiwtMTYzMDU0MDk5MSwxMT
 E4NDAyMTQsMTkwNDU2NTg4N119
 -->
