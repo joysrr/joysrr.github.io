@@ -52,8 +52,32 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 ## 程式碼
 
+	[WebMethod(Description = "載入圖片讀取文字(OCR)")]
+    public string LoadText(Stream imgStream, string lang="eng")
+    {
+		string mean = "", result = "";
+        if (imgStream != null)
+        {
+            using (var engine = new TesseractEngine(Server.MapPath(@"~/Bin/tessdata"), lang, EngineMode.Default))
+            {
+                // have to load Pix via a bitmap since Pix doesn't support loading a stream.
+                using (var image = new System.Drawing.Bitmap(imgStream))
+                {
+                    using (var pix = PixConverter.ToPix(image))
+                    {
+                        using (var page = engine.Process(pix))
+                        {
+                            mean = String.Format("{0:P}", page.GetMeanConfidence());
+                            result = page.GetText();
+                        }
+                    }
+                }
+            }
+        }
+        return mean+","+result;
+    }
 
-
+就是
 
 
 
@@ -65,6 +89,6 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE3NDc5NzksLTI2OTMwODQ5NiwtMT
-YzMDU0MDk5MSwxMTE4NDAyMTQsMTkwNDU2NTg4N119
+eyJoaXN0b3J5IjpbLTkzODYyMjc1MSwtMjY5MzA4NDk2LC0xNj
+MwNTQwOTkxLDExMTg0MDIxNCwxOTA0NTY1ODg3XX0=
 -->
