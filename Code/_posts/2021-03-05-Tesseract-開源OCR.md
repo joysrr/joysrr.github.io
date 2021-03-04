@@ -42,7 +42,8 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 > 哭啊 這個問題我測了半天才發現......
 
-放上去後我們的起手式就完成了，接下來最重要的是OCR的訓練檔案，也就是上方有提到的tessdata檔案，
+放上去後我們的起手式就完成了，接下來最重要的是OCR的訓練檔案，也就是上方有提到的tessdata資料夾的內容，這邊我就直接使用他們提供的檔案，你也可以自己訓練，這部分就沒有在此篇介紹，說不定哪天會補坑吧~
+
 
 
 
@@ -54,6 +55,6 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzg2MjEyMSwtMjY5MzA4NDk2LC0xNj
-MwNTQwOTkxLDExMTg0MDIxNCwxOTA0NTY1ODg3XX0=
+eyJoaXN0b3J5IjpbLTE4NjMzMDg2MjAsLTI2OTMwODQ5NiwtMT
+YzMDU0MDk5MSwxMTE4NDAyMTQsMTkwNDU2NTg4N119
 -->
