@@ -28,7 +28,9 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 ## 我的環境
 
-網路上目前使用的環境是
+網路上目前都有很多的範例，，使用的環境是windows+webform，最終目標是希望透過WebServices把圖片的Stream傳送到Server，然後Server再將結果回傳。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTA3NTEwNiwxOTA0NTY1ODg3XX0=
+eyJoaXN0b3J5IjpbMjE0Njc2NjA4OSwxOTA0NTY1ODg3XX0=
 -->
