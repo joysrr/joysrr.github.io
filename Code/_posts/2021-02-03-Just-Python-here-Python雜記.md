@@ -7,7 +7,6 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 excerpt: "紀錄一些Python開發的心得"
-classes: wide
 tags:
   - code
   - python
@@ -26,5 +25,5 @@ tags:
   2. 資料處理
   3. 資料儲存
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzc4ODc3XX0=
+eyJoaXN0b3J5IjpbOTIwNTUzMzA0XX0=
 -->
