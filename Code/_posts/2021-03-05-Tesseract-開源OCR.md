@@ -28,9 +28,15 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 ## 我的環境
 
-網路上目前都有很多的範例，包含在各個平台的應用，還有Python上結合[OpenCV](https://opencv.org/)改善辨識的圖片，再丟到Tesseract進行辨識，目前我的目標先設定在建置(老闆是這樣跟我說的><)，其他的坑就有空再來補吧!，使用的環境是windows+webform，最終目標是希望透過WebServices把圖片的Stream傳送到Server，然後Server再將結果回傳。
+網路上目前都有很多的範例，包含在各個平台的應用，還有Python上結合[OpenCV](https://opencv.org/)改善辨識的圖片，再丟到Tesseract進行辨識，目前我的目標先設定在建置(老闆是這樣跟我說的><)，其他的坑就有空再來補吧!
+
+此文章目標是希望透過WebServices把圖片的Stream傳送到Server，然後Server再將結果回傳，環境為Window+WebForm。
+
+> 幾十年的老架構了不要說為什麼不換新的，我沒有權決定啊......
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTE0MTY3MywxOTA0NTY1ODg3XX0=
+eyJoaXN0b3J5IjpbOTk0MzI2Njc0LDE5MDQ1NjU4ODddfQ==
 -->
