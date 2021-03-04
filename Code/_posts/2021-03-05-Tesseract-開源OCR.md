@@ -6,13 +6,12 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
-excerpt: "Tesseract"
-classes: wide
+excerpt: "Tesseract應用實例"
 tags:
   - code
-  - python
-  - arrow
+  - Tesseract
+  - Visu
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mzk1NDI1NF19
+eyJoaXN0b3J5IjpbMTMzMjIwNDkwN119
 -->
