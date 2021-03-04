@@ -36,11 +36,12 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 ## 建置
 
-在GitHub上
+因為GitHub上的內容要經過建置才能使用，這不符合我快速達成目標的方式
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODQwMjE0LDE5MDQ1NjU4ODddfQ==
+eyJoaXN0b3J5IjpbMTg1Nzk1MjA1LDExMTg0MDIxNCwxOTA0NT
+Y1ODg3XX0=
 -->
