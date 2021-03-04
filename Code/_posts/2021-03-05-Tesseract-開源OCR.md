@@ -48,7 +48,11 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 1. [tessdata_best](https://github.com/tesseract-ocr/tessdata_best)
 2. [tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)
 
-接下來依照要辨識的語言下載資料，英文是eng.traineddata，繁體中文是
+接下來依照要辨識的語言下載資料，英文是eng.traineddata，繁體中文是chi_tra.traineddata，還有直向版chi_tra_vert.traineddata，檔案放置好後一切準備就緒就可以開始Coding啦
+
+## 程式碼
+
+
 
 
 
@@ -61,6 +65,6 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAxODExODAsLTI2OTMwODQ5NiwtMT
+eyJoaXN0b3J5IjpbLTE2MjE3NDc5NzksLTI2OTMwODQ5NiwtMT
 YzMDU0MDk5MSwxMTE4NDAyMTQsMTkwNDU2NTg4N119
 -->
