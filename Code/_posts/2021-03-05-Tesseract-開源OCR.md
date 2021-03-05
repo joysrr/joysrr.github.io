@@ -78,6 +78,9 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
         return mean+","+result;
     }
 
+如果有出現**DllNotFoundException: Failed to find library "tesseract41.dll" for platform x64.**的訊息，
+必須安裝相依套件[Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads))
+
 ## 結論
 蛤? 程式碼怎麼就這樣?
 沒錯就是這麼簡單，輕輕鬆鬆就可以開始使用辨識~
@@ -94,7 +97,7 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTgzNTA1NywtMTUzNTAzMDI2NywtMj
-Y5MzA4NDk2LC0xNjMwNTQwOTkxLDExMTg0MDIxNCwxOTA0NTY1
-ODg3XX0=
+eyJoaXN0b3J5IjpbMjExMDgxMDE4OCwtODg5ODM1MDU3LC0xNT
+M1MDMwMjY3LC0yNjkzMDg0OTYsLTE2MzA1NDA5OTEsMTExODQw
+MjE0LDE5MDQ1NjU4ODddfQ==
 -->
