@@ -77,7 +77,11 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
         return mean+","+result;
     }
 
-就是
+## 結論
+蛤? 程式碼怎麼就這樣?
+沒錯就是這麼簡單，輕輕鬆鬆就可以開始使用辨識~
+
+
 
 
 
@@ -89,6 +93,6 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODYyMjc1MSwtMjY5MzA4NDk2LC0xNj
+eyJoaXN0b3J5IjpbLTMyODkyNzE4OSwtMjY5MzA4NDk2LC0xNj
 MwNTQwOTkxLDExMTg0MDIxNCwxOTA0NTY1ODg3XX0=
 -->
