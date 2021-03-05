@@ -45,8 +45,9 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 放上去後我們的起手式就完成了，接下來最重要的是OCR的訓練檔案，也就是上方有提到的tessdata資料夾的內容，這邊我就直接使用他們提供的檔案，你也可以自己訓練，這部分就沒有在此篇介紹，說不定哪天會補坑吧~
 他們有提供BEST以及FAST的訓練資料可以下載，
 
-1. [tessdata_best](https://github.com/tesseract-ocr/tessdata_best)
-2. [tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)
+1. [tessdate](https://github.com/tesseract-ocr/tessdata) => 測試後中文辨識最好
+2. [tessdata_best](https://github.com/tesseract-ocr/tessdata_best)
+3. [tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)
 
 接下來依照要辨識的語言下載資料，英文是eng.traineddata，繁體中文是chi_tra.traineddata，還有直向版chi_tra_vert.traineddata，檔案放置好後一切準備就緒就可以開始Coding啦
 
@@ -93,6 +94,7 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzUwMzAyNjcsLTI2OTMwODQ5NiwtMT
-YzMDU0MDk5MSwxMTE4NDAyMTQsMTkwNDU2NTg4N119
+eyJoaXN0b3J5IjpbLTg4OTgzNTA1NywtMTUzNTAzMDI2NywtMj
+Y5MzA4NDk2LC0xNjMwNTQwOTkxLDExMTg0MDIxNCwxOTA0NTY1
+ODg3XX0=
 -->
