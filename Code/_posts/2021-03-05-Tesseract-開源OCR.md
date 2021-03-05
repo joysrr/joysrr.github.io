@@ -81,7 +81,7 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 蛤? 程式碼怎麼就這樣?
 沒錯就是這麼簡單，輕輕鬆鬆就可以開始使用辨識~
 
-但其實後面還有無數個坑，可以辨識，不代表結果就是正確的，如果你是特定的環境下人為拍攝的照片，肯定會有很多需要克服的問題，需要透過OpenCV去除雜訊，甚至需要重新進行訓，在訓練之前最好是要先設定一個目標，畢竟訓練資料如果太雜亂，可能效果也不是很好，那麼我的Tesseract之旅大概就到這邊告一段落，弄了一天，之後再來研究一下Ope
+但其實後面還有無數個坑，可以辨識，不代表結果就是正確的，如果你是特定的環境下人為拍攝的照片，肯定會有很多需要克服的問題，需要透過OpenCV去除雜訊，甚至需要重新進行訓，在訓練之前最好是要先設定一個目標，畢竟訓練資料如果太雜亂，可能效果也不是很好，那麼我的Tesseract之旅大概就到這邊告一段落，弄了一天，之後再來研究一下OpenCV還有Training的東東吧!
 
 
 
@@ -93,6 +93,6 @@ Tesseract 原本是HP(惠普)公司進行研發，由Greeley Colorado 在 1985�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEyMTI0NSwtMjY5MzA4NDk2LC0xNj
-MwNTQwOTkxLDExMTg0MDIxNCwxOTA0NTY1ODg3XX0=
+eyJoaXN0b3J5IjpbLTE1MzUwMzAyNjcsLTI2OTMwODQ5NiwtMT
+YzMDU0MDk5MSwxMTE4NDAyMTQsMTkwNDU2NTg4N119
 -->
