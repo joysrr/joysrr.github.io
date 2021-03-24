@@ -17,7 +17,7 @@ tags:
 > 這邊不是推銷沒有業配啦
 
 桌面版使用下來莫名地佔用CPU，初估可能是他的架構設計的關係
-> 開了一堆chromium去run，超佔資源的啦
+> 開了一堆chromium去run，超佔資源的QQ
 
 逼得我必須使用網頁版，但網頁版的通知又弱弱的，並沒有導入Notification API，讓我常常忽略訊息被人念!
 所以下面介紹一下如何自己加通知，既輕量又能達到目的~~
@@ -128,7 +128,7 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDY1MjMwNCw0ODU0ODQ2NzgsLTEwOD
-MwNjIzMTAsLTE2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLTE3MTYw
-Nzg5NDBdfQ==
+eyJoaXN0b3J5IjpbMTUyODE3OTUzNCwtOTMwNjUyMzA0LDQ4NT
+Q4NDY3OCwtMTA4MzA2MjMxMCwtMTY2NDQxNTEyOSwtMTY2ODE2
+NTc3NiwtMTcxNjA3ODk0MF19
 -->
