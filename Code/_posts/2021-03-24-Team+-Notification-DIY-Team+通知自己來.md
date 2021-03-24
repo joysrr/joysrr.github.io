@@ -52,7 +52,16 @@ tags:
 	4. 新增腳本
 	![新增腳本](https://i.imgur.com/STbLQiI.png)
 	5.  貼上程式碼
-		註解有大概說明	 
+		#### 註解有大概說明程式碼內容，記得要把url改成自己的連結，不然點擊會失效~
+			 // ==UserScript==
+			// @name         Team+ Notification
+			// @namespace    http://tampermonkey.net/
+			// @version      0.1
+			// @description  Show Team+ Notification by browser
+			// @author       joysrr
+			// @match        http://tp.cht-pt.com.tw/*
+			// @grant        none
+			// ==/UserScript==
 			(function() {
 			    'use strict';
 			    if (('Notification' in window)) {
@@ -119,6 +128,6 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTUwMjQzNSwtMTA4MzA2MjMxMCwtMT
+eyJoaXN0b3J5IjpbLTk0MjU1NTkyNCwtMTA4MzA2MjMxMCwtMT
 Y2NDQxNTEyOSwtMTY2ODE2NTc3NiwtMTcxNjA3ODk0MF19
 -->
