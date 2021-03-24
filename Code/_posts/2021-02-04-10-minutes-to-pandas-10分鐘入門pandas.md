@@ -7,11 +7,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "因為懶得看文件，只好藉由練習英文的藉口來試著翻譯看看並好好讀一下文件 ; )"
 classes: wide
-tags:
-  - code
-  - python
-  - pandas
-  - translation
+tags: code, python, pandas, translation
 ---
 
 
@@ -234,5 +230,3 @@ tags:
 
 
 ## 未完待續...
-
-###### tags: code
