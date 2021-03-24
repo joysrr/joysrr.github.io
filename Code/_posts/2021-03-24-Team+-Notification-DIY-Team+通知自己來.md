@@ -54,50 +54,50 @@ tags:
 	5.  貼上程式碼(每10秒檢查一次)
 	 
 			(function() {
-		    'use strict';
-		    if (('Notification' in window)) {
-		        let unreadcount = 0, title = '';
-		        setInterval(()=>{
-		            const chatView = document.getElementById('divPersonalLogSideBar')
-		            if(chatView){
-		                //chat page
-		                const unreadList = chatView.querySelectorAll('.unreadCount');
-		                unreadList.forEach(unread=>{
-		                    unreadcount = unread.innerText;
-		                    title = unread.parentElement.querySelector('.chatName').title;
-		                    showNotify(unreadcount, title);
-		                })
-		            }else{
-		                // other page
-		                const notice = document.querySelectorAll('.noticeBadge')
-		                for(let i = 0; i < notice.length;i++){
-		                    unreadcount = parseInt(notice[i].innerText);
-		                    if(unreadcount>0){
-		                        showNotify(unreadcount);
-		                        break;
-		                    }
-		                }
-		            }
-		        }, 10000)
-		    }
+			    'use strict';
+			    if (('Notification' in window)) {
+			        let unreadcount = 0, title = '';
+			        setInterval(()=>{
+			            const chatView = document.getElementById('divPersonalLogSideBar')
+			            if(chatView){
+			                //chat page
+			                const unreadList = chatView.querySelectorAll('.unreadCount');
+			                unreadList.forEach(unread=>{
+			                    unreadcount = unread.innerText;
+			                    title = unread.parentElement.querySelector('.chatName').title;
+			                    showNotify(unreadcount, title);
+			                })
+			            }else{
+			                // other page
+			                const notice = document.querySelectorAll('.noticeBadge')
+			                for(let i = 0; i < notice.length;i++){
+			                    unreadcount = parseInt(notice[i].innerText);
+			                    if(unreadcount>0){
+			                        showNotify(unreadcount);
+			                        break;
+			                    }
+			                }
+			            }
+			        }, 10000)
+			    }
 
-		    function showNotify(unread = '*', tag = 'default'){
-		        // 使用者同意授權
-		        Notification.requestPermission(function(permission) {
-		            if (permission === 'granted') {
-		                // 建立通知
-		                var notification = new Notification(`Team+[${tag=='default'?unread:tag}]`,{
-		                    body: `您有${unread}則新的訊息，請回覆!`, // 設定內容
-		                    icon: '../Images/chatsbg.png', // 設定 icon
-		                    tag:tag, // 標籤
-		                    renotify: true, // 重新通知
-		                }).onclick = function(e) { // 點擊
-		                    e.preventDefault();
-		                    window.open('http://tp.cht-pt.com.tw/EIM/Chat/ChatMain.aspx'); // 打開Team+訊息視窗
-		                };
-		            }
-		        });
-		    }
+			    function showNotify(unread = '*', tag = 'default'){
+			        // 使用者同意授權
+			        Notification.requestPermission(function(permission) {
+			            if (permission === 'granted') {
+			                // 建立通知
+			                var notification = new Notification(`Team+[${tag=='default'?unread:tag}]`,{
+			                    body: `您有${unread}則新的訊息，請回覆!`, // 設定內容
+			                    icon: '../Images/chatsbg.png', // 設定 icon
+			                    tag:tag, // 標籤
+			                    renotify: true, // 重新通知
+			                }).onclick = function(e) { // 點擊
+			                    e.preventDefault();
+			                    window.open('http://tp.cht-pt.com.tw/EIM/Chat/ChatMain.aspx'); // 打開Team+訊息視窗
+			                };
+			            }
+			        });
+			    }
 			})();
 			
 3. 步驟三：效果確認
@@ -113,6 +113,6 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzMTQwMDQ3LC0xNjY4MTY1Nzc2LC0xNz
-E2MDc4OTQwXX0=
+eyJoaXN0b3J5IjpbLTE2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLT
+E3MTYwNzg5NDBdfQ==
 -->
