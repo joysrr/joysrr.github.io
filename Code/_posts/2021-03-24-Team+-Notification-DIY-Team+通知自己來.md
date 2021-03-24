@@ -123,12 +123,13 @@ tags:
 這只是一個簡單的小工具，避免你不回訊息被人盯上......
 程式碼有放上[GitHub](https://github.com/joysrr/Teamplus-NotificationWeb)歡迎大家提出想法意見一起改進喔~
 
+-----
 > 參考資料
 > [Notification（通知）：利用 JavaScript 實作瀏覽器推播通知](https://cythilya.github.io/2017/07/09/notification/#comment-3670533584)
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODE3OTUzNCwtOTMwNjUyMzA0LDQ4NT
+eyJoaXN0b3J5IjpbMTQxMDYzNjQzMSwtOTMwNjUyMzA0LDQ4NT
 Q4NDY3OCwtMTA4MzA2MjMxMCwtMTY2NDQxNTEyOSwtMTY2ODE2
 NTc3NiwtMTcxNjA3ODk0MF19
 -->
