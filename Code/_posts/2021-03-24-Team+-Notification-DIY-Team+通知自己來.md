@@ -118,7 +118,7 @@ tags:
 	現在你可以享受流暢的電腦並且也可以即時收發訊息，
 	訊息提供發訊息者、幾則未讀，點擊後可連結至Team+訊息頁面
 
-![效果](https://i.imgur.com/Wo25uBh.png)
+	![效果](https://i.imgur.com/Wo25uBh.png)
 
 ### 完成!!!
 
@@ -132,7 +132,7 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Nzk2NzUxMSwtOTMwNjUyMzA0LDQ4NT
-Q4NDY3OCwtMTA4MzA2MjMxMCwtMTY2NDQxNTEyOSwtMTY2ODE2
-NTc3NiwtMTcxNjA3ODk0MF19
+eyJoaXN0b3J5IjpbLTE2MTIzODUwNDEsMTU0Nzk2NzUxMSwtOT
+MwNjUyMzA0LDQ4NTQ4NDY3OCwtMTA4MzA2MjMxMCwtMTY2NDQx
+NTEyOSwtMTY2ODE2NTc3NiwtMTcxNjA3ODk0MF19
 -->
