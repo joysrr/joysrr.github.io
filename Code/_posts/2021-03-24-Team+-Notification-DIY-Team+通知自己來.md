@@ -39,6 +39,7 @@ tags:
 		![Chrome設定](https://i.imgur.com/kLUhFLg.png)
 	3. 重啟Chrome
 	4. 該網站就可以使用Notification API啦
+	
 ![啟用通知](https://i.imgur.com/zzjJ5PG.png)
 
 2. 步驟二：編寫腳本
@@ -47,11 +48,12 @@ tags:
 	2. 將未讀數已通知方式傳送給使用者知道
 	
 	### Tampermonkey步驟：
-	3. [安裝套件](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW)
+	1. [安裝套件](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW)
 	
-	4. 新增腳本
+	2. 新增腳本
+	
 	![新增腳本](https://i.imgur.com/STbLQiI.png)
-	5.  貼上程式碼
+	3.  貼上程式碼
 		#### 註解有大概說明程式碼內容，記得要把url改成自己的連結，不然點擊會失效~
 			// ==UserScript==
 			// @name         Team+ Notification
@@ -129,7 +131,7 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDYzNjQzMSwtOTMwNjUyMzA0LDQ4NT
-Q4NDY3OCwtMTA4MzA2MjMxMCwtMTY2NDQxNTEyOSwtMTY2ODE2
-NTc3NiwtMTcxNjA3ODk0MF19
+eyJoaXN0b3J5IjpbLTE0NTgwNjIyMzUsLTkzMDY1MjMwNCw0OD
+U0ODQ2NzgsLTEwODMwNjIzMTAsLTE2NjQ0MTUxMjksLTE2Njgx
+NjU3NzYsLTE3MTYwNzg5NDBdfQ==
 -->
