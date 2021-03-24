@@ -30,11 +30,11 @@ tags:
 > 實際操作可能會因為不同瀏覽器版本需要做調整
 
 ## 開始設定
-●步驟一：設定Chrome
+* 步驟一：設定Chrome
 因為公司的Team+是架設在內網，所以被Chrome認定為不安全網域，沒辦法使用Notification API，可參考[官方說明](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 ![設定](https://i.imgur.com/GCAVSkG.png)
 	
-#### 直接畫重點
+**直接畫重點**
 	
    1. 前往Chrome進階設定-chrome://flags/#unsafely-treat-insecure-origin-as-secure)
    2. 加入Team+網址
@@ -44,12 +44,12 @@ tags:
 	
 		![啟用通知](https://i.imgur.com/zzjJ5PG.png)
 
-2. 步驟二：編寫腳本
+* 步驟二：編寫腳本
 	簡單說明一下原理
 	1. 讀取頁面通知Tag，抓取未讀通知數
 	2. 將未讀數已通知方式傳送給使用者知道
 	
-	#### Tampermonkey步驟：
+	**Tampermonkey步驟：**
 	
 	1. [安裝套件](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW)
 	
@@ -139,7 +139,7 @@ tags:
 			    }
 			})();
 			
-3. 步驟三：效果確認
+* 步驟三：效果確認
 
 	現在你可以享受流暢的電腦並且也可以即時收發訊息，
 	訊息提供發訊息者、幾則未讀，點擊後可連結至Team+訊息頁面
@@ -158,8 +158,9 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzA4MDM0NSwtMTQ1Nzc2MTAxOSwxMD
-gxMjAyNjEsLTE2MTIzODUwNDEsMTU0Nzk2NzUxMSwtOTMwNjUy
-MzA0LDQ4NTQ4NDY3OCwtMTA4MzA2MjMxMCwtMTY2NDQxNTEyOS
-wtMTY2ODE2NTc3NiwtMTcxNjA3ODk0MF19
+eyJoaXN0b3J5IjpbMjY4MDEyNzk1LC0zMDcwODAzNDUsLTE0NT
+c3NjEwMTksMTA4MTIwMjYxLC0xNjEyMzg1MDQxLDE1NDc5Njc1
+MTEsLTkzMDY1MjMwNCw0ODU0ODQ2NzgsLTEwODMwNjIzMTAsLT
+E2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLTE3MTYwNzg5NDBdfQ==
+
 -->
