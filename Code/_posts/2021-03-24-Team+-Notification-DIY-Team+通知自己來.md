@@ -95,6 +95,7 @@ tags:
 > 參考資料
 > [Notification（通知）：利用 JavaScript 實作瀏覽器推播通知](https://cythilya.github.io/2017/07/09/notification/#comment-3670533584)
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
+>[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQ2MTQ4ODhdfQ==
+eyJoaXN0b3J5IjpbLTcyNDY3NjMzMl19
 -->
