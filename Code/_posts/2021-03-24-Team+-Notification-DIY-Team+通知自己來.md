@@ -98,7 +98,7 @@ tags:
 		            }
 		        });
 		    }
-		})();
+			})();
 			
 3. 步驟三：效果確認
 
@@ -113,6 +113,6 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYxNTQ5NjksLTE2NjgxNjU3NzYsLT
-E3MTYwNzg5NDBdfQ==
+eyJoaXN0b3J5IjpbNzQzMTQwMDQ3LC0xNjY4MTY1Nzc2LC0xNz
+E2MDc4OTQwXX0=
 -->
