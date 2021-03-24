@@ -46,8 +46,8 @@ tags:
 
 * 步驟二：編寫腳本
 	簡單說明一下原理
-	1. 讀取頁面通知Tag，抓取未讀通知數
-	2. 將未讀數已通知方式傳送給使用者知道
+	a. 讀取頁面通知Tag，抓取未讀通知數
+	b. 將未讀數已通知方式傳送給使用者知道
 	
 	**Tampermonkey步驟：**
 	
@@ -146,8 +146,6 @@ tags:
 
 	![效果](https://i.imgur.com/Wo25uBh.png)
 
-### 完成!!!
-
 ## 結語
 這只是一個簡單的小工具，避免你不回訊息被人盯上......
 程式碼有放上[GitHub](https://github.com/joysrr/Teamplus-NotificationWeb)歡迎大家提出想法意見一起改進喔~
@@ -158,9 +156,9 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4MDEyNzk1LC0zMDcwODAzNDUsLTE0NT
-c3NjEwMTksMTA4MTIwMjYxLC0xNjEyMzg1MDQxLDE1NDc5Njc1
-MTEsLTkzMDY1MjMwNCw0ODU0ODQ2NzgsLTEwODMwNjIzMTAsLT
-E2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLTE3MTYwNzg5NDBdfQ==
+eyJoaXN0b3J5IjpbLTIxMjg5NDgyOTMsLTMwNzA4MDM0NSwtMT
+Q1Nzc2MTAxOSwxMDgxMjAyNjEsLTE2MTIzODUwNDEsMTU0Nzk2
+NzUxMSwtOTMwNjUyMzA0LDQ4NTQ4NDY3OCwtMTA4MzA2MjMxMC
+wtMTY2NDQxNTEyOSwtMTY2ODE2NTc3NiwtMTcxNjA3ODk0MF19
 
 -->
