@@ -40,7 +40,7 @@ tags:
 	3. 重啟Chrome
 	4. 該網站就可以使用Notification API啦
 	
-![啟用通知](https://i.imgur.com/zzjJ5PG.png)
+		![啟用通知](https://i.imgur.com/zzjJ5PG.png)
 
 2. 步驟二：編寫腳本
 	簡單說明一下原理
@@ -52,7 +52,7 @@ tags:
 	
 	2. 新增腳本
 	
-	![新增腳本](https://i.imgur.com/STbLQiI.png)
+		![新增腳本](https://i.imgur.com/STbLQiI.png)
 	
 	3.  貼上程式碼
 		#### 註解有大概說明程式碼內容，記得要把url改成自己的連結，不然點擊會失效~
@@ -132,7 +132,7 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NDU1ODg3LC05MzA2NTIzMDQsNDg1ND
-g0Njc4LC0xMDgzMDYyMzEwLC0xNjY0NDE1MTI5LC0xNjY4MTY1
-Nzc2LC0xNzE2MDc4OTQwXX0=
+eyJoaXN0b3J5IjpbMTU0Nzk2NzUxMSwtOTMwNjUyMzA0LDQ4NT
+Q4NDY3OCwtMTA4MzA2MjMxMCwtMTY2NDQxNTEyOSwtMTY2ODE2
+NTc3NiwtMTcxNjA3ODk0MF19
 -->
