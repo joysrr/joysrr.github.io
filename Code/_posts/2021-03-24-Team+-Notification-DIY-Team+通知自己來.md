@@ -91,7 +91,7 @@ tags:
 			    }
 
 				// url要替換成自己Team+訊息的網址喔~
-			    function showNotify(unread = '*', tag = 'default', url='http://tp.cht-pt.com.tw/EIM/Chat/ChatMain.aspx'){
+			    function showNotify(unread = '*', tag = 'default', url='http://tp.xxx.com.tw/EIM/Chat/ChatMain.aspx'){
 			        // 使用者同意授權
 			        Notification.requestPermission(function(permission) {
 			            if (permission === 'granted') {
@@ -128,6 +128,7 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NDg0Njc4LC0xMDgzMDYyMzEwLC0xNj
-Y0NDE1MTI5LC0xNjY4MTY1Nzc2LC0xNzE2MDc4OTQwXX0=
+eyJoaXN0b3J5IjpbLTkzMDY1MjMwNCw0ODU0ODQ2NzgsLTEwOD
+MwNjIzMTAsLTE2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLTE3MTYw
+Nzg5NDBdfQ==
 -->
