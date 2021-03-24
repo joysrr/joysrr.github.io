@@ -5,7 +5,6 @@ header:
   overlay_image: /assets/images/headerIMG01.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-classes: wide
 excerpt: "因為懶得看文件，只好藉由練習英文的藉口來試著翻譯看看並好好讀一下文件 ; )"
 classes: wide
 tags:
