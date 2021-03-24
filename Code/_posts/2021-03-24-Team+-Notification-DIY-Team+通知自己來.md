@@ -51,7 +51,7 @@ tags:
 	
 	4. 新增腳本
 	![新增腳本](https://i.imgur.com/STbLQiI.png)
-	5.  貼上程式碼(每10秒檢查一次)
+	5.  貼上程式碼
 	 
 			(function() {
 			    'use strict';
@@ -102,6 +102,9 @@ tags:
 			
 3. 步驟三：效果確認
 
+	現在你可以享受流暢的電腦並且也可以即時收發訊息，
+	訊息提供發訊息者、幾則未讀，典籍
+
 ![效果](https://i.imgur.com/Wo25uBh.png)
 
 ### 完成!!!
@@ -112,6 +115,6 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODMwNjIzMTAsLTE2NjQ0MTUxMjksLT
-E2NjgxNjU3NzYsLTE3MTYwNzg5NDBdfQ==
+eyJoaXN0b3J5IjpbNDYyODQ2NDM3LC0xMDgzMDYyMzEwLC0xNj
+Y0NDE1MTI5LC0xNjY4MTY1Nzc2LC0xNzE2MDc4OTQwXX0=
 -->
