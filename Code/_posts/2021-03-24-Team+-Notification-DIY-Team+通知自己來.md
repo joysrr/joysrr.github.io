@@ -53,6 +53,7 @@ tags:
 	2. 新增腳本
 	
 	![新增腳本](https://i.imgur.com/STbLQiI.png)
+	
 	3.  貼上程式碼
 		#### 註解有大概說明程式碼內容，記得要把url改成自己的連結，不然點擊會失效~
 			// ==UserScript==
@@ -131,7 +132,7 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgwNjIyMzUsLTkzMDY1MjMwNCw0OD
-U0ODQ2NzgsLTEwODMwNjIzMTAsLTE2NjQ0MTUxMjksLTE2Njgx
-NjU3NzYsLTE3MTYwNzg5NDBdfQ==
+eyJoaXN0b3J5IjpbOTg1NDU1ODg3LC05MzA2NTIzMDQsNDg1ND
+g0Njc4LC0xMDgzMDYyMzEwLC0xNjY0NDE1MTI5LC0xNjY4MTY1
+Nzc2LC0xNzE2MDc4OTQwXX0=
 -->
