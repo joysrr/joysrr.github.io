@@ -102,8 +102,7 @@ tags:
 			
 3. 步驟三：效果確認
 
-
-![效果](https://i.imgur.com/jYIkHhP.png)
+![效果](https://i.imgur.com/Wo25uBh.png)
 
 ### 完成!!!
 
@@ -113,6 +112,6 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLT
-E3MTYwNzg5NDBdfQ==
+eyJoaXN0b3J5IjpbLTEwODMwNjIzMTAsLTE2NjQ0MTUxMjksLT
+E2NjgxNjU3NzYsLTE3MTYwNzg5NDBdfQ==
 -->
