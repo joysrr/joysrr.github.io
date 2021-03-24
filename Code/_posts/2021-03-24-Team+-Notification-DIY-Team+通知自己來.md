@@ -30,10 +30,12 @@ tags:
 > 實際操作可能會因為不同瀏覽器版本需要做調整
 
 ## 開始設定
-1. 步驟一：設定Chrome
+●步驟一：設定Chrome
 因為公司的Team+是架設在內網，所以被Chrome認定為不安全網域，沒辦法使用Notification API，可參考[官方說明](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 ![設定](https://i.imgur.com/GCAVSkG.png)
-	#### 直接畫重點
+	
+#### 直接畫重點
+	
    1. 前往Chrome進階設定-chrome://flags/#unsafely-treat-insecure-origin-as-secure)
    2. 加入Team+網址
 		![Chrome設定](https://i.imgur.com/kLUhFLg.png)
@@ -156,7 +158,7 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTcxMzQ4NywtMTQ1Nzc2MTAxOSwxMD
+eyJoaXN0b3J5IjpbLTMwNzA4MDM0NSwtMTQ1Nzc2MTAxOSwxMD
 gxMjAyNjEsLTE2MTIzODUwNDEsMTU0Nzk2NzUxMSwtOTMwNjUy
 MzA0LDQ4NTQ4NDY3OCwtMTA4MzA2MjMxMCwtMTY2NDQxNTEyOS
 wtMTY2ODE2NTc3NiwtMTcxNjA3ODk0MF19
