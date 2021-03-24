@@ -52,7 +52,7 @@ tags:
 	4. 新增腳本
 	![新增腳本](https://i.imgur.com/STbLQiI.png)
 	5.  貼上程式碼
-	 
+		註解有大概說明	 
 			(function() {
 			    'use strict';
 			    if (('Notification' in window)) {
@@ -81,6 +81,7 @@ tags:
 			        }, 10000)
 			    }
 
+				// url要替換成自己Team+訊息的網址喔~
 			    function showNotify(unread = '*', tag = 'default', url='http://tp.cht-pt.com.tw/EIM/Chat/ChatMain.aspx'){
 			        // 使用者同意授權
 			        Notification.requestPermission(function(permission) {
@@ -118,7 +119,6 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI5NjI3MjUsLTEwODMwNjIzMTAsLT
-E2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLTE3MTYwNzg5NDBdfQ==
-
+eyJoaXN0b3J5IjpbMTUyNTUwMjQzNSwtMTA4MzA2MjMxMCwtMT
+Y2NDQxNTEyOSwtMTY2ODE2NTc3NiwtMTcxNjA3ODk0MF19
 -->
