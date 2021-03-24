@@ -48,13 +48,14 @@ tags:
 	2. 將未讀數已通知方式傳送給使用者知道
 	
 	### Tampermonkey步驟：
-	1. [安裝套件](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW)
+	3. [安裝套件](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW)
 	
-	2. 新增腳本
+	4. 新增腳本
 	
 		![新增腳本](https://i.imgur.com/STbLQiI.png)
 	
-	3.  貼上程式碼
+	5.  貼上程式碼
+	
 		#### 註解有大概說明程式碼內容，記得要把http://tp.xxx.com.tw改成自己的連結，不然點擊會失效~
 		
 			// ==UserScript==
@@ -154,8 +155,8 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTIwMjYxLC0xNjEyMzg1MDQxLDE1ND
-c5Njc1MTEsLTkzMDY1MjMwNCw0ODU0ODQ2NzgsLTEwODMwNjIz
-MTAsLTE2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLTE3MTYwNzg5ND
-BdfQ==
+eyJoaXN0b3J5IjpbLTE2NDExOTQxNTEsMTA4MTIwMjYxLC0xNj
+EyMzg1MDQxLDE1NDc5Njc1MTEsLTkzMDY1MjMwNCw0ODU0ODQ2
+NzgsLTEwODMwNjIzMTAsLTE2NjQ0MTUxMjksLTE2NjgxNjU3Nz
+YsLTE3MTYwNzg5NDBdfQ==
 -->
