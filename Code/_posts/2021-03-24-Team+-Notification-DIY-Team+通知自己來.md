@@ -81,7 +81,7 @@ tags:
 			        }, 10000)
 			    }
 
-			    function showNotify(unread = '*', tag = 'default'){
+			    function showNotify(unread = '*', tag = 'default', url='http://tp.cht-pt.com.tw/EIM/Chat/ChatMain.aspx'){
 			        // 使用者同意授權
 			        Notification.requestPermission(function(permission) {
 			            if (permission === 'granted') {
@@ -93,7 +93,7 @@ tags:
 			                    renotify: true, // 重新通知
 			                }).onclick = function(e) { // 點擊
 			                    e.preventDefault();
-			                    window.open('http://tp.cht-pt.com.tw/EIM/Chat/ChatMain.aspx'); // 打開Team+訊息視窗
+			                    window.open(url); // 打開Team+訊息視窗
 			                };
 			            }
 			        });
@@ -103,7 +103,7 @@ tags:
 3. 步驟三：效果確認
 
 	現在你可以享受流暢的電腦並且也可以即時收發訊息，
-	訊息提供發訊息者、幾則未讀，典籍
+	訊息提供發訊息者、幾則未讀，點擊後可連結至Team+訊息頁面
 
 ![效果](https://i.imgur.com/Wo25uBh.png)
 
@@ -115,6 +115,6 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyODQ2NDM3LC0xMDgzMDYyMzEwLC0xNj
-Y0NDE1MTI5LC0xNjY4MTY1Nzc2LC0xNzE2MDc4OTQwXX0=
+eyJoaXN0b3J5IjpbMTQwMTIwNTcyNCwtMTA4MzA2MjMxMCwtMT
+Y2NDQxNTEyOSwtMTY2ODE2NTc3NiwtMTcxNjA3ODk0MF19
 -->
