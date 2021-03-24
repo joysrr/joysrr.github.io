@@ -55,14 +55,15 @@ tags:
 		![新增腳本](https://i.imgur.com/STbLQiI.png)
 	
 	3.  貼上程式碼
-		#### 註解有大概說明程式碼內容，記得要把url改成自己的連結，不然點擊會失效~
+		#### 註解有大概說明程式碼內容，記得要把http://tp.xxx.com.tw改成自己的連結，不然點擊會失效~
+		
 			// ==UserScript==
 			// @name         Team+ Notification
 			// @namespace    http://tampermonkey.net/
 			// @version      0.1
 			// @description  Show Team+ Notification by browser
 			// @author       joysrr
-			// @match        http://tp.cht-pt.com.tw/*
+			// @match        http://tp.xxx.com.tw/*
 			// @grant        none
 			// ==/UserScript==
 			(function() {
@@ -119,7 +120,7 @@ tags:
 			    }
 
 			    // url要替換成自己Team+訊息的網址喔~
-			    function showNotify(unread = '*', tag = 'Team+Notification', url = 'http://tp.cht-pt.com.tw/EIM/Chat/ChatMain.aspx') {
+			    function showNotify(unread = '*', tag = 'Team+Notification', url = 'http://tp.xxx.com.tw/EIM/Chat/ChatMain.aspx') {
 			        var notification = new Notification(`Team+[${tag=='Team+Notification'?unread:tag}]`, {
 			            body: `您有${unread}則新的訊息，請回覆!`, // 設定內容
 			            icon: '../Images/chatsbg.png', // 設定 icon
@@ -153,7 +154,7 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzODg2NjY0LC0xNjEyMzg1MDQxLDE1ND
+eyJoaXN0b3J5IjpbMTA4MTIwMjYxLC0xNjEyMzg1MDQxLDE1ND
 c5Njc1MTEsLTkzMDY1MjMwNCw0ODU0ODQ2NzgsLTEwODMwNjIz
 MTAsLTE2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLTE3MTYwNzg5ND
 BdfQ==
