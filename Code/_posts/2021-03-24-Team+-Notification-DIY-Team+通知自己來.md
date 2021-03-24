@@ -34,8 +34,7 @@ tags:
 因為公司的Team+是架設在內網，所以被Chrome認定為不安全網域，沒辦法使用Notification API，可參考[官方說明](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 ![設定](https://i.imgur.com/GCAVSkG.png)
 	
-**直接畫重點**
-	
+	**直接畫重點：**
    1. 前往Chrome進階設定-chrome://flags/#unsafely-treat-insecure-origin-as-secure)
    2. 加入Team+網址
 		![Chrome設定](https://i.imgur.com/kLUhFLg.png)
@@ -156,9 +155,9 @@ tags:
 > [Deprecating Powerful Features on Insecure Origins](https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 >[Notifications API](https://notifications.spec.whatwg.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg5NDgyOTMsLTMwNzA4MDM0NSwtMT
-Q1Nzc2MTAxOSwxMDgxMjAyNjEsLTE2MTIzODUwNDEsMTU0Nzk2
-NzUxMSwtOTMwNjUyMzA0LDQ4NTQ4NDY3OCwtMTA4MzA2MjMxMC
-wtMTY2NDQxNTEyOSwtMTY2ODE2NTc3NiwtMTcxNjA3ODk0MF19
+eyJoaXN0b3J5IjpbNzY4NTg0MzA1LC0zMDcwODAzNDUsLTE0NT
+c3NjEwMTksMTA4MTIwMjYxLC0xNjEyMzg1MDQxLDE1NDc5Njc1
+MTEsLTkzMDY1MjMwNCw0ODU0ODQ2NzgsLTEwODMwNjIzMTAsLT
+E2NjQ0MTUxMjksLTE2NjgxNjU3NzYsLTE3MTYwNzg5NDBdfQ==
 
 -->
