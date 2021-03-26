@@ -40,6 +40,3 @@ tags:
 4. [科斯托蘭尼雞蛋](/stock/Kostolani-Eggs-科斯托蘭尼雞蛋)
 
 5. [型態學](/stock/Typology-型態學)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTc0NTU4MF19
--->
