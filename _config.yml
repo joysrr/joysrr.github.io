@@ -103,7 +103,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://joysrr.github.io/"
+      url: "https://joysrr.github.io"
 
 # Site Footer
 footer:
