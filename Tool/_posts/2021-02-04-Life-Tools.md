@@ -16,6 +16,3 @@ tags:
 3. [StackEdit](Stackedit.io)
 	> Markdown線上編輯(支援GitHub)
 	此Blog就是利用此工具進行編輯的喔
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTg5MjUzNV19
--->
