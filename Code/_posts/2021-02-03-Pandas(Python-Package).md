@@ -20,6 +20,3 @@ tags:
 2. index
 3. column
 4. loc
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxNzAzNTU3XX0=
--->
