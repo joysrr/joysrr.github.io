@@ -21,7 +21,3 @@ tags:
 2. get
 3. shift
 4. compare
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMwMDkzMDJdfQ==
--->
