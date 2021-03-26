@@ -33,7 +33,3 @@ last_modified_at: 2021-02-27
 
 > 參考資料
 > [熟記十三字口訣 抓底部起漲點、抱足大波段](https://ctee.com.tw/news/stock/121151.html)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDk4NjQ1NywtNDY4NjQ4Nzk4LC00Nj
-cwNjg5ODldfQ==
--->
