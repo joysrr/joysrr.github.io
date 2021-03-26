@@ -21,6 +21,3 @@ tags:
 
 > 參考資料
 >  [摸清9種量價關係 判別未來趨勢是漲、是跌！](https://www.wealth.com.tw/home/articles/20494)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTI4OTk4NzZdfQ==
--->
