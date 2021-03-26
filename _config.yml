@@ -257,6 +257,10 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
