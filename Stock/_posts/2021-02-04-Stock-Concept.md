@@ -51,6 +51,3 @@ tags:
 	2. 均線
 	3. KD指標
 	4. 型態學
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODI5MTIwNywtMTA3NTM4NTc1Nl19
--->
