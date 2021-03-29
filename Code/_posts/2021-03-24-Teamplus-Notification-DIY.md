@@ -25,6 +25,7 @@ tags:
 
 ## 準備工具
 1. Tampermonkey
+> 改天來簡單介紹一下這個好用的工具~
 2. Browser
 > 以下例子使用Chrome版本86.0.4240.75 64bit
 > 實際操作可能會因為不同瀏覽器版本需要做調整
@@ -45,18 +46,19 @@ tags:
 
 * 步驟二：編寫腳本
 	簡單說明一下原理
-	a. 讀取頁面通知Tag，抓取未讀通知數
-	b. 將未讀數已通知方式傳送給使用者知道
+    
+	    1. 讀取頁面通知Tag，抓取未讀通知數
+	    2. 將未讀數已通知方式傳送給使用者知道
 	
 	**Tampermonkey步驟：**
 	
-	1. [安裝套件](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW)
+	1. 安裝套件：請[由此](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW)進入Chrome套件安裝頁面點擊安裝
 	
 	2. 新增腳本
 	
 		![新增腳本](https://i.imgur.com/STbLQiI.png)
 	
-	3.  貼上程式碼
+	3. 貼上程式碼
 	
 		#### 註解有大概說明程式碼內容，記得要把http://tp.xxx.com.tw改成自己的連結，不然點擊會失效~
 		
@@ -168,8 +170,8 @@ tags:
 			
 * 步驟三：效果確認
 
-	現在你可以享受流暢的電腦並且也可以即時收發訊息，
-	訊息提供發訊息者、幾則未讀，點擊後可連結至Team+訊息頁面
+	現在你可以享受流暢的電腦並且也可以即時收發訊息囉~
+	馬上就可以知道誰給你發訊息、有幾則未讀，還有內容，點擊後可連結至Team+訊息頁面
 
 	![效果](https://i.imgur.com/Wo25uBh.png)
 
