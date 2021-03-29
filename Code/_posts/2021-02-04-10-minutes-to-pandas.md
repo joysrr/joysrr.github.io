@@ -13,7 +13,7 @@ tags:
   - pandas
   - translation
 ---
-
+###### tags: pandas
 
 ### 官方文件翻譯版 [原文](https://pandas.pydata.org/docs/user_guide/10min.html)
 
@@ -232,5 +232,297 @@ tags:
 	2013-01-06 -0.673690  0.113648 -1.478427  0.524988
 	2013-01-05 -0.424972  0.567020  0.276232 -1.087401
 
+## 選取
+
+> While standard Python / Numpy expressions for selecting and setting are intuitive and come in handy for interactive work, for production code, we recommend the optimized pandas data access methods, .at, .iat, .loc and .iloc.
+
+See the indexing documentation Indexing and Selecting Data and MultiIndex / Advanced Indexing.
 
 ## 未完待續...
+
+### Getting
+Selecting a single column, which yields a [Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series), equivalent to `df.A`:
+
+    In [23]: df["A"]
+    Out[23]: 
+    2013-01-01    0.469112
+    2013-01-02    1.212112
+    2013-01-03   -0.861849
+    2013-01-04    0.721555
+    2013-01-05   -0.424972
+    2013-01-06   -0.673690
+    Freq: D, Name: A, dtype: float64
+
+Selecting via `[]`, which slices the rows.
+
+    In [24]: df[0:3]
+    Out[24]: 
+                       A         B         C         D
+    2013-01-01  0.469112 -0.282863 -1.509059 -1.135632
+    2013-01-02  1.212112 -0.173215  0.119209 -1.044236
+    2013-01-03 -0.861849 -2.104569 -0.494929  1.071804
+
+    In [25]: df["20130102":"20130104"]
+    Out[25]: 
+                       A         B         C         D
+    2013-01-02  1.212112 -0.173215  0.119209 -1.044236
+    2013-01-03 -0.861849 -2.104569 -0.494929  1.071804
+    2013-01-04  0.721555 -0.706771 -1.039575  0.271860
+
+### Selection by label
+See more in [Selection by Label](https://pandas.pydata.org/docs/user_guide/indexing.html#indexing-label).
+For getting a cross section using a label:
+
+    In [26]: df.loc[dates[0]]
+    Out[26]: 
+    A    0.469112
+    B   -0.282863
+    C   -1.509059
+    D   -1.135632
+    Name: 2013-01-01 00:00:00, dtype: float64
+    
+Selecting on a multi-axis by label:
+
+    In [27]: df.loc[:, ["A", "B"]]
+    Out[27]: 
+                       A         B
+    2013-01-01  0.469112 -0.282863
+    2013-01-02  1.212112 -0.173215
+    2013-01-03 -0.861849 -2.104569
+    2013-01-04  0.721555 -0.706771
+    2013-01-05 -0.424972  0.567020
+    2013-01-06 -0.673690  0.113648
+    
+Showing label slicing, both endpoints are included:
+
+    In [28]: df.loc["20130102":"20130104", ["A", "B"]]
+    Out[28]: 
+                       A         B
+    2013-01-02  1.212112 -0.173215
+    2013-01-03 -0.861849 -2.104569
+    2013-01-04  0.721555 -0.706771
+    
+Reduction in the dimensions of the returned object:
+
+    In [29]: df.loc["20130102", ["A", "B"]]
+    Out[29]: 
+    A    1.212112
+    B   -0.173215
+    Name: 2013-01-02 00:00:00, dtype: float64
+
+For getting a scalar value:
+
+    In [30]: df.loc[dates[0], "A"]
+    Out[30]: 0.4691122999071863
+    
+For getting fast access to a scalar (equivalent to the prior method):
+
+    In [31]: df.at[dates[0], "A"]
+    Out[31]: 0.4691122999071863
+
+### Selection by position
+See more in [Selection by Position](https://pandas.pydata.org/docs/user_guide/indexing.html#indexing-integer).
+
+Select via the position of the passed integers:
+
+    In [32]: df.iloc[3]
+    Out[32]: 
+    A    0.721555
+    B   -0.706771
+    C   -1.039575
+    D    0.271860
+    Name: 2013-01-04 00:00:00, dtype: float64
+    
+By integer slices, acting similar to numpy/Python:
+
+    In [33]: df.iloc[3:5, 0:2]
+    Out[33]: 
+                       A         B
+    2013-01-04  0.721555 -0.706771
+    2013-01-05 -0.424972  0.567020
+    
+By lists of integer position locations, similar to the NumPy/Python style:
+
+    In [34]: df.iloc[[1, 2, 4], [0, 2]]
+    Out[34]: 
+                       A         C
+    2013-01-02  1.212112  0.119209
+    2013-01-03 -0.861849 -0.494929
+    2013-01-05 -0.424972  0.276232
+    
+For slicing rows explicitly:
+
+    In [35]: df.iloc[1:3, :]
+    Out[35]: 
+                       A         B         C         D
+    2013-01-02  1.212112 -0.173215  0.119209 -1.044236
+    2013-01-03 -0.861849 -2.104569 -0.494929  1.071804
+    
+For slicing columns explicitly:
+
+    In [36]: df.iloc[:, 1:3]
+    Out[36]: 
+                       B         C
+    2013-01-01 -0.282863 -1.509059
+    2013-01-02 -0.173215  0.119209
+    2013-01-03 -2.104569 -0.494929
+    2013-01-04 -0.706771 -1.039575
+    2013-01-05  0.567020  0.276232
+    2013-01-06  0.113648 -1.478427
+    
+For getting a value explicitly:
+
+    In [37]: df.iloc[1, 1]
+    Out[37]: -0.17321464905330858
+    
+For getting fast access to a scalar (equivalent to the prior method):
+
+    In [38]: df.iat[1, 1]
+    Out[38]: -0.17321464905330858
+    
+### Boolean indexing
+Using a single column’s values to select data.
+
+    In [39]: df[df["A"] > 0]
+    Out[39]: 
+                       A         B         C         D
+    2013-01-01  0.469112 -0.282863 -1.509059 -1.135632
+    2013-01-02  1.212112 -0.173215  0.119209 -1.044236
+    2013-01-04  0.721555 -0.706771 -1.039575  0.271860
+    
+Selecting values from a DataFrame where a boolean condition is met.
+
+    In [40]: df[df > 0]
+    Out[40]: 
+                       A         B         C         D
+    2013-01-01  0.469112       NaN       NaN       NaN
+    2013-01-02  1.212112       NaN  0.119209       NaN
+    2013-01-03       NaN       NaN       NaN  1.071804
+    2013-01-04  0.721555       NaN       NaN  0.271860
+    2013-01-05       NaN  0.567020  0.276232       NaN
+    2013-01-06       NaN  0.113648       NaN  0.524988
+    
+Using the `isin()` method for filtering:
+
+    In [41]: df2 = df.copy()
+
+    In [42]: df2["E"] = ["one", "one", "two", "three", "four", "three"]
+
+    In [43]: df2
+    Out[43]: 
+                       A         B         C         D      E
+    2013-01-01  0.469112 -0.282863 -1.509059 -1.135632    one
+    2013-01-02  1.212112 -0.173215  0.119209 -1.044236    one
+    2013-01-03 -0.861849 -2.104569 -0.494929  1.071804    two
+    2013-01-04  0.721555 -0.706771 -1.039575  0.271860  three
+    2013-01-05 -0.424972  0.567020  0.276232 -1.087401   four
+    2013-01-06 -0.673690  0.113648 -1.478427  0.524988  three
+
+    In [44]: df2[df2["E"].isin(["two", "four"])]
+    Out[44]: 
+                       A         B         C         D     E
+    2013-01-03 -0.861849 -2.104569 -0.494929  1.071804   two
+    2013-01-05 -0.424972  0.567020  0.276232 -1.087401  four
+    
+### Setting
+Setting a new column automatically aligns the data by the indexes.
+
+    In [45]: s1 = pd.Series([1, 2, 3, 4, 5, 6], 
+
+index=pd.date_range("20130102", periods=6))
+
+    In [46]: s1
+    Out[46]: 
+    2013-01-02    1
+    2013-01-03    2
+    2013-01-04    3
+    2013-01-05    4
+    2013-01-06    5
+    2013-01-07    6
+    Freq: D, dtype: int64
+
+    In [47]: df["F"] = s1
+
+Setting values by label:
+
+    In [48]: df.at[dates[0], "A"] = 0
+
+Setting values by position:
+
+    In [49]: df.iat[0, 1] = 0
+
+Setting by assigning with a NumPy array:
+
+    In [50]: df.loc[:, "D"] = np.array([5] * len(df))
+
+The result of the prior setting operations.
+
+    In [51]: df
+    Out[51]: 
+                       A         B         C  D    F
+    2013-01-01  0.000000  0.000000 -1.509059  5  NaN
+    2013-01-02  1.212112 -0.173215  0.119209  5  1.0
+    2013-01-03 -0.861849 -2.104569 -0.494929  5  2.0
+    2013-01-04  0.721555 -0.706771 -1.039575  5  3.0
+    2013-01-05 -0.424972  0.567020  0.276232  5  4.0
+    2013-01-06 -0.673690  0.113648 -1.478427  5  5.0
+
+A `where` operation with setting.
+
+    In [52]: df2 = df.copy()
+
+    In [53]: df2[df2 > 0] = -df2
+
+    In [54]: df2
+    Out[54]: 
+                       A         B         C  D    F
+    2013-01-01  0.000000  0.000000 -1.509059 -5  NaN
+    2013-01-02 -1.212112 -0.173215 -0.119209 -5 -1.0
+    2013-01-03 -0.861849 -2.104569 -0.494929 -5 -2.0
+    2013-01-04 -0.721555 -0.706771 -1.039575 -5 -3.0
+    2013-01-05 -0.424972 -0.567020 -0.276232 -5 -4.0
+    2013-01-06 -0.673690 -0.113648 -1.478427 -5 -5.0
+    
+## Missing data
+pandas primarily uses the value `np.nan` to represent missing data. It is by default not included in computations. See the [Missing Data section](https://pandas.pydata.org/docs/user_guide/missing_data.html#missing-data).
+
+Reindexing allows you to change/add/delete the index on a specified axis. This returns a copy of the data.
+
+    In [55]: df1 = df.reindex(index=dates[0:4], columns=list(df.columns) + ["E"])
+
+    In [56]: df1.loc[dates[0] : dates[1], "E"] = 1
+
+    In [57]: df1
+    Out[57]: 
+                       A         B         C  D    F    E
+    2013-01-01  0.000000  0.000000 -1.509059  5  NaN  1.0
+    2013-01-02  1.212112 -0.173215  0.119209  5  1.0  1.0
+    2013-01-03 -0.861849 -2.104569 -0.494929  5  2.0  NaN
+    2013-01-04  0.721555 -0.706771 -1.039575  5  3.0  NaN
+    
+To drop any rows that have missing data.
+
+    In [58]: df1.dropna(how="any")
+    Out[58]: 
+                       A         B         C  D    F    E
+    2013-01-02  1.212112 -0.173215  0.119209  5  1.0  1.0
+    
+Filling missing data.
+
+    In [59]: df1.fillna(value=5)
+    Out[59]: 
+                       A         B         C  D    F    E
+    2013-01-01  0.000000  0.000000 -1.509059  5  5.0  1.0
+    2013-01-02  1.212112 -0.173215  0.119209  5  1.0  1.0
+    2013-01-03 -0.861849 -2.104569 -0.494929  5  2.0  5.0
+    2013-01-04  0.721555 -0.706771 -1.039575  5  3.0  5.0
+    
+To get the boolean mask where values are `nan`.
+
+    In [60]: pd.isna(df1)
+    Out[60]: 
+                    A      B      C      D      F      E
+    2013-01-01  False  False  False  False   True  False
+    2013-01-02  False  False  False  False  False  False
+    2013-01-03  False  False  False  False  False   True
+    2013-01-04  False  False  False  False  False   True
