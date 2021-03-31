@@ -13,7 +13,7 @@ tags:
   - pandas
   - translation
 ---
-### 官方文件翻譯版 [原文](https://pandas.pydata.org/docs/user_guide/10min.html)
+### 官方文件翻譯版(2021/03/31) [原文](https://pandas.pydata.org/docs/user_guide/10min.html)
 > 未翻譯的部分先把原文搬過來，會慢慢進行更新~
 
 ***
@@ -233,14 +233,13 @@ tags:
 
 ## 選取
 
-> While standard Python / Numpy expressions for selecting and setting are intuitive and come in handy for interactive work, for production code, we recommend the optimized pandas data access methods, .at, .iat, .loc and .iloc.
+> 雖然 Python / Numpy 有方便且容易使用的表達式進行資料選取和設定，但建議還是使用優化過的 pandas 方式, 例如：`.at`, `.iat`, `.loc` 和 `.iloc`。
 
-See the indexing documentation Indexing and Selecting Data and MultiIndex / Advanced Indexing.
+詳細請查看索引編列的文件[Indexing and Selecting Data](https://pandas.pydata.org/docs/user_guide/indexing.html#indexing) 和 [MultiIndex / Advanced Indexing](https://pandas.pydata.org/docs/user_guide/advanced.html#advanced)。
 
-## 未完待續...
+### 取得
 
-### Getting
-Selecting a single column, which yields a [Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series), equivalent to `df.A`:
+在[Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series)選取單一欄位等同於使用`df.A`：
 
     In [23]: df["A"]
     Out[23]: 
@@ -252,7 +251,7 @@ Selecting a single column, which yields a [Series](https://pandas.pydata.org/doc
     2013-01-06   -0.673690
     Freq: D, Name: A, dtype: float64
 
-Selecting via `[]`, which slices the rows.
+透過`[]`可以將資料以列的方式切割：
 
     In [24]: df[0:3]
     Out[24]: 
@@ -268,9 +267,10 @@ Selecting via `[]`, which slices the rows.
     2013-01-03 -0.861849 -2.104569 -0.494929  1.071804
     2013-01-04  0.721555 -0.706771 -1.039575  0.271860
 
-### Selection by label
-See more in [Selection by Label](https://pandas.pydata.org/docs/user_guide/indexing.html#indexing-label).
-For getting a cross section using a label:
+### 透過標籤進行選取
+詳細資料請查看[Selection by Label](https://pandas.pydata.org/docs/user_guide/indexing.html#indexing-label)。
+
+透過標籤取得跨欄位資料：
 
     In [26]: df.loc[dates[0]]
     Out[26]: 
@@ -279,8 +279,8 @@ For getting a cross section using a label:
     C   -1.509059
     D   -1.135632
     Name: 2013-01-01 00:00:00, dtype: float64
-    
-Selecting on a multi-axis by label:
+
+透過標籤取得多軸資料：
 
     In [27]: df.loc[:, ["A", "B"]]
     Out[27]: 
@@ -292,7 +292,7 @@ Selecting on a multi-axis by label:
     2013-01-05 -0.424972  0.567020
     2013-01-06 -0.673690  0.113648
     
-Showing label slicing, both endpoints are included:
+透過標籤取得多軸資料並同時將列切割：
 
     In [28]: df.loc["20130102":"20130104", ["A", "B"]]
     Out[28]: 
@@ -301,7 +301,7 @@ Showing label slicing, both endpoints are included:
     2013-01-03 -0.861849 -2.104569
     2013-01-04  0.721555 -0.706771
     
-Reduction in the dimensions of the returned object:
+縮小回傳物件範圍：
 
     In [29]: df.loc["20130102", ["A", "B"]]
     Out[29]: 
@@ -309,20 +309,20 @@ Reduction in the dimensions of the returned object:
     B   -0.173215
     Name: 2013-01-02 00:00:00, dtype: float64
 
-For getting a scalar value:
+取得單一資料：
 
     In [30]: df.loc[dates[0], "A"]
     Out[30]: 0.4691122999071863
-    
-For getting fast access to a scalar (equivalent to the prior method):
+
+快速取得單一資料(結果同上面的方法)：
 
     In [31]: df.at[dates[0], "A"]
     Out[31]: 0.4691122999071863
 
-### Selection by position
-See more in [Selection by Position](https://pandas.pydata.org/docs/user_guide/indexing.html#indexing-integer).
+### 透過位置選取
+詳細請查看[Selection by Position](https://pandas.pydata.org/docs/user_guide/indexing.html#indexing-integer)。
 
-Select via the position of the passed integers:
+透過傳遞數值位置取得資料：
 
     In [32]: df.iloc[3]
     Out[32]: 
@@ -331,16 +331,16 @@ Select via the position of the passed integers:
     C   -1.039575
     D    0.271860
     Name: 2013-01-04 00:00:00, dtype: float64
-    
-By integer slices, acting similar to numpy/Python:
+
+類似於numpy/python的方式，透過數值切割資料：
 
     In [33]: df.iloc[3:5, 0:2]
     Out[33]: 
                        A         B
     2013-01-04  0.721555 -0.706771
     2013-01-05 -0.424972  0.567020
-    
-By lists of integer position locations, similar to the NumPy/Python style:
+
+類似於numpy/python的方式，透過數值清單指定位置：
 
     In [34]: df.iloc[[1, 2, 4], [0, 2]]
     Out[34]: 
@@ -348,8 +348,8 @@ By lists of integer position locations, similar to the NumPy/Python style:
     2013-01-02  1.212112  0.119209
     2013-01-03 -0.861849 -0.494929
     2013-01-05 -0.424972  0.276232
-    
-For slicing rows explicitly:
+
+直接切割列取得資料：
 
     In [35]: df.iloc[1:3, :]
     Out[35]: 
@@ -357,7 +357,7 @@ For slicing rows explicitly:
     2013-01-02  1.212112 -0.173215  0.119209 -1.044236
     2013-01-03 -0.861849 -2.104569 -0.494929  1.071804
     
-For slicing columns explicitly:
+直接切割欄位取得資料：
 
     In [36]: df.iloc[:, 1:3]
     Out[36]: 
@@ -368,19 +368,20 @@ For slicing columns explicitly:
     2013-01-04 -0.706771 -1.039575
     2013-01-05  0.567020  0.276232
     2013-01-06  0.113648 -1.478427
-    
-For getting a value explicitly:
+
+直接取得資料：
 
     In [37]: df.iloc[1, 1]
     Out[37]: -0.17321464905330858
-    
-For getting fast access to a scalar (equivalent to the prior method):
+
+快速取得單一值(結果同上面的方法)：
 
     In [38]: df.iat[1, 1]
     Out[38]: -0.17321464905330858
     
-### Boolean indexing
-Using a single column’s values to select data.
+### 條件式索引
+
+根據單一欄位的值取得資料：
 
     In [39]: df[df["A"] > 0]
     Out[39]: 
@@ -388,8 +389,8 @@ Using a single column’s values to select data.
     2013-01-01  0.469112 -0.282863 -1.509059 -1.135632
     2013-01-02  1.212112 -0.173215  0.119209 -1.044236
     2013-01-04  0.721555 -0.706771 -1.039575  0.271860
-    
-Selecting values from a DataFrame where a boolean condition is met.
+
+於DataFrame中使用條件選取資料：
 
     In [40]: df[df > 0]
     Out[40]: 
@@ -400,8 +401,8 @@ Selecting values from a DataFrame where a boolean condition is met.
     2013-01-04  0.721555       NaN       NaN  0.271860
     2013-01-05       NaN  0.567020  0.276232       NaN
     2013-01-06       NaN  0.113648       NaN  0.524988
-    
-Using the `isin()` method for filtering:
+
+透過 `isin()` 篩選資料：
 
     In [41]: df2 = df.copy()
 
@@ -423,12 +424,11 @@ Using the `isin()` method for filtering:
     2013-01-03 -0.861849 -2.104569 -0.494929  1.071804   two
     2013-01-05 -0.424972  0.567020  0.276232 -1.087401  four
     
-### Setting
-Setting a new column automatically aligns the data by the indexes.
+### 設定
 
-    In [45]: s1 = pd.Series([1, 2, 3, 4, 5, 6], 
+設定新的欄位時，資料會自動對齊索引：
 
-index=pd.date_range("20130102", periods=6))
+    In [45]: s1 = pd.Series([1, 2, 3, 4, 5, 6], index=pd.date_range("20130102", periods=6))
 
     In [46]: s1
     Out[46]: 
@@ -442,19 +442,19 @@ index=pd.date_range("20130102", periods=6))
 
     In [47]: df["F"] = s1
 
-Setting values by label:
+透過標籤設定資料：
 
     In [48]: df.at[dates[0], "A"] = 0
 
-Setting values by position:
+透過位置設定資料：
 
     In [49]: df.iat[0, 1] = 0
 
-Setting by assigning with a NumPy array:
+使用NumPy陣列設定資料：
 
     In [50]: df.loc[:, "D"] = np.array([5] * len(df))
 
-The result of the prior setting operations.
+上述設定後的結果：
 
     In [51]: df
     Out[51]: 
@@ -466,7 +466,7 @@ The result of the prior setting operations.
     2013-01-05 -0.424972  0.567020  0.276232  5  4.0
     2013-01-06 -0.673690  0.113648 -1.478427  5  5.0
 
-A `where` operation with setting.
+使用 `where` 方式設定資料：
 
     In [52]: df2 = df.copy()
 
@@ -481,8 +481,11 @@ A `where` operation with setting.
     2013-01-04 -0.721555 -0.706771 -1.039575 -5 -3.0
     2013-01-05 -0.424972 -0.567020 -0.276232 -5 -4.0
     2013-01-06 -0.673690 -0.113648 -1.478427 -5 -5.0
-    
-## Missing data
+
+
+## 遺失的資料
+
+pandas主要使用 `np.nan` 來代表遺失的資料，
 pandas primarily uses the value `np.nan` to represent missing data. It is by default not included in computations. See the [Missing Data section](https://pandas.pydata.org/docs/user_guide/missing_data.html#missing-data).
 
 Reindexing allows you to change/add/delete the index on a specified axis. This returns a copy of the data.
