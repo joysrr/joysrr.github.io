@@ -36,11 +36,17 @@ tags:
 
 ```mermaid
 flowchart TD
-A[初始資金 20 萬] --> B[配置80%槓桿ETF，20%現金]
-B -->|市場跌幅30%| C[投入25%槓桿目標資金]
-C -->|市場跌幅40%| D[追加25%槓桿目標資金]
-D -->|市場跌幅50%| E[投入剩餘50%槓桿目標資金]
-B -->|市場跌幅小於30%| F[維持現金持有，等待買點]
+    classDef startend fill:#6fb3f2,stroke:#333,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef process fill:#bbf7d0,stroke:#333,stroke-width:2px,color:#064e03,font-weight:bold;
+    classDef decision fill:#f9f,stroke:#333,stroke-width:2px,color:#000,font-weight:bold;
+
+    A[初始資金 20 萬]:::startend --> B[配置80%槓桿ETF，20%現金]:::startend
+    
+    B -->|市場跌幅30%| C[投入25%槓桿目標資金]:::process
+    C -->|市場跌幅40%| D[追加25%槓桿目標資金]:::process
+    D -->|市場跌幅50%| E[投入剩餘50%槓桿目標資金]:::process
+    B -->|市場跌幅小於30%| I[維持現金持有，等待買點]:::decision
+
 ```
 
 ---
@@ -75,16 +81,26 @@ B -->|市場跌幅小於30%| F[維持現金持有，等待買點]
 
 ```mermaid
 flowchart TD
-    A[監控槓桿ETF價格] --> B{價格相較基準價}
-    B -->|漲幅達50%| C{多數技術指標<br>發出賣出信號？}
-    B -->|跌幅達50%| D{多數技術指標<br>發出買入信號？}
+    classDef startend fill:#4f81bd,stroke:#333,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef decision fill:#f9d5e5,stroke:#c73e1d,stroke-width:2px,color:#000,font-weight:bold;
+    classDef action fill:#b3e5fc,stroke:#0277bd,stroke-width:2px,color:#000,font-weight:bold;
+    classDef update fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000,font-weight:bold;
+
+    A[監控槓桿ETF價格]:::startend --> B{價格相較基準價}:::decision
+    
+    B -->|漲幅達50%| C{多數技術指標<br>發出賣出信號？}:::decision
+    B -->|跌幅達50%| D{多數技術指標<br>發出買入信號？}:::decision
     B -->|未達條件| A
-    C -->|是| E[賣出部分槓桿持股<br>調整至80%槓桿、20%現金]
+
+    C -->|是| E[賣出部分槓桿持股<br>調整至80%槓桿、20%現金]:::action
     C -->|否| A
-    D -->|是| F[用現金加碼槓桿ETF<br>調整至80%槓桿、20%現金]
+
+    D -->|是| F[用現金加碼槓桿ETF<br>調整至80%槓桿、20%現金]:::action
     D -->|否| A
-    E --> G[更新基準價]
+
+    E --> G[更新基準價，重新監控]:::update
     F --> G
+
     G --> A
 ``` 
 
@@ -100,13 +116,17 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[季度及年度檢視]
-    A --> B[評估槓桿ETF波動及耗損]
-    B --> C[評估持倉槓桿與現金比率]
-    C --> D{比例合理?}
-    D -->|是| E[維持策略]
-    D -->|否| F[調整槓桿及現金比率]
-    F --> G[監控交易成本及商品變化]
+    classDef startend fill:#4caf50,stroke:#256029,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef process fill:#c8e6c9,stroke:#256029,stroke-width:2px,color:#000,font-weight:bold;
+    classDef decision fill:#ffcc80,stroke:#bf6f00,stroke-width:2px,color:#000,font-weight:bold;
+    classDef action fill:#ffe0b2,stroke:#bf6f00,stroke-width:2px,color:#000,font-weight:bold;
+
+    A[季度及年度檢視]:::startend --> B[評估槓桿ETF波動及耗損]:::process
+    B --> C[評估持倉槓桿與現金比率]:::process
+    C --> D{比例合理?}:::decision
+    D -->|是| E[維持策略]:::action
+    D -->|否| F[調整槓桿及現金比率]:::action
+    F --> G[監控交易成本及商品變化]:::process
 ```
 
 ---
@@ -119,12 +139,16 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[資金控制在承受範圍]
-    A --> B[嚴格執行分批進場與止損]
-    B --> C[利用多指標及 AI 輔助判斷]
-    C --> D{出現交易信號?}
-    D -->|是| E[執行交易]
-    D -->|否| F[持續觀察]
+    classDef startend fill:#2196f3,stroke:#0b47a1,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef process fill:#bbdefb,stroke:#0b47a1,stroke-width:2px,color:#000,font-weight:bold;
+    classDef decision fill:#ffccbc,stroke:#a14a22,stroke-width:2px,color:#000,font-weight:bold;
+    classDef action fill:#ffe0b2,stroke:#a14a22,stroke-width:2px,color:#000,font-weight:bold;
+
+    A[資金控制在承受範圍]:::startend --> B[嚴格執行分批進場與止損]:::process
+    B --> C[利用多指標及 AI 輔助判斷]:::process
+    C --> D{出現交易信號?}:::decision
+    D -->|是| E[執行交易]:::action
+    D -->|否| F[持續觀察]:::process
 ```
 
 ---
