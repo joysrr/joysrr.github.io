@@ -10,7 +10,6 @@ excerpt: "根據正2槓桿投資方法，進一步分析有效提升投資的成
 tags:
   - financial report
   - 財報
-
 ---
 
 # 正2ETF槓桿投資完整計畫報告書
@@ -20,138 +19,179 @@ tags:
 ## 1. 投資目標與策略定位
 
 - 利用正2槓桿ETF放大台灣50指數短期報酬，爭取較大資產增長空間。  
-- 控管波動高風險，透過**分批佈局與再平衡策略降低損耗**。  
-- 強化資金管理，設定明確**止損與獲利點**，配合年度調整提升紀律。  
+- 控管波動高風險，透過 **分批佈局與再平衡策略** 降低損耗。  
+- 強化資金管理，設定明確 **止損與獲利點**，配合年度調整提升紀律。  
 
 ---
 
 ## 2. 資金分配與分批進場策略
 
-- 初始資金20萬元，建議投入約**80%（16萬元）**於正2槓桿ETF，其他20%留為現金或低風險資產作為加碼準備及風險緩衝。  
-- 進場採分批方式：  
-   - 市場跌幅達30%時，投入約25%目標資金（4萬元）。  
-   - 跌幅達40%時，追加25%目標資金（4萬元）。  
-   - 跌幅達50%時，投入剩餘50%目標資金（8萬元）。  
-- **市場未出現大幅回調前，保持部分現金持有，耐心等待買點。**
+- 初始資金：20萬元  
+  - 建議投入 **80%（16萬元）** 於正2槓桿ETF  
+  - 保留 **20%（4萬元）** 為現金／低風險資產，作為加碼準備與風險緩衝  
 
-```mermaid
-flowchart TD
-    classDef startend fill:#6fb3f2,stroke:#333,stroke-width:2px,color:#fff,font-weight:bold;
-    classDef process fill:#bbf7d0,stroke:#333,stroke-width:2px,color:#064e03,font-weight:bold;
-    classDef decision fill:#f9f,stroke:#333,stroke-width:2px,color:#000,font-weight:bold;
+- 進場採 **分批方式**：  
+  - 跌幅達 **30%** → 投入 25%（4萬元）  
+  - 跌幅達 **40%** → 再投入 25%（4萬元）  
+  - 跌幅達 **50%** → 投入剩餘 50%（8萬元）  
 
-    A[初始資金 20 萬]:::startend --> B[配置80%槓桿ETF，20%現金]:::startend
-    
-    B -->|市場跌幅30%| C[投入25%槓桿目標資金]:::process
-    C -->|市場跌幅40%| D[追加25%槓桿目標資金]:::process
-    D -->|市場跌幅50%| E[投入剩餘50%槓桿目標資金]:::process
-    B -->|市場跌幅小於30%| I[維持現金持有，等待買點]:::decision
-
-```
+- **市場未出現大幅回調前，保持現金耐心等待買點。**
 
 ---
 
-## 3. 持倉再平衡策略（含技術指標輔助判斷）
+## 3. 持倉再平衡策略（含技術指標輔助）
 
-核心策略為**50%漲跌幅再平衡**，結合**RSI、MACD及KD三大技術指標**輔助判斷，提升再平衡決策精準度與成功率。
+**核心概念：50% 漲跌幅再平衡**  
+結合 **RSI、MACD 及 KD** 三大技術指標，提升進出判斷精準度。
 
 ### 3.1 買入條件
 
-- 槓桿ETF價格相較基準價**下跌達50%**。  
-- 同時多數技術指標發出買入訊號，包括：  
-   - RSI 由低於30的超賣區回升突破30。  
-   - MACD 快線（DIF）向上突破慢線（MACD線），柱狀圖轉正。  
-   - KD 指標中 K 線上穿 D 線且位於20以下低檔，形成黃金交叉。
+#### 技術指標與下跌幅度權重表
 
-### 3.2 賣出條件
+| 判斷條件                          | 權重 |
+|-----------------------------------|------|
+| 下跌 20%                          | 1    |
+| 下跌 30%                          | 3    |
+| 下跌 40%                          | 4    |
+| 下跌 50%                          | 5    |
+| RSI 低於30後回升突破 30            | 2    |
+| MACD 快線向上突破慢線              | 2    |
+| KD 指標 K 線上穿 D 線，且低於20    | 2    |
 
-- 槓桿ETF價格相較基準價**上漲達50%**。  
-- 同時多數技術指標發出賣出訊號，包括：  
-   - RSI 進入70以上超買區並開始回落。  
-   - MACD 快線下穿慢線（死叉），柱狀圖轉負。  
-   - KD 指標中 K 線下穿 D 線且位於80以上高檔，形成死亡交叉。
+#### 權重說明
+- 下跌幅度依大小給予遞增權重，反映回檔買入信號強度。  
+- 三大技術指標均以 2 分設定，確保 **多重共振才執行進場**。  
 
-### 3.3 再平衡操作   
+#### 總分與槓桿、現金配置對照表
 
-- 價格達標且多數技術指標確認信號時，執行再平衡操作：  
-  - 漲幅達50%時，賣出部分槓桿持股並回補現金，調整比例回80%槓桿、20%現金。  
-  - 跌幅達50%時，利用現金部位加碼槓桿ETF，使資產配置回歸目標比例。  
-- 每次再平衡後，更新基準價格，進入下一輪監控周期。  
-- 此機制有效避免槓桿佔比因價格大幅波動而嚴重偏離目標比例，提升資金結構穩健與績效穩定性。 
+| 權重總分區間 | 槓桿比例 | 現金比例 | 投資風格說明            |
+|--------------|----------|----------|-------------------------|
+| 7 ～ 8       | 80%      | 20%      | 一般保守型，常見市場狀況 |
+| 9 ～ 10      | 90%      | 10%      | 積極型，反彈信心較高     |
+| 11           | 95%      | 5%       | 最積極型，多重強烈訊號   |
 
-```mermaid
-flowchart TD
-    classDef startend fill:#4f81bd,stroke:#333,stroke-width:2px,color:#fff,font-weight:bold;
-    classDef decision fill:#f9d5e5,stroke:#c73e1d,stroke-width:2px,color:#000,font-weight:bold;
-    classDef action fill:#b3e5fc,stroke:#0277bd,stroke-width:2px,color:#000,font-weight:bold;
-    classDef update fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000,font-weight:bold;
+#### 使用流程
 
-    A[監控槓桿ETF價格]:::startend --> B{價格相較基準價}:::decision
-    
-    B -->|漲幅達50%| C{多數技術指標<br>發出賣出信號？}:::decision
-    B -->|跌幅達50%| D{多數技術指標<br>發出買入信號？}:::decision
-    B -->|未達條件| A
-
-    C -->|是| E[賣出部分槓桿持股<br>調整至80%槓桿、20%現金]:::action
-    C -->|否| A
-
-    D -->|是| F[用現金加碼槓桿ETF<br>調整至80%槓桿、20%現金]:::action
-    D -->|否| A
-
-    E --> G[更新基準價，重新監控]:::update
-    F --> G
-
-    G --> A
-``` 
+1. 依條件累計權重分數  
+2. 依分數 → 對應不同槓桿／現金配置  
+3. 分數未達 7 分 → 暫停買入，持有現金  
+4. 執行後更新基準價，作為下一輪判斷依據  
 
 ---
 
-## 4. 年度及季度檢視與調整
+### 3.2 賣出條件
 
-- 每季度及年度檢視持倉績效與風險狀況。  
-- 檢查槓桿ETF淨值回檔幅度與累積波動耗損情況。  
-- 評估持倉比例合理性，根據市場狀況調整槓桿與現金比例。  
-- 年度評估若指數虧損嚴重，反思並調整策略，降低槓桿比重或暫停投入。  
-- 監控交易成本與商品結構變化，適時優化持有標的。  
+- 槓桿ETF價格相較基準價 **上漲達 50%**  
+- 同時滿足 **2/3 技術指標賣出訊號**：  
+  - RSI → 高於 70 並回落  
+  - MACD → 快線下穿慢線，柱狀圖轉負  
+  - KD → K 線下穿 D 線，且位於 80 高檔  
+
+- 賣出後 → 持倉恢復 **槓桿 80% / 現金 20%**  
+- 更新基準價  
+
+---
+
+## 3.3 基準價格更新規則
+
+為確保分批佈局策略的完整性與資金效率，更新基準價格應分別遵守買入與賣出時的規則：
+
+### 買入時更新規則
+
+1. **更新時機限制**  
+   - 最近一次交易（買入或賣出）已完成，避免頻繁操作。  
+   - 價格達分批買入門檻（30%、40%、50%跌幅）之一。  
+   - 技術指標出現明確止跌信號，包括：  
+     - RSI 由低位回升突破30  
+     - MACD 快線向上突破慢線  
+     - KD 指標 K 線上穿 D 線且位於20以下  
+   - 在跌幅門檻附近，市場需連續3個交易日以上維持買入技術指標，且無創新低。
+
+2. **更新價格設定**  
+   - 以最近觸發買入信號的最低價或止跌確認當日收盤價作基準價，優先選擇較保守價格。
+
+3. **避免過早更新**  
+   - 僅在確認止跌且技術指標持續買入訊號時更新基準價格，避免因初步跌幅信號過早更新，保留40%、50%買入空間。
+
+### 賣出時更新規則
+
+1. **賣出條件觸發時**  
+   - 槓桿ETF價格相較基準價上漲達50%，且多數技術指標（RSI、MACD、KD）發出賣出訊號。  
+   - 執行賣出後，**立即更新基準價格為賣出當日成交價格（收盤價或成交價）**。
+
+2. **基準價格重置目的**  
+   - 反映最新市場水平，供下一輪買賣決策做基準。  
+   - 避免過時基準影響新操作判斷。
+
+3. **避免賣出後過早買入基準更新**  
+   - 賣出後基準價格更新與買入基準更新獨立判斷，防止短期波動造成策略干擾。
 
 ```mermaid
 flowchart TD
-    classDef startend fill:#4caf50,stroke:#256029,stroke-width:2px,color:#fff,font-weight:bold;
-    classDef process fill:#c8e6c9,stroke:#256029,stroke-width:2px,color:#000,font-weight:bold;
-    classDef decision fill:#ffcc80,stroke:#bf6f00,stroke-width:2px,color:#000,font-weight:bold;
-    classDef action fill:#ffe0b2,stroke:#bf6f00,stroke-width:2px,color:#000,font-weight:bold;
+    Start([開始：進行權重計算])
 
-    A[季度及年度檢視]:::startend --> B[評估槓桿ETF波動及耗損]:::process
-    B --> C[評估持倉槓桿與現金比率]:::process
-    C --> D{比例合理?}:::decision
-    D -->|是| E[維持策略]:::action
-    D -->|否| F[調整槓桿及現金比率]:::action
-    F --> G[監控交易成本及商品變化]:::process
+    WeightCalc([權重計算])
+
+    CheckFall[價格達分批買入跌幅門檻]
+    CheckIndicators[技術指標確認止跌]
+    ConfirmStop[止跌信號持續且無新低]
+
+    ExecuteBuy[買入操作]
+
+    CheckUpdateBaseCond[確認是否符合更新基準條件]
+    UpdateBaseBuy[基準價格更新]
+
+    CheckRise[價格漲幅達賣出條件]
+    CheckSellIndicators[賣出技術指標確認]
+    ExecuteSell[執行賣出操作]
+    UpdateBaseSell[賣出後基準價格更新]
+
+    Start --> WeightCalc
+
+    WeightCalc --> CheckFall
+    CheckFall -->|未達| WeightCalc
+    CheckFall -->|達成| CheckIndicators
+    CheckIndicators -->|未確認| WeightCalc
+    CheckIndicators -->|確認| ConfirmStop
+    ConfirmStop -->|否| WeightCalc
+    ConfirmStop -->|是| ExecuteBuy
+
+    ExecuteBuy --> CheckUpdateBaseCond
+    CheckUpdateBaseCond -->|達成| UpdateBaseBuy
+    CheckUpdateBaseCond -->|不達成| WeightCalc
+    UpdateBaseBuy --> WeightCalc
+
+    WeightCalc --> CheckRise
+    CheckRise -->|未達| WeightCalc
+    CheckRise -->|達成| CheckSellIndicators
+    CheckSellIndicators -->|未確認| WeightCalc
+    CheckSellIndicators -->|確認| ExecuteSell
+    ExecuteSell --> UpdateBaseSell
+    UpdateBaseSell --> WeightCalc
 ```
+
+---
+
+## 4. 年度與季度檢視
+
+- 每季與年度檢視績效與風險  
+- 核對 ETF 淨值回檔幅度與耗損情況  
+- 評估槓桿比例合理性，視市場調整槓桿／現金  
+- 指數若年度大幅虧損 → 降低槓桿或暫停投入  
+- 隨時檢查交易成本與商品結構，必要時調整持有標的  
 
 ---
 
 ## 5. 心理建設與紀律維持
 
-- 資金控制在可承受範圍，避免情緒化交易。  
-- 堅持分批進場、止損、獲利與多技術指標策略，**避免盲目追高或恐慌賣出**。  
-- 運用技術指標與 AI 輔助工具，提高操作決策的成功率。  
-
-```mermaid
-flowchart TD
-    classDef startend fill:#2196f3,stroke:#0b47a1,stroke-width:2px,color:#fff,font-weight:bold;
-    classDef process fill:#bbdefb,stroke:#0b47a1,stroke-width:2px,color:#000,font-weight:bold;
-    classDef decision fill:#ffccbc,stroke:#a14a22,stroke-width:2px,color:#000,font-weight:bold;
-    classDef action fill:#ffe0b2,stroke:#a14a22,stroke-width:2px,color:#000,font-weight:bold;
-
-    A[資金控制在承受範圍]:::startend --> B[嚴格執行分批進場與止損]:::process
-    B --> C[利用多指標及 AI 輔助判斷]:::process
-    C --> D{出現交易信號?}:::decision
-    D -->|是| E[執行交易]:::action
-    D -->|否| F[持續觀察]:::process
-```
+- 資金控制在 **可承受範圍內**，避免情緒化操作  
+- 嚴守分批、止損、獲利及多指標共振原則  
+- **避免追高或恐慌賣出**  
+- 善用技術分析與 AI 工具提高成功率  
 
 ---
 
-**總結**  
-透過本計畫的「50%漲跌幅再平衡策略」結合多指標技術判斷，可有效控制槓桿風險，增強資金配置穩定性，並提升投資成功率。
+## 總結
+
+「**50%漲跌幅再平衡策略** + **三大技術指標共振**」  
+能有效控管槓桿風險、提升資金配置穩定性，並增加投資成功率。  
