@@ -21,7 +21,8 @@ tags:
 - 利用正2槓桿ETF放大台灣50指數短期報酬，爭取較大資產增長空間。  
 - 控管波動高風險，透過 **分批佈局與再平衡策略** 降低損耗。  
 - 強化資金管理，設定明確 **止損與獲利點**，配合年度調整提升紀律。  
-
+- 加入**每月21日定期定額扣款**，平滑投入成本，減少時點風險。
+  
 ---
 
 ## 2. 資金分配與分批進場策略
@@ -33,7 +34,12 @@ tags:
 - 進場採 **分批方式**：  
   - 跌幅達 **30%** → 投入 25%（4萬元）  
   - 跌幅達 **40%** → 再投入 25%（4萬元）  
-  - 跌幅達 **50%** → 投入剩餘 50%（8萬元）  
+  - 跌幅達 **50%** → 投入剩餘 50%（8萬元）
+    
+- **定期定額扣款設定**
+  - 每月21日固定扣款，以5,000 ~ 10,000元作為長期分散投資額度
+  - 定期扣款資金佔總資金的約70%
+  - 保留現金約30%作為策略加碼與風險管理
 
 - **市場未出現大幅回調前，保持現金耐心等待買點。**
 
@@ -60,7 +66,7 @@ tags:
 
 #### 權重說明
 - 下跌幅度依大小給予遞增權重，反映回檔買入信號強度。  
-- 三大技術指標均以 2 分設定，確保 **多重共振才執行進場**。  
+- 三大技術指標均以 2 分設定，確保 **多重共振才執行進場**。
 
 #### 總分與槓桿、現金配置對照表
 
@@ -112,6 +118,10 @@ tags:
 
 3. **避免過早更新**  
    - 僅在確認止跌且技術指標持續買入訊號時更新基準價格，避免因初步跌幅信號過早更新，保留40%、50%買入空間。
+4. **動態基準價更新**：加入定期定額後，建議每月定期扣款後，根據平均持有成本調整基準價：
+  \[
+  新基準價 = \frac{(前持有成本 \times 持有單位) + 當月投入金額}{總持有單位}
+  \]
 
 ### 賣出時更新規則
 
@@ -126,50 +136,6 @@ tags:
 3. **避免賣出後過早買入基準更新**  
    - 賣出後基準價格更新與買入基準更新獨立判斷，防止短期波動造成策略干擾。
 
-```mermaid
-flowchart TD
-    Start([開始：進行權重計算])
-
-    WeightCalc([權重計算])
-
-    CheckFall[價格達分批買入跌幅門檻]
-    CheckIndicators[技術指標確認止跌]
-    ConfirmStop[止跌信號持續且無新低]
-
-    ExecuteBuy[買入操作]
-
-    CheckUpdateBaseCond[確認是否符合更新基準條件]
-    UpdateBaseBuy[基準價格更新]
-
-    CheckRise[價格漲幅達賣出條件]
-    CheckSellIndicators[賣出技術指標確認]
-    ExecuteSell[執行賣出操作]
-    UpdateBaseSell[賣出後基準價格更新]
-
-    Start --> WeightCalc
-
-    WeightCalc --> CheckFall
-    CheckFall -->|未達| WeightCalc
-    CheckFall -->|達成| CheckIndicators
-    CheckIndicators -->|未確認| WeightCalc
-    CheckIndicators -->|確認| ConfirmStop
-    ConfirmStop -->|否| WeightCalc
-    ConfirmStop -->|是| ExecuteBuy
-
-    ExecuteBuy --> CheckUpdateBaseCond
-    CheckUpdateBaseCond -->|達成| UpdateBaseBuy
-    CheckUpdateBaseCond -->|不達成| WeightCalc
-    UpdateBaseBuy --> WeightCalc
-
-    WeightCalc --> CheckRise
-    CheckRise -->|未達| WeightCalc
-    CheckRise -->|達成| CheckSellIndicators
-    CheckSellIndicators -->|未確認| WeightCalc
-    CheckSellIndicators -->|確認| ExecuteSell
-    ExecuteSell --> UpdateBaseSell
-    UpdateBaseSell --> WeightCalc
-```
-
 ---
 
 ## 4. 年度與季度檢視
@@ -178,7 +144,8 @@ flowchart TD
 - 核對 ETF 淨值回檔幅度與耗損情況  
 - 評估槓桿比例合理性，視市場調整槓桿／現金  
 - 指數若年度大幅虧損 → 降低槓桿或暫停投入  
-- 隨時檢查交易成本與商品結構，必要時調整持有標的  
+- 隨時檢查交易成本與商品結構，必要時調整持有標的
+- 檢視定期定額投入的平均買入價格與策略加碼成效
 
 ---
 
@@ -187,11 +154,13 @@ flowchart TD
 - 資金控制在 **可承受範圍內**，避免情緒化操作  
 - 嚴守分批、止損、獲利及多指標共振原則  
 - **避免追高或恐慌賣出**  
-- 善用技術分析與 AI 工具提高成功率  
+- 善用技術分析與 AI 工具提高成功率
+- 保持**每月21日定期定額扣款的紀律性**
+- 除非觸發加碼條件，否則不隨意調整定期扣款金額和頻率
 
 ---
 
 ## 總結
 
-「**50%漲跌幅再平衡策略** + **三大技術指標共振**」  
+「**50%漲跌幅再平衡策略** + **三大技術指標共振** + **定期定額成本平均**」  
 能有效控管槓桿風險、提升資金配置穩定性，並增加投資成功率。  
