@@ -1,0 +1,39 @@
+{
+  "buy": {
+    "minDropPercentToConsider": 20,
+    "minWeightScoreToBuy": 7,
+    "dropScoreRules": [
+      { "minDrop": 50, "score": 5, "label": "跌幅 >= 50%" },
+      { "minDrop": 40, "score": 4, "label": "跌幅 >= 40%" },
+      { "minDrop": 30, "score": 3, "label": "跌幅 >= 30%" },
+      { "minDrop": 20, "score": 1, "label": "跌幅 >= 20%" }
+    ],
+    "rsi": {
+      "oversold": 30,
+      "score": 2
+    },
+    "macd": {
+      "score": 2
+    },
+    "kd": {
+      "oversoldK": 20,
+      "score": 2
+    }
+  },
+  "sell": {
+    "minUpPercentToSell": 50,
+    "minSignalCountToSell": 2,
+    "rsi": {
+      "overbought": 70
+    },
+    "kd": {
+      "overboughtK": 80
+    }
+  },
+  "allocation": [
+    { "minScore": 10, "leverage": 0.95, "cash": 0.05 },
+    { "minScore": 9, "leverage": 0.9, "cash": 0.1 },
+    { "minScore": 7, "leverage": 0.8, "cash": 0.2 },
+    { "minScore": -999999, "leverage": 0, "cash": 1 }
+  ]
+}
