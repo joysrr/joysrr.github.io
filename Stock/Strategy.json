@@ -45,6 +45,7 @@
     "wAggressive": 11,
     "wActive": 9,
     "rsiCoolOff": 80,
-    "kdCoolOff": 90
+    "kdCoolOff": 90,
+    "bias240CoolOff": 25
   }
 }
