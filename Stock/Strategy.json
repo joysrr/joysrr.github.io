@@ -43,6 +43,8 @@
     "coolRSI": 65,
     "coolBias": 15,
     "wAggressive": 11,
-    "wActive": 9
+    "wActive": 9,
+    "rsiCoolOff": 80,
+    "kdCoolOff": 90
   }
 }
