@@ -36,7 +36,7 @@
     { "minScore": 7, "leverage": 0.8, "cash": 0.2 },
     { "minScore": -999999, "leverage": 0, "cash": 1 }
   ],
-  "threshold"{
+  "threshold": {
     "mmDanger": 160,
     "z2RatioHigh": 42,
     "overheatCount": 2,
@@ -44,5 +44,5 @@
     "coolBias": 15,
     "wAggressive": 11,
     "wActive": 9,
-  },
+  }
 }
