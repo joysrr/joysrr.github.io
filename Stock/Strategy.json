@@ -1,4 +1,7 @@
 {
+  "leverage": {
+    "targetMultiplier": 1.8,
+  },
   "buy": {
     "minDropPercentToConsider": 20,
     "minWeightScoreToBuy": 7,
