@@ -47,6 +47,7 @@
     "rsiCoolOff": 80,
     "kdCoolOff": 90,
     "bias240CoolOff": 25,
-    "vixLowOverheat": 13.5
+    "vixLowComplacency": 13.5,
+    "vixHighFear": 20
   }
 }
