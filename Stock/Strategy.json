@@ -41,6 +41,8 @@
     { "minScore": -999999, "leverage": 0, "cash": 1 }
   ],
   "threshold": {
+    "z2TargetRatio": 0.4,
+    "reversalTriggerCount": 2,
     "mmDanger": 160,
     "z2RatioHigh": 42,
     "overheatCount": 2,
