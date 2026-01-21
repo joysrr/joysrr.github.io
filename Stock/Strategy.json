@@ -24,6 +24,7 @@
     }
   },
   "sell": {
+    "postAllocationIndexFromEnd": 2,
     "minUpPercentToSell": 50,
     "minSignalCountToSell": 2,
     "rsi": {
