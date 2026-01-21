@@ -46,13 +46,13 @@
     "mmDanger": 160,
     "z2RatioHigh": 42,
     "overheatCount": 2,
-    "coolRSI": 65,
-    "coolBias": 15,
+    "rsiOverheatLevel": 80,
+    "kOverheatLevel": 90,
+    "bias240OverheatLevel": 25,
+    "rsiReversalLevel": 65,
+    "biasReversalLevel": 15,
     "wAggressive": 11,
     "wActive": 9,
-    "rsiCoolOff": 80,
-    "kdCoolOff": 90,
-    "bias240CoolOff": 25,
     "vixLowComplacency": 13.5,
     "vixHighFear": 20
   }
