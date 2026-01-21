@@ -42,7 +42,7 @@
   ],
   "threshold": {
     "z2TargetRatio": 0.4,
-    "reversalTriggerCount": 2,
+    "reversalTriggerCount": 3,
     "mmDanger": 160,
     "z2RatioHigh": 42,
     "overheatCount": 2,
@@ -50,8 +50,7 @@
     "kOverheatLevel": 90,
     "bias240OverheatLevel": 25,
     "rsiReversalLevel": 65,
-    "kReversalLevel": 65,
-    "biasReversalLevel": 15,
+    "kReversalLevel": 80,
     "wAggressive": 11,
     "wActive": 9,
     "vixLowComplacency": 13.5,
