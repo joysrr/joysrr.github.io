@@ -3,17 +3,17 @@
     "targetMultiplier": 1.8
   },
   "buy": {
-    "minDropPercentToConsider": 20,
-    "minWeightScoreToBuy": 7,
+    "minDropPercentToConsider": 0,  
+    "minWeightScoreToBuy": 6,       
     "dropScoreRules": [
-      { "minDrop": 50, "score": 5, "label": "跌幅 >= 50%" },
-      { "minDrop": 40, "score": 4, "label": "跌幅 >= 40%" },
-      { "minDrop": 30, "score": 3, "label": "跌幅 >= 30%" },
-      { "minDrop": 20, "score": 1, "label": "跌幅 >= 20%" }
+      { "minDrop": 20, "score": 5, "label": "崩盤 >= 20%" },
+      { "minDrop": 15, "score": 4, "label": "大跌 >= 15%" },
+      { "minDrop": 10, "score": 3, "label": "修正 >= 10%" },
+      { "minDrop": 5, "score": 2, "label": "回檔 >= 5%" } 
     ],
     "rsi": {
-      "oversold": 30,
-      "score": 2
+      "oversold": 40, 
+      "score": 3
     },
     "macd": {
       "score": 2
@@ -28,17 +28,17 @@
     "minUpPercentToSell": 50,
     "minSignalCountToSell": 2,
     "rsi": {
-      "overbought": 70
+      "overbought": 80 
     },
     "kd": {
-      "overboughtK": 80
+      "overboughtK": 90
     }
   },
   "allocation": [
-    { "minScore": 10, "leverage": 0.95, "cash": 0.05 },
-    { "minScore": 9, "leverage": 0.9, "cash": 0.1 },
-    { "minScore": 7, "leverage": 0.8, "cash": 0.2 },
-    { "minScore": -999999, "leverage": 0, "cash": 1 }
+    { "minScore": 10, "leverage": 1.8, "cash": 0 },   
+    { "minScore": 8, "leverage": 1.5, "cash": 0.1 }, 
+    { "minScore": 6, "leverage": 1.2, "cash": 0.3 },  
+    { "minScore": -99, "leverage": 1.0, "cash": 0.5 } 
   ],
   "threshold": {
     "z2TargetRatio": 0.4,
@@ -49,7 +49,7 @@
     "rsiOverheatLevel": 80,
     "kOverheatLevel": 90,
     "bias240OverheatLevel": 25,
-    "rsiReversalLevel": 65,
+    "rsiReversalLevel": 60,  
     "kReversalLevel": 80,
     "wAggressive": 11,
     "wActive": 9,
