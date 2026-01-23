@@ -35,10 +35,10 @@
     }
   },
   "allocation": [
-    { "minScore": 10, "leverage": 0.8, "cash": 0 },   
-    { "minScore": 8, "leverage": 0.5, "cash": 0.1 }, 
-    { "minScore": 6, "leverage": 0.2, "cash": 0.3 },  
-    { "minScore": -99, "leverage": 0, "cash": 0.5 } 
+    { "minScore": 10, "leverage": 0.8, "cash": 0.2 },   
+    { "minScore": 8, "leverage": 0.5, "cash": 0.5 }, 
+    { "minScore": 6, "leverage": 0.2, "cash": 0.8 },  
+    { "minScore": -99, "leverage": 0, "cash": 1.0 } 
   ],
   "threshold": {
     "z2TargetRatio": 0.4,
