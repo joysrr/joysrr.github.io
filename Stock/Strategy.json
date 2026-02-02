@@ -27,7 +27,6 @@
     "postAllocationIndexFromEnd": 2,
     "minUpPercentToSell": 50,
     "minSignalCountToSell": 2,
-    "minActionableAmount": 10000,
     "rsi": {
       "overbought": 75 
     },
@@ -46,6 +45,7 @@
     "reversalTriggerCount": 3,
     "mmDanger": 160,
     "z2RatioHigh": 42,
+    "minActionableAmount": 10000,
     "overheatCount": 2,
     "rsiOverheatLevel": 70,
     "dOverheatLevel": 80,
