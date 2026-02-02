@@ -3,7 +3,7 @@
     "targetMultiplier": 1.8
   },
   "buy": {
-    "minDropPercentToConsider": 20,  
+    "minDropPercentToConsider": 5,  
     "minWeightScoreToBuy": 6,       
     "dropScoreRules": [
       { "minDrop": 20, "score": 5, "label": "崩盤 >= 20%" },
@@ -27,11 +27,12 @@
     "postAllocationIndexFromEnd": 2,
     "minUpPercentToSell": 50,
     "minSignalCountToSell": 2,
+    "minActionableAmount": 10000,
     "rsi": {
-      "overbought": 80 
+      "overbought": 75 
     },
     "kd": {
-      "overboughtK": 90
+      "overboughtK": 80
     }
   },
   "allocation": [
