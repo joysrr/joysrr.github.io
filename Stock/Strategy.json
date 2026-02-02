@@ -6,10 +6,11 @@
     "minDropPercentToConsider": 0,  
     "minWeightScoreToBuy": 4,       
     "dropScoreRules": [
+      { "minDrop": 30, "score": 8, "label": "毀滅 >= 30%" },  // 新增這行：遇到這種就是送分題
+      { "minDrop": 25, "score": 6, "label": "恐慌 >= 25%" },  // 新增這行
       { "minDrop": 20, "score": 5, "label": "崩盤 >= 20%" },
       { "minDrop": 15, "score": 4, "label": "大跌 >= 15%" },
-      { "minDrop": 10, "score": 3, "label": "修正 >= 10%" },
-      { "minDrop": 5, "score": 2, "label": "回檔 >= 5%" } 
+      { "minDrop": 10, "score": 3, "label": "修正 >= 10%" }
     ],
     "rsi": {
       "oversold": 40, 
