@@ -3,7 +3,7 @@
     "targetMultiplier": 1.8
   },
   "buy": {
-    "minDropPercentToConsider": 5,  
+    "minDropPercentToConsider": 0,  
     "minWeightScoreToBuy": 0,       
     "dropScoreRules": [
       { "minDrop": 20, "score": 5, "label": "崩盤 >= 20%" },
