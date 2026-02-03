@@ -83,6 +83,8 @@
     "wActive": 8,
     "vixLowComplacency": 13.5,
     "vixHighFear": 20,
+    "vixPanic": 28,
+    "vixExtreme": 35,
     "usVixPanic": 30
   }
 }
