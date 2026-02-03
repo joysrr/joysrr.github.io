@@ -22,6 +22,12 @@
     "kd": {
       "oversoldK": 20,
       "score": 2
+    },
+    "panic": {
+      "minDropRank": 2,
+      "rsiDivider": 1.6,
+      "minVixLevel": "panic",
+      "suggestedLeverage": 0.3
     }
   },
   "sell": {
@@ -36,36 +42,11 @@
     }
   },
   "allocation": [
-    {
-      "minScore": 10,
-      "leverage": 0.8,
-      "cash": 0.2,
-      "comment": "槓桿全開(1.8x)"
-    },
-    {
-      "minScore": 8,
-      "leverage": 0.6,
-      "cash": 0.4,
-      "comment": "積極加碼(1.6x)"
-    },
-    {
-      "minScore": 6,
-      "leverage": 0.4,
-      "cash": 0.6,
-      "comment": "一般訊號(1.4x)"
-    },
-    {
-      "minScore": 4,
-      "leverage": 0.2,
-      "cash": 0.8,
-      "comment": "微量/觀察(1.2x)"
-    },
-    {
-      "minScore": -99,
-      "leverage": 0,
-      "cash": 1.0,
-      "comment": "平時/底倉(1.0x)"
-    }
+    { "minScore": 10, "leverage": 0.8, "cash": 0.2, "comment": "槓桿全開(1.8x)" },
+    { "minScore": 8, "leverage": 0.6, "cash": 0.4, "comment": "積極加碼(1.6x)" },
+    { "minScore": 6, "leverage": 0.4, "cash": 0.6, "comment": "一般訊號(1.4x)" },
+    { "minScore": 4, "leverage": 0.2, "cash": 0.8, "comment": "微量/觀察(1.2x)" },
+    { "minScore": -99, "leverage": 0, "cash": 1.0, "comment": "平時/底倉(1.0x)" }
   ],
   "threshold": {
     "z2TargetRatio": 0.4,
@@ -81,7 +62,7 @@
     "kReversalLevel": 75,
     "wAggressive": 10,
     "wActive": 8,
-    "vixLowComplacency": 13.5,
+    "vixLowComplacency": 12,
     "vixHighFear": 20,
     "vixPanic": 28,
     "vixExtreme": 35,
