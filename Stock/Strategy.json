@@ -1,25 +1,25 @@
 {
-  "version": "2.0-optimized",
-  "description": "質押槓桿策略 - 優化版（方案A：穩健型）",
+  "version": "2.1-aggressive",
+  "description": "質押槓桿策略 - 激進優化版",
   
   "leverage": {
     "targetMultiplier": 1.6,
-    "maxBorrowRatio": 0.6,
+    "maxBorrowRatio": 1.0,
     "maxZ2Ratio": 0.7
   },
   
   "reserve": {
-    "allocationRatio": 0.5,
+    "allocationRatio": 0.4,
     "tiers": [
-      { "maxAsset": 1000000, "ratio": 0.03 },
-      { "maxAsset": 3000000, "ratio": 0.05 },
-      { "maxAsset": 999999999, "ratio": 0.07 }
+      { "maxAsset": 1000000, "ratio": 0.02 },
+      { "maxAsset": 3000000, "ratio": 0.03 },
+      { "maxAsset": 999999999, "ratio": 0.04 }
     ]
   },
   
   "maintenance": {
-    "protectTrigger": 150,
-    "protectTarget": 170,
+    "protectTrigger": 160,
+    "protectTarget": 180,
     "marginCallThreshold": 135
   },
   
@@ -52,12 +52,6 @@
     "kd": {
       "oversoldK": 20,
       "score": 2
-    },
-    "panic": {
-      "minDropRank": 2,
-      "rsiDivider": 1.6,
-      "minVixLevel": "panic",
-      "suggestedLeverage": 0.3
     }
   },
   
@@ -75,10 +69,10 @@
   
   "allocation": [
     { "minScore": 10, "leverage": 0.6, "comment": "極致加碼 - 總曝險 1.6x" },
-    { "minScore": 8, "leverage": 0.5, "comment": "積極配置 - 總曝險 1.5x" },
-    { "minScore": 6, "leverage": 0.4, "comment": "標準配置 - 總曝險 1.4x" },
-    { "minScore": 4, "leverage": 0.25, "comment": "輕量加碼 - 總曝險 1.25x" },
-    { "minScore": -99, "leverage": 0.1, "comment": "底倉 - 總曝險 1.1x" }
+    { "minScore": 8, "leverage": 0.55, "comment": "高位配置 - 總曝險 1.55x" },
+    { "minScore": 6, "leverage": 0.45, "comment": "中位配置 - 總曝險 1.45x" },
+    { "minScore": 4, "leverage": 0.3, "comment": "低位配置 - 總曝險 1.3x" },
+    { "minScore": -99, "leverage": 0.2, "comment": "底倉 - 總曝險 1.2x" }
   ],
   
   "threshold": {
