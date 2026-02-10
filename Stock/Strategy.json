@@ -1,9 +1,9 @@
 {
-  "version": "2.1-aggressive",
-  "description": "質押槓桿策略 - 激進優化版",
+  "version": "2.2-final",
+  "description": "質押槓桿策略",
   
   "leverage": {
-    "targetMultiplier": 1.6,
+    "targetMultiplier": 1.8,
     "maxBorrowRatio": 1.0,
     "maxZ2Ratio": 0.7
   },
@@ -52,6 +52,12 @@
     "kd": {
       "oversoldK": 20,
       "score": 2
+    },
+    "panic": {
+      "minDropRank": 2,
+      "rsiDivider": 1.6,
+      "minVixLevel": "panic",
+      "suggestedLeverage": 0.3
     }
   },
   
@@ -68,11 +74,11 @@
   },
   
   "allocation": [
-    { "minScore": 10, "leverage": 0.6, "comment": "極致加碼 - 總曝險 1.6x" },
-    { "minScore": 8, "leverage": 0.55, "comment": "高位配置 - 總曝險 1.55x" },
-    { "minScore": 6, "leverage": 0.45, "comment": "中位配置 - 總曝險 1.45x" },
-    { "minScore": 4, "leverage": 0.3, "comment": "低位配置 - 總曝險 1.3x" },
-    { "minScore": -99, "leverage": 0.2, "comment": "底倉 - 總曝險 1.2x" }
+    { "minScore": 10, "leverage": 0.6, "cash": 0.4, "comment": "極致加碼(1.6x)" },
+    { "minScore": 8, "leverage": 0.55, "cash": 0.45, "comment": "高位配置(1.55x)" },
+    { "minScore": 6, "leverage": 0.45, "cash": 0.55, "comment": "中位配置(1.45x)" },
+    { "minScore": 4, "leverage": 0.3, "cash": 0.7, "comment": "低位配置(1.3x)" },
+    { "minScore": -99, "leverage": 0.2, "cash": 0.8, "comment": "底倉(1.2x)" }
   ],
   
   "threshold": {
