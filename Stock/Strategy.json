@@ -101,5 +101,11 @@
     "vixPanic": 28,
     "vixExtreme": 35,
     "usVixPanic": 30
+  },
+  "macroSentiment": {
+    "enabled": true,
+    "bullishBonus": 5,
+    "bearishPenalty": 5,
+    "bearishCooldownMultiplier": 1.5
   }
 }
