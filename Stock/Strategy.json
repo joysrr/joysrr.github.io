@@ -104,7 +104,7 @@
   },
   "macroSentiment": {
     "enabled": true,
-    "bullishBonus": 5,
+    "bullishBonus": 3,
     "bearishPenalty": 5,
     "bearishCooldownMultiplier": 1.5
   }
